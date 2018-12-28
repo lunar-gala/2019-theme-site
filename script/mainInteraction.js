@@ -2,19 +2,19 @@
 
 //Hover events for portal-a/b/c/d changes backdrop to image A (amallal)
 function changeImgA() {
-    document.getElementById('backdrop').src = '../images/backdrops/amallal.jpg';
+    document.body.style.backgroundImage = "url('../images/backdrops/amallal.jpg')";
 }
 
 function changeImgB() {
-    document.getElementById('backdrop').src = '../images/backdrops/baratikva.jpg';
+    document.body.style.backgroundImage = "url('../images/backdrops/baratikva.jpg')";
 }
 
 function changeImgC() {
-    document.getElementById('backdrop').src = '../images/backdrops/mirador.jpg';
+    document.body.style.backgroundImage = "url('../images/backdrops/mirador.jpg')";
 }
 
 function changeImgD() {
-    document.getElementById('backdrop').src = '../images/backdrops/north-tibet.jpg';
+    document.body.style.backgroundImage = "url('../images/backdrops/north-tibet.jpg')";
 }
 
 
@@ -42,7 +42,7 @@ class Jello {
   constructor(options = {}) {
     this.defaults = {};
     this.options = options;
-    this.canvasHolder = document.getElementById("jello-container");
+    this.canvasHolder = document.getElementById("jello-containers");
     this.imgWidth =  1000;
     this.imgHeight =  500;
     this.imgRatio = this.imgHeight / this.imgWidth;
@@ -145,7 +145,8 @@ class Jello {
 
   // canvas built to fill width of window
   backgroundFill() {
-    // this.renderer.view.setAttribute('style', 'height:auto;width:100%;');
+    this.renderer.view.setAttribute('style', 'background-size: height:100%;width:100%;');
+    this.renderer.view.setAttribute('style', 'background-size: contain;')
   }
 
   // main container for animation
