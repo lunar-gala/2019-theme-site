@@ -7,52 +7,40 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/3.0.1/pixi.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
 
-        <link rel="stylesheet" type="text/css" href="style/mainGrid.css">
+        <link rel="stylesheet" type="text/css" href="style/index-grid.css">
         <link rel="stylesheet" type="text/css" href="style/interact.css">
     </head>
     <body>
-      <div class="svg-top">
-        <div class="top-row">
-                <div id="top-panel-left">
-                    <img src="images/archFrames/arch_toprow_medium.svg">
-                </div>
-
-                <div id="top-panel-center">
-                    <img src="images/archFrames/arch_toprow_long.svg">
-                </div>
-                <div id="top-panel-right">
-                    <img src="images/archFrames/arch_toprow_medium.svg">
-                </div>
-        </div>
-
-        <div class="bottom-left">
-          <div id="anomie-marquee">
-
-            <div class="marquee">
-                
-                <img id="a" src ="images/ANOMIE.svg">
-
-                <img id= "b" src ="images/ANOMIE.svg">
-              <!-- <h1 id="a">ANOMIE</h1>
-              <h1 id="b">ANOMIE</h1> -->
+        <div class="svg-top">
+            <div class="top-row">
+                    <div id="top-panel-left"></div>
+                    <div id="top-panel-center"></div>
+                    <div id="top-panel-right"></div>
             </div>
-          </div>
 
-            <div class="portals">
-                <div id="portal-a" onclick="gotoAbout()" onmouseover="changeImgA()">
-                    <h1>About</h1>
+            <div class="bottom-left">
+                <div id="anomie-marquee">
+                    <div class="marquee">
+                        <img id="a" src ="images/ANOMIE.svg">
+                        <img id= "b" src ="images/ANOMIE.svg">
+                    </div>
                 </div>
-                <div id="portal-b" onclick="gotoTickets()" onmouseover="changeImgB()">
-                    <h1>Tickets</h1>
-                </div>
-                <div id="portal-c" onclick="gotoPeople()" onmouseover="changeImgC()">
-                    <h1>People</h1>
-                </div>
-                <div id="portal-d" onclick="gotoLines()" onmouseover="changeImgD()">
-                    <h1>Lines</h1>
+
+                <div class="portals">
+                    <div id="portal-a" onclick="gotoAbout()" onmouseover="changeImgA()">
+                        <h1>About</h1>
+                    </div>
+                    <div id="portal-b" onclick="gotoTickets()" onmouseover="changeImgB()">
+                        <h1>Tickets</h1>
+                    </div>
+                    <div id="portal-c" onclick="gotoPeople()" onmouseover="changeImgC()">
+                        <h1>People</h1>
+                    </div>
+                    <div id="portal-d" onclick="gotoLines()" onmouseover="changeImgD()">
+                        <h1>Lines</h1>
+                    </div>
                 </div>
             </div>
-        </div>
 
         <div class="bottom-right">
             <div id="bottom-panel-left"></div>
@@ -80,8 +68,6 @@
         </div>
       <canvas class="jello-canvas"></canvas>
     </div>
-
-    
 
     </body>
 
