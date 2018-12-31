@@ -13,6 +13,8 @@ body {
     background-image: url('../images/backdrops/amallal.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom right;
 }
 
 h1 {
@@ -84,9 +86,14 @@ h1 {
     width: calc(100vw / 8);
     height: inherit;
     float: left;
+    background-color: transparent;
     background-image: url('../images/archFrames/arch_short.svg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#portal-a:hover, #portal-b:hover, #portal-c:hover, #portal-d:hover {
+    background-color: #555555;
 }
 
 .bottom-left div:after {

@@ -27,16 +27,16 @@
                 </div>
 
                 <div class="portals">
-                    <div id="portal-a" onclick="gotoAbout()" onmouseover="changeImgA()">
+                    <div id="portal-a" onclick="gotoAbout()" onmouseover="interactAbout()">
                         <h1>About</h1>
                     </div>
-                    <div id="portal-b" onclick="gotoTickets()" onmouseover="changeImgB()">
+                    <div id="portal-b" onclick="gotoTickets()" onmouseover="interactTickets()">
                         <h1>Tickets</h1>
                     </div>
-                    <div id="portal-c" onclick="gotoPeople()" onmouseover="changeImgC()">
+                    <div id="portal-c" onclick="gotoPeople()" onmouseover="interactPeople()">
                         <h1>People</h1>
                     </div>
-                    <div id="portal-d" onclick="gotoLines()" onmouseover="changeImgD()">
+                    <div id="portal-d" onclick="gotoLines()" onmouseover="interactLines()">
                         <h1>Lines</h1>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
 
     </body>
 
-    <script src="script/mainInteraction.js"></script>
+    <script src="script/index-interact.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fitty.min.js"></script>
     <script>
     fitty('h1');
