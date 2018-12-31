@@ -1,19 +1,19 @@
 /* #################### INTERACTIVITY #################### */
 
-//Hover events for portal-a/b/c/d changes backdrop to image A (amallal)
-function changeImgA() {
+//Hover events for portal-a/b/c/d
+function interactAbout() {
     document.body.style.backgroundImage = "url('../images/backdrops/amallal.jpg')";
 }
 
-function changeImgB() {
+function interactTickets() {
     document.body.style.backgroundImage = "url('../images/backdrops/baratikva.jpg')";
 }
 
-function changeImgC() {
+function interactPeople() {
     document.body.style.backgroundImage = "url('../images/backdrops/mirador.jpg')";
 }
 
-function changeImgD() {
+function interactLines() {
     document.body.style.backgroundImage = "url('../images/backdrops/north-tibet.jpg')";
 }
 

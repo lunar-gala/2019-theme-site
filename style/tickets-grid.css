@@ -11,10 +11,11 @@ html {
 }
 
 body {
-    background-image: url('../images/backdrops/amallal.jpg'); /* Tickets page background */
+    background-image: url('../images/backdrops/amallal.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    background-position: bottom right;
 }
 
 h1 {
