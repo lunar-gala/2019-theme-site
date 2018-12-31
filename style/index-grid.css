@@ -86,14 +86,14 @@ h1 {
     width: calc(100vw / 8);
     height: inherit;
     float: left;
-    background-color: transparent;
     background-image: url('../images/archFrames/arch_short.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #555555;
 }
 
 #portal-a:hover, #portal-b:hover, #portal-c:hover, #portal-d:hover {
-    background-color: #555555;
+    background-color: transparent;
 }
 
 .bottom-left div:after {
