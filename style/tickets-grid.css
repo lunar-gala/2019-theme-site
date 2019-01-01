@@ -39,7 +39,7 @@ h1 {
     width: calc(100vw / 4);
     height: inherit;
     float: left;
-    background-image: url('../images/archFrames/nav_window.svg');
+    background-image: url('../images/archFrames/nav_star_window.png');
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Gotham Narrow Black';
+    src: url('../fonts/GothamNarrow-Black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Narrow Black Italic';
+    src: url('../fonts/GothamNarrow-BlackItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gotham Narrow Bold';
+    src: url('../fonts/GothamNarrow-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Narrow Bold Italic';
+    src: url('../fonts/GothamNarrow-BoldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gotham Narrow Book';
+    src: url('../fonts/GothamNarrow-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Narrow Book Italic';
+    src: url('../fonts/GothamNarrow-BookItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gotham Narrow Light';
+    src: url('../fonts/GothamNarrow-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Narrow Light Italic';
+    src: url('../fonts/GothamNarrow-LightItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gotham Narrow Medium';
+    src: url('../fonts/GothamNarrow-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Narrow Medium Italic';
+    src: url('../fonts/GothamNarrow-MediumItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gotham Narrow Thin';
+    src: url('../fonts/GothamNarrow-Thin.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Narrow Thin Italic';
+    src: url('../fonts/GothamNarrow-ThinItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gotham Narrow Ultra';
+    src: url('../fonts/GothamNarrow-Ultra.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Narrow Ultra Italic';
+    src: url('../fonts/GothamNarrow-UltraItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gotha Narrow XLight';
+    src: url('../fonts/GothamNarrow-XLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Narrow XLight Italic';
+    src: url('../fonts/GothamNarrow-XLightItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Mad Serif';
+    src: url('../fonts/mad-serif-bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mad Serif Italic';
+    src: url('../fonts/mad-serif-fill-bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
