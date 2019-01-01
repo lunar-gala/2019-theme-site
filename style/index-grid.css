@@ -15,19 +15,19 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom right;
-
-    font-family: 'Gotham Narrow Light';
 }
 
 h1 {
     text-align: center;
-    font-size: 30px;
+    font-family: 'Gotham Narrow Thin';
+    font-size: 16px;
     color: white;
     text-align: center;
 }
 
 p {
     text-align: center;
+    font-family: 'Gotham Narrow Medium';
     font-size: 16px;
     color: #555555;
 }
@@ -69,8 +69,51 @@ p {
     background-image: url('../images/archFrames/arch_toprow_medium.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
+#logo {
+    width: calc(100vw / 8);
+    height: calc(100vw / 6);
+    display: inline-block;
+    position: absolute;
+    background-color: transparent;
+    background-image: url('../images/LG_Logo_White.svg');
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: left bottom;
+}
+
+#day-countdown, #hour-countdown, #minute-countdown {
+    padding-top: 15%;
+}
+
+#hour-countdown, #minute-countdown {
+    width: calc(100vw / 4);
+    height: inherit;
+    float: left;
+}
+
+.top-row div:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 6px;
+  background: #EEEEEE;
+  right: -6px;
+  top: 0;
+  z-index: 1000;
+}
+
+#hour-countdown:after, #minute-countdown:after {
+  content: none;
+  position: absolute;
+  height: 100%;
+  width: 0px;
+  background: transparent;
+  right: 0px;
+  top: 0px;
+}
 
 .bottom-left {
     width: calc(100vw / 2);
@@ -98,6 +141,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #555555;
+    background-position: bottom;
 }
 
 #portal-a:hover, #portal-b:hover, #portal-c:hover, #portal-d:hover {
