@@ -4,7 +4,6 @@ html {
 
 * {
     box-sizing: border-box;
-    font-size: 0;
     margin: 0;
     padding: 0;
 }
@@ -16,20 +15,34 @@ body {
     background-attachment: fixed;
     background-position: bottom right;
 
-    font-family: 'Gotham Narrow Light';
+    
 }
 
 h1 {
+  font-family: 'Gotham Narrow Book';
     text-align: center;
-    font-size: 30px;
+    font-size: 1.1em;
     color: white;
     text-align: center;
+    letter-spacing: 0.03em;
+}
+
+h2 {
+   font-family: 'Mad Serif Fill';
+    text-align: center;
+    font-size: 5.3em;
+
+    color: white;
+    text-align: center;
+
 }
 
 p {
+  font-family: 'Gotham Narrow Medium';
     text-align: center;
-    font-size: 16px;
+    font-size: 0.8em;
     color: #555555;
+  letter-spacing: 0.03em;
 }
 
 .top-row div img, .portals div img, .bottom-left div img, .bottom-right div img { 
@@ -108,23 +121,25 @@ p {
     
 }
 
-#portal-a:hover, #portal-b:hover, #portal-c:hover, #portal-d:hover {
+#frame-a:hover, #frame-b:hover, #frame-c:hover, #frame-d:hover {
     background-color: transparent;
 }
 
 .link-name {
   outline: none !important;
   background-color: #eee;
-  height: 10%;
+  height: 14%;
   display: flex;
   align-items: center;
   justify-content: center;
+
+      margin-bottom: -0.2em;
  
 }
 .portal-holder{
   
   height:90%;
-  background-image: url('../images/archFrames/arch_short.svg');
+  background-image: url('../images/archFrames/arch_short2.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #555555;
@@ -238,3 +253,31 @@ p {
   right: 0;
   top: -2px;
 }
+
+
+
+
+.countdown{
+  display: flex;
+  justify-content: center;
+
+}
+
+.countdown div:after { 
+  display: none !important 
+}
+
+.countdown-type {
+  margin-top: 12vh;
+  margin-bottom: 0.6em;
+}
+
+.countdown-type, .countdown-time {
+  /*border: solid red;*/
+  height: 15%;
+  width: 40%;
+  position: relative;
+
+  
+}
+

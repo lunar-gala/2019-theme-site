@@ -11,18 +11,47 @@
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fitty.min.js"></script>
         <script>fitty('h1');</script>
         
+        <link rel="stylesheet" type="text/css" href="style/reset.css">
         <link rel="stylesheet" type="text/css" href="style/brand-font.css">
         <link rel="stylesheet" type="text/css" href="style/index-grid.css">
         <link rel="stylesheet" type="text/css" href="style/interact.css">
+
     </head>
     <body>
         <div class="svg-top">
             <div class="top-row">
                 <div id="top-panel-left">
-                    <h1>DAYS</h1>
+                    <div class="countdown">
+                        <div class="countdown-type" id="days-title"><h1>DAYS</h1>
+                        </div>
+                    </div>
+                    <div class="countdown">
+                        <div class="countdown-time" id="days">
+                            <h2>10</h2>
+                        </div>
+                    </div>
                 </div>
+
+
+
                 <div id="top-panel-center">
-                    <h1>HOURS &ensp; &ensp; MINUTES</h1>
+                    <div class="countdown">
+                        <div class="countdown-type" id="hours-title">
+                            <h1>HOURS</h1>
+                        </div>
+
+
+                        <div class="countdown-type" id = "minutes-title"> 
+                            <h1>MINUTES</h1>
+                        </div>
+                    </div>
+                    <div class="countdown"> 
+                        <div class="countdown-time"id="hours">
+                            <h2>3</h2></div>
+                        <div class="countdown-time"id="minutes">
+                            <h2>42</h2>
+                        </div>
+                    </div>
                 </div>
                 <div id="top-panel-right">
                     <div id="logo"></div>
