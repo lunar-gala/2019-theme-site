@@ -82,7 +82,7 @@ body {
 #b {
   -webkit-animation: slide 3s linear infinite;
   animation: slide 20s linear infinite;
-  right: 120%;
+  right: 100%;
 
 }
 
