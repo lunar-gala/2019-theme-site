@@ -171,11 +171,11 @@ p {
     background-image: url('../images/archFrames/arch_short.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #555555;
+    /*background-color: #555555;*/
     background-position: bottom;
 }
 
-#frame-a:hover, #frame-b:hover, #frame-c:hover, #frame-d:hover {
+#portal-a:hover, #portal-b:hover, #portal-c:hover, #portal-d:hover {
     background-color: transparent;
 }
 
@@ -196,7 +196,7 @@ p {
   background-image: url('../images/archFrames/arch_short2.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #555555;
+    /*background-color: #555555;*/
    outline:#eee;
 }
 
