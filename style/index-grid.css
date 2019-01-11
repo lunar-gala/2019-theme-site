@@ -8,6 +8,7 @@ html {
     padding: 0;
 }
 
+/*
 body {
     background-image: url('../images/backdrops/amallal.jpg');
     background-repeat: no-repeat;
@@ -15,6 +16,7 @@ body {
     background-attachment: fixed;
     background-position: bottom right;
 }
+*/
 
 h1 {
     font-family: 'Gotham Narrow Book';
@@ -43,7 +45,7 @@ p {
     letter-spacing: 0.03em;
 }
 
-.top-row div img, .portals div img, .bottom-left div img, .bottom-right div img { 
+.top-row div img, .portals div img, .bottom-left div img, .bottom-right div img {
     z-index: -5;
     object-fit: cover;
  }
@@ -96,6 +98,12 @@ p {
     background-repeat: no-repeat;
     background-size: 50% 50%;
     background-position: left bottom;
+    transform: translate(-25%, -25%);
+    border: 0;
+}
+
+#logo:after {
+  display: none !important;
 }
 
 #day-countdown, #hour-countdown, #minute-countdown {
@@ -117,6 +125,7 @@ p {
   right: -6px;
   top: 0;
   z-index: 1000;
+
 }
 
 #hour-countdown:after, #minute-countdown:after {
@@ -161,7 +170,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #555555;
-    background-position: bottom;   
+    background-position: bottom;
 }
 
 #frame-a:hover, #frame-b:hover, #frame-c:hover, #frame-d:hover {
@@ -177,10 +186,10 @@ p {
   justify-content: center;
 
       margin-bottom: -0.2em;
- 
+
 }
 .portal-holder{
-  
+
   height:90%;
   background-image: url('../images/archFrames/arch_short2.svg');
     background-repeat: no-repeat;
@@ -208,7 +217,7 @@ p {
 }
 
 #bottom-panel-left {
-    outline: solid white; 
+    outline: solid white;
     outline-offset: -3px;
     width: calc(100vw / 4);
     height: inherit;
@@ -230,7 +239,7 @@ p {
 
 
 #bottom-panel-right {
-  /*outline: solid white; 
+  /*outline: solid white;
     outline-offset: -3px;*/
     width: calc(100vw / 4);
     height: inherit;
@@ -283,8 +292,9 @@ p {
   height: 100%;
   width: 3px;
   background: white;
-  right: -3px;
+  right: -2px;
   top: 0;
+  z-index: 1000;
 }
 
 .portals > div:before {
@@ -306,8 +316,8 @@ p {
 
 }
 
-.countdown div:after { 
-  display: none !important 
+.countdown div:after {
+  display: none !important
 }
 
 .countdown-type {
@@ -321,6 +331,33 @@ p {
   width: 40%;
   position: relative;
 
-  
+
 }
 
+
+@media(max-width: 1200px) {
+  #top-panel-right {
+    display: none;
+  }
+  #bottom-panel-right {
+    display: none;
+  }
+  #top-panel-left {
+      width: calc(100vw / 2);
+  }
+  #bottom-panel-left {
+      width: calc(100vw / 2);
+  }
+}
+
+@media(min-width: 801px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media(max-width: 800px) {
+  .desktop {
+    display: none;
+  }
+}
