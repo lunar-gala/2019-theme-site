@@ -65,24 +65,29 @@ body {
    height: calc(100% - 6px);
   margin-bottom: 3px;
   position: absolute;
+/*display: inline-block;*/
   /*top:0;*/
   /*border: solid black;*/
-  /*margin-right: 2em;*/
+  /*padding-right: 6em;*/
 
 
 }
 
 #a {
-  -webkit-animation: slide 3s linear infinite;
+  /*border: solid blue;*/
+  -webkit-animation: slide 20s linear infinite;
   animation: slide 20s linear infinite;
  /*right: 2em;*/
   /*right: 2em;*/
+
 }
 
 #b {
-  -webkit-animation: slide 3s linear infinite;
+  /*border: solid green;*/
+  -webkit-animation: slide 20s linear infinite;
   animation: slide 20s linear infinite;
-  right: 100%;
+  margin-left: 210%;
+
 
 }
 
@@ -94,7 +99,7 @@ body {
     -webkit-transform: translate(0, 0);
   }
   100% {
-    -webkit-transform: translate(100%, 0);
+    -webkit-transform: translate(-108%, 0);
   }
 }
 
@@ -104,6 +109,6 @@ body {
   }
 
   to {
-    transform: translate(100%, 0);
+    transform: translate(-106%, 0);
   }
 }
