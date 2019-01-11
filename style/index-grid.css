@@ -74,6 +74,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 10;
+    
 }
 
 #top-panel-right {
@@ -86,6 +87,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    z-index: 10;
 }
 
 #logo {
@@ -160,7 +162,7 @@ p {
 }
 
 #portal-a, #portal-b, #portal-c, #portal-d {
-    outline: solid white;
+    /*outline: solid white;*/
     /*outline-offset: -1.5px;*/
     /*z-index: 10;*/
     width: calc(100vw / 8);
@@ -217,7 +219,7 @@ p {
 }
 
 #bottom-panel-left {
-    outline: solid white;
+    /*outline: solid white;*/
     outline-offset: -3px;
     width: calc(100vw / 4);
     height: inherit;
@@ -305,6 +307,7 @@ p {
   background: white;
   right: 0;
   top: -2px;
+  z-index: 100;
 }
 
 
