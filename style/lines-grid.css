@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-image: url('../images/backdrops/baratikva.jpg');
+    background-image: url('../images/backdrops/north-tibet.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -66,7 +66,7 @@ p { /* information font */
     background-size: cover;
 }
 
-#ticket-marquee {
+#lines-marquee {
     outline: solid white;
     width: calc(100vw /4 * 3);
     height: inherit;
@@ -91,7 +91,7 @@ p { /* information font */
     float: left;
 }
 
-#ticket-window {
+#quad-a {
     outline: solid white; 
     width: calc(100vw / 4);
     height: inherit;
@@ -101,7 +101,7 @@ p { /* information font */
     background-size: cover;
 }
 
-#ticket-info {
+#quad-b {
     outline: solid white; 
     width: calc(100vw / 4);
     height: inherit;
@@ -109,7 +109,7 @@ p { /* information font */
     background-color: #EEEEEE;
 }
 
-#merch-info {
+#quad-c {
     outline: solid white; 
     width: calc(100vw / 4);
     height: inherit;
@@ -117,7 +117,7 @@ p { /* information font */
     background-color: #EEEEEE;
 }
 
-#merch-window {
+#quad-d {
     outline: solid white; 
     width: calc(100vw / 4);
     height: inherit;
