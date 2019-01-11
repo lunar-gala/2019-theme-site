@@ -61,7 +61,9 @@ body {
 }
 
 .marquee img {
-  height: 99%;
+  margin-top: 3px;
+   height: calc(100% - 6px);
+  margin-bottom: 3px;
   position: absolute;
   /*top:0;*/
   /*border: solid black;*/
@@ -72,15 +74,15 @@ body {
 
 #a {
   -webkit-animation: slide 3s linear infinite;
-  animation: slide 10s linear infinite;
+  animation: slide 20s linear infinite;
  /*right: 2em;*/
   /*right: 2em;*/
 }
 
 #b {
   -webkit-animation: slide 3s linear infinite;
-  animation: slide 10s linear infinite;
-  right: 120%;
+  animation: slide 20s linear infinite;
+  right: 100%;
 
 }
 
