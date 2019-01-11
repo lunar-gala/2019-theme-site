@@ -1,6 +1,7 @@
 /* #################### INTERACTIVITY #################### */
 
 //Hover events for portal-a/b/c/d
+/*
 function interactAbout() {
     document.body.style.backgroundImage = "url('../images/backdrops/amallal.jpg')";
 }
@@ -17,7 +18,7 @@ function interactLines() {
     document.body.style.backgroundImage = "url('../images/backdrops/north-tibet.jpg')";
 }
 
-
+*/
 //Onclick events to change between 4 pages
 function gotoAbout() {
     location.href = "../about.html";
@@ -42,9 +43,15 @@ class Jello {
   constructor(options = {}) {
     this.defaults = {};
     this.options = options;
-    this.canvasHolder = document.getElementById("jello-containers");
-    this.imgWidth =  1000;
-    this.imgHeight =  500;
+    this.canvasHolder = document.getElementById("jello-container");
+    if (window.innerWidth > 1400) {
+      this.imgWidth = window.innerWidth*2;
+      this.imgHeight = this.imgWidth/2;
+    } else {
+      this.imgWidth = window.innerWidth*2;
+      this.imgHeight = this.imgWidth/1.5;
+    }
+
     this.imgRatio = this.imgHeight / this.imgWidth;
     this.winWidth = window.innerWidth;
     this.bgArray = [];
@@ -75,9 +82,9 @@ class Jello {
 
   initialize() {
     this.defaults = {
-      transition: 1,
-      speed: 2,
-      dispScale: 50,
+      transition: 0.5,
+      speed: .7,
+      dispScale: 10,
       dispX: true,
       dispY: true,
       count: 0
@@ -88,10 +95,10 @@ class Jello {
     // An array of images for background (.jpg)
     // They'll transition in the order listed below
     this.bgArray.push(
-      "https://i.imgur.com/mE0tiAC.jpg",
-      "https://i.imgur.com/h4hq3Jp.jpg",
-      "https://i.imgur.com/7OATz6e.jpg",
-      "https://i.imgur.com/Em0uZZz.jpg",
+      "https://i.imgur.com/hOuEOem.jpg",
+      "https://i.imgur.com/Z8LQt3Z.jpg",
+      "https://i.imgur.com/UQkB2Lo.jpg",
+      "https://i.imgur.com/3XyuoTy.jpg",
     );
 
     // An array of displacement maps
@@ -101,12 +108,6 @@ class Jello {
         image:
           "https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1043/dmap-clouds-01.jpg",
         speed: 0.5,
-        scale: 200
-      },
-      {
-        image:
-          "https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1043/dmap-glass-01.jpg",
-        speed: 0.3,
         scale: 200
       }
     );
@@ -145,8 +146,7 @@ class Jello {
 
   // canvas built to fill width of window
   backgroundFill() {
-    this.renderer.view.setAttribute('style', 'background-size: height:100%;width:100%;');
-    this.renderer.view.setAttribute('style', 'background-size: contain;')
+    // this.renderer.view.setAttribute('style', 'height:auto;width:100%;');
   }
 
   // main container for animation
@@ -245,8 +245,6 @@ class Jello {
     }
   }
 
-
-
   // click events
   eventListener() {
     const changeImageBtn = document.getElementsByClassName(
@@ -299,10 +297,10 @@ class Jello {
   // turn the distortion on and off using the options.transistion variable
   toggleDistortion() {
     if (this.isDistorted) {
-      this.distortionLevel(0);
+      this.distortionLevel(1);
       this.isDistorted = false;
     } else {
-      this.distortionLevel(1);
+      this.distortionLevel(8);
       this.isDistorted = true;
     }
   }
@@ -324,7 +322,6 @@ class Jello {
 
 const instance = new Jello();
 
-
 $("#portal-a").hover(function() {
   $(".js-change-image-1").trigger("click");
 });
@@ -344,7 +341,6 @@ $("#portal-d").hover(function() {
 $(".js-toggle-distortion").trigger("click");
 
 $("#top-panel-left").hover(function() {
-  $(".js-change-distortion").trigger("click");
   $(".js-toggle-distortion").trigger("click");
 });
 
@@ -356,13 +352,10 @@ $("#top-panel-right").hover(function() {
   $(".js-toggle-distortion").trigger("click");
 });
 
-$("#bottom-panel-right").hover(function() {
-  $(".js-toggle-distortion").trigger("click");
-});
-
 $("#bottom-panel-left").hover(function() {
   $(".js-toggle-distortion").trigger("click");
 });
 
-
-
+$("#bottom-panel-right").hover(function() {
+  $(".js-toggle-distortion").trigger("click");
+});
