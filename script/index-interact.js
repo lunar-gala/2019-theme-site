@@ -21,19 +21,19 @@ function interactLines() {
 */
 //Onclick events to change between 4 pages
 function gotoAbout() {
-    location.href = "../about.html";
+    location.href = "about.html";
 }
 
 function gotoTickets() {
-    location.href = "../tickets.html";
+    location.href = "tickets.html";
 }
 
 function gotoPeople() {
-    location.href = "../people.html";
+    location.href = "people.html";
 }
 
 function gotoLines() {
-    location.href = "../lines.html";
+    location.href = "lines.html";
 }
 
 /* #################### EFFECTS #################### */
