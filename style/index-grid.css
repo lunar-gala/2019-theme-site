@@ -6,6 +6,7 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    outline-width: 2px;
 }
 
 /*
@@ -55,22 +56,24 @@ p {
 }
 
 #top-panel-left {
-    outline: solid white;
+    outline: solid #96969D;
+    outline-width: 2px;
     width: calc(100vw / 4);
     height: inherit;
     float: left;
-    background-image: url('../images/archFrames/arch_toprow_medium.svg');
+    background-image: url('../images/archFrames/dark-arch_toprow_medium.svg');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 10;
 }
 
 #top-panel-center {
-    outline: solid white;
+    outline: solid #96969D;
+    outline-width: 2px;
     width: calc(100vw / 2);
     height: inherit;
     float: left;
-    background-image: url('../images/archFrames/arch_toprow_long.svg');
+    background-image: url('../images/archFrames/dark-arch_toprow_long.svg');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 10;
@@ -78,11 +81,12 @@ p {
 }
 
 #top-panel-right {
-    outline: solid white;
+    outline: solid #96969D;
+    outline-width: 2px;
     width: calc(100vw / 4);
     height: inherit;
     float: left;
-    background-image: url('../images/archFrames/arch_toprow_medium.svg');
+    background-image: url('../images/archFrames/dark-arch_toprow_medium.svg');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -148,8 +152,8 @@ p {
 #anomie-marquee {
     width: 100%;
     height: calc(100vh / 3);
-    background-color: #EEEEEE;
-    /*outline: solid white;
+    background-color: #101011;
+    /*outline: solid #96969D;
     outline-offset: -3px;
     z-index: 10;*/
 }
@@ -161,13 +165,13 @@ p {
 }
 
 #portal-a, #portal-b, #portal-c, #portal-d {
-    /*outline: solid white;*/
+    /*outline: solid #96969D;*/
     /*outline-offset: -1.5px;*/
     /*z-index: 10;*/
     width: calc(100vw / 8);
     height: inherit;
     float: left;
-    background-image: url('../images/archFrames/arch_short.svg');
+    background-image: url('../images/archFrames/dark-arch_short.svg');
     background-repeat: no-repeat;
     background-size: cover;
     /*background-color: #555555;*/
@@ -180,7 +184,7 @@ p {
 
 .link-name {
   outline: none !important;
-  background-color: #eee;
+  background-color: #101011;
   height: 14%;
   display: flex;
   align-items: center;
@@ -192,7 +196,7 @@ p {
 .portal-holder{
 
   height:90%;
-  background-image: url('../images/archFrames/arch_short2.svg');
+  background-image: url('../images/archFrames/dark-arch_short2.svg');
     background-repeat: no-repeat;
     background-size: cover;
     /*background-color: #555555;*/
@@ -204,7 +208,7 @@ p {
   position: absolute;
   width: 100%;
   height: 3px;
-  background: #eee;
+  background: #101011;
   right: 0;
   top: -2px;
 
@@ -218,12 +222,12 @@ p {
 }
 
 #bottom-panel-left {
-    /*outline: solid white;*/
+    /*outline: solid #96969D;*/
     outline-offset: -3px;
     width: calc(100vw / 4);
     height: inherit;
     float: left;
-    background-image: url('../images/archFrames/arch_tall.svg');
+    background-image: url('../images/archFrames/dark-arch_tall.svg');
     background-repeat: no-repeat;
     background-size: cover;
     /*z-index: 10;*/
@@ -231,7 +235,7 @@ p {
 
 /*#bottom-panel-right {
 
-  outline: solid white;
+  outline: solid #96969D;
   outline-offset: -3px;
     width: calc(100vw / 4);
     height: inherit;
@@ -240,12 +244,12 @@ p {
 
 
 #bottom-panel-right {
-  /*outline: solid white;
+  /*outline: solid #96969D;
     outline-offset: -3px;*/
     width: calc(100vw / 4);
     height: inherit;
     float: right;
-    background-image: url('../images/archFrames/oct_window.svg');
+    background-image: url('../images/archFrames/dark-oct_window.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -291,8 +295,8 @@ p {
   content: "";
   position: absolute;
   height: 100%;
-  width: 3px;
-  background: white;
+  width: 2px;
+  background: #96969D;
   right: -2px;
   top: 0;
   z-index: 1000;
@@ -302,8 +306,8 @@ p {
   content: "";
   position: absolute;
   width: 100%;
-  height: 3px;
-  background: white;
+  height: 2px;
+  background: #96969D;
   right: 0;
   top: -2px;
   z-index: 100;
