@@ -1,0 +1,1 @@
+var showTime = new Date().getTime();
