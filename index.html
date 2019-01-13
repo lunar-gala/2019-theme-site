@@ -1,63 +1,46 @@
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <title>LG 2019: ANOMIE - Home</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
-        
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/3.0.1/pixi.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
-        <script src="script/index-interact.js"></script>
-        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fitty.min.js"></script>
-        <script>fitty('h1');</script>
-        
-        <link rel="stylesheet" type="text/css" href="style/reset.css">
-        <link rel="stylesheet" type="text/css" href="style/brand-font.css">
-        <link rel="stylesheet" type="text/css" href="style/index-grid.css">
-        <link rel="stylesheet" type="text/css" href="style/interact.css">
 
-    </head>
-    <body>
-        <div class="svg-top">
-            <div class="top-row">
-                <div id="top-panel-left">
-                    <div class="countdown">
-                        <div class="countdown-type" id="days-title"><h1>DAYS</h1>
-                        </div>
-                    </div>
-                    <div class="countdown">
-                        <div class="countdown-time" id="days">
-                            <h2>10</h2>
-                        </div>
-                    </div>
-                </div>
+<head>
+  <title>LG 2019: ANOMIE - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
 
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/3.0.1/pixi.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fitty.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script>
+    fitty('h1');
+  </script>
 
+  <link rel="stylesheet" type="text/css" href="style/reset.css">
+  <link rel="stylesheet" type="text/css" href="style/brand-font.css">
+  <link rel="stylesheet" type="text/css" href="style/index-grid.css">
+  <link rel="stylesheet" type="text/css" href="style/interact.css">
+  <link rel="stylesheet" type="text/css" href="style/mobile.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
 
-                <div id="top-panel-center">
-                    <div class="countdown">
-                        <div class="countdown-type" id="hours-title">
-                            <h1>HOURS</h1>
-                        </div>
+</head>
 
-
-                        <div class="countdown-type" id = "minutes-title"> 
-                            <h1>MINUTES</h1>
-                        </div>
-                    </div>
-                    <div class="countdown"> 
-                        <div class="countdown-time"id="hours">
-                            <h2>3</h2></div>
-                        <div class="countdown-time"id="minutes">
-                            <h2>42</h2>
-                        </div>
-                    </div>
-                </div>
-                <div id="top-panel-right">
-                    <div id="logo"></div>
-                </div>
+<body>
+  <div class="desktop">
+    <div class="svg-top">
+      <div class="top-row">
+        <div id="top-panel-left">
+          <div class="countdown">
+            
+            <div class="logo-star">
+              <img id="star" src="images/archFrames/dark-star.svg">
             </div>
+             
+           
+          </div>
+          
+        </div>
 
+<<<<<<< HEAD
             <div class="bottom-left">
                 <div id="anomie-marquee">
                     <div class="marquee">
@@ -86,31 +69,217 @@
                         <div class="portal-holder" id="frame-d"></div>
                     </div>
                 </div>
+=======
+        <div id="top-panel-center">
+          <div class="countdown">
+            <div class="countdown-type" id="hours-title">
+              <h1>HOURS</h1>
+>>>>>>> upstream/master
             </div>
 
-        <div class="bottom-right">
-            <div id="bottom-panel-left"></div>
-            <div id="bottom-panel-right"></div>
+            <div class="countdown-type" id="minutes-title">
+              <h1>MINUTES</h1>
+            </div>
+          </div>
+          <div class="countdown">
+            <div class="countdown-time" id="hours">
+              <h2>3</h2>
+            </div>
+            <div class="countdown-time" id="minutes">
+              <h2>42</h2>
+            </div>
+          </div>
+        </div>
+        <div id="top-panel-right">
+           <div class="countdown">
+            <div class="countdown-type" id="hours-title">
+              <h1>MINUTES</h1>
+            </div>
+          </div>
+          <div class="countdown">
+            <div class="countdown-time" id="hours">
+              <h2>30</h2>
+            </div>
+          
+          </div>
         </div>
       </div>
 
-      <div id="jello-container" class="jello-container">
-        <div class="jello-controls ghost">
-          <div class="jello-controls__wrap ghost__child">
-            <button type="button" class="meta -light jello-controls__cta--button js-change-image">Change Image</button>
-            <button type="button" class="meta -light jello-controls__cta--button js-change-image-1">Change Image</button>
-            <button type="button" class="meta -light jello-controls__cta--button js-change-image-2">Change Image</button>
-            <button type="button" class="meta -light jello-controls__cta--button js-change-image-3">Change Image</button>
-            <button type="button" class="meta -light jello-controls__cta--button js-change-image-4">Change Image</button>
+      <div class="bottom-right">
+        <div id="bottom-panel-right"></div>
+        <div id="bottom-panel-left"></div>
+        
+      </div>
 
-            <span class="meta -light">/</span>
-            <button type="button" class="meta -light jello-controls__cta--button js-change-distortion">Change Distortion</button>
-            <span class="meta -light">/</span>
-            <button type="button" class="meta -light jello-controls__cta--button js-toggle-distortion">Toggle Distortion</button>
+      <div class="bottom-left">
+        <div id="anomie-marquee">
+          <div class="marquee">
+            <img id="a" src="images/ANOMIE.svg">
+            <img id="b" src="images/ANOMIE.svg">
           </div>
         </div>
-      <canvas class="jello-canvas"></canvas>
+
+        <div class="portals">
+
+          <div id="portal-a" onclick="gotoAbout()" onmouseover="interactAbout()">
+            <div class="link-name">
+              <p>ABOUT</p>
+            </div>
+            <div class="portal-holder" id="frame-a"></div>
+
+          </div>
+          <div id="portal-b" onclick="gotoTickets()" onmouseover="interactTickets()">
+            <div class="link-name">
+              <p>TICKETS</p>
+            </div>
+            <div class="portal-holder" id="frame-a"></div>
+
+          </div>
+          <div id="portal-c" onclick="gotoPeople()" onmouseover="interactPeople()">
+            <div class="link-name">
+              <p>PEOPLE</p>
+            </div>
+            <div class="portal-holder" id="frame-a"></div>
+
+          </div>
+          <div id="portal-d" onclick="gotoLines()" onmouseover="interactLines()">
+            <div class="link-name">
+              <p>LINES</p>
+            </div>
+            <div class="portal-holder" id="frame-a"></div>
+
+          </div>
+        </div>
+      </div>
+
+      
     </div>
 
-    </body>
+    <div id="jello-container" class="jello-container">
+      <div class="jello-controls ghost">
+        <div class="jello-controls__wrap ghost__child">
+          <button type="button" class="meta -light jello-controls__cta--button js-change-image">Change Image</button>
+          <button type="button" class="meta -light jello-controls__cta--button js-change-image-1">Change Image</button>
+          <button type="button" class="meta -light jello-controls__cta--button js-change-image-2">Change Image</button>
+          <button type="button" class="meta -light jello-controls__cta--button js-change-image-3">Change Image</button>
+          <button type="button" class="meta -light jello-controls__cta--button js-change-image-4">Change Image</button>
+
+          <span class="meta -light">/</span>
+          <button type="button" class="meta -light jello-controls__cta--button js-change-distortion">Change Distortion</button>
+          <span class="meta -light">/</span>
+          <button type="button" class="meta -light jello-controls__cta--button js-toggle-distortion">Toggle Distortion</button>
+        </div>
+      </div>
+      <canvas class="jello-canvas"></canvas>
+    </div>
+  </div>
+
+  <div class="mobile">
+
+    <div class="mobile-site">
+
+      <div class="swiper-container images">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="arch">
+              <div id="parallax">
+                <div class="layer" data-depth=".5">
+                  <div class="parallax-img aaaa"></div>
+                </div>
+                <div class="layer" data-depth=".75">
+                  <div class="parallax-img bbbb"></div>
+                </div>
+                <div class="layer c" data-depth="1">
+                  <div class="parallax-img cccc"></div>
+                </div>
+                <div class="layer d" data-depth="1.25">
+                  <div class="parallax-img dddd"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="arch">
+              <div id="parallaxb">
+                <div class="layer" data-depth=".5">
+                  <div class="parallax-img aaaa"></div>
+                </div>
+                <div class="layer" data-depth=".75">
+                  <div class="parallax-img bbbb"></div>
+                </div>
+                <div class="layer c" data-depth="1">
+                  <div class="parallax-img cccc"></div>
+                </div>
+                <div class="layer d" data-depth="1.25">
+                  <div class="parallax-img dddd"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="arch">
+              <div id="parallaxc">
+                <div class="layer" data-depth=".5">
+                  <div class="parallax-img aaaa"></div>
+                </div>
+                <div class="layer" data-depth=".75">
+                  <div class="parallax-img bbbb"></div>
+                </div>
+                <div class="layer c" data-depth="1">
+                  <div class="parallax-img cccc"></div>
+                </div>
+                <div class="layer d" data-depth="1.25">
+                  <div class="parallax-img dddd"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="arch">
+              <div id="parallaxd">
+                <div class="layer" data-depth=".5">
+                  <div class="parallax-img aaaa"></div>
+                </div>
+                <div class="layer" data-depth=".75">
+                  <div class="parallax-img bbbb"></div>
+                </div>
+                <div class="layer c" data-depth="1">
+                  <div class="parallax-img cccc"></div>
+                </div>
+                <div class="layer d" data-depth="1.25">
+                  <div class="parallax-img dddd"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-container text">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide nav-item">
+            ABOUT
+          </div>
+          <div class="swiper-slide nav-item">
+            PEOPLE
+          </div>
+          <div class="swiper-slide nav-item">
+            LINES
+          </div>
+          <div class="swiper-slide nav-item">
+            TICKETS
+          </div>
+        </div>
+      </div>
+
+      <h1 class="ANOMIE">ANOMIE</h1>
+    </div>
+
+  </div>
+
+</body>
+
+<script src="script/index-interact.js"></script>
+<script src="script/mobile.js"></script>
+
 </html>

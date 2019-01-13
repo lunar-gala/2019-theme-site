@@ -1,0 +1,146 @@
+html, body {
+  position: relative;
+  height: 100%;
+}
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+  background: #F0F8FF;
+}
+.mobile-site {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+.images {
+  width: 100%;
+  height: 100%;
+  background: #e8e8e8;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.ANOMIE {
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+  color: #fff;
+  font-size: 110px;
+  left: -10px;
+  bottom: -30px;
+  margin: 0;
+  font-family: "Playfair Display SC";
+  z-index: 1000;
+  font-weight: 300;
+}
+
+
+.text {
+  top: 0px;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  user-select: none;
+  pointer-events: none;
+  margin: 0;
+
+}
+
+
+.nav-item {
+  width: 50%;
+  font-size: 40px;
+  font-family: "Playfair Display SC";
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.swiper-slide-active{
+   opacity:1;
+ }
+
+
+
+
+
+
+.arch {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  height: 80%;
+  bottom: 0;
+  background-position: center top;
+  background-size: cover;
+  z-index: 1000;
+  background-image: url("https://i.imgur.com/Wjw7iEW.png");
+}
+
+#parallax, #parallaxb,
+#parallaxc,
+#parallaxd {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.parallax-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-image: url("https://i.imgur.com/Wjw7iEW.png");
+
+  background-size: cover;
+  background-position: center top;
+}
+
+
+
+.aaaa {
+  width: calc(100% - 50px);
+  height: calc(100% - 50px);
+}
+
+.bbbb {
+  width: calc(100% - 100px);
+  height: calc(100% - 100px);
+}
+
+.cccc {
+  width: calc(100% - 150px);
+  height: calc(100% - 150px);
+}
+
+.dddd {
+  width: calc(100% - 200px);
+  height: calc(100% - 200px);
+}
