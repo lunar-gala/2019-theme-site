@@ -23,7 +23,7 @@ h1 {
     font-family: 'Gotham Narrow Book';
     text-align: center;
     font-size: 1.1em;
-    color: white;
+    color: #101011;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -33,7 +33,7 @@ h2 {
     text-align: center;
     font-size: 5.3em;
 
-    color: white;
+    color: #101011;
     text-align: center;
 
 }
@@ -126,7 +126,7 @@ p {
   position: absolute;
   height: 100%;
   width: 6px;
-  background: #EEEEEE;
+  background: #101011;
   right: -6px;
   top: 0;
   z-index: 1000;
@@ -174,13 +174,15 @@ p {
     background-image: url('../images/archFrames/dark-arch_short.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-color: #555555;*/
+    background-color: #1F1F22;
     background-position: bottom;
 }
 
 #portal-a:hover, #portal-b:hover, #portal-c:hover, #portal-d:hover {
     background-color: transparent;
 }
+
+
 
 .link-name {
   outline: none !important;
@@ -338,6 +340,14 @@ p {
   position: relative;
 
 
+}
+
+.logo-star {
+  margin-top: 14vh;
+  margin-bottom: 0.6em;
+   height: 15%;
+  width: 25%;
+  position: relative;
 }
 
 
