@@ -79,7 +79,6 @@ p {
 
 #top-panel-right {
     outline: solid white;
-
     width: calc(100vw / 4);
     height: inherit;
     float: left;

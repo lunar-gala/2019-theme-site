@@ -25,11 +25,10 @@ h1 { /* section title font */
     text-align: left;
 }
 
-h2 { /* information section font */
+h2 { /* information subsection title font */
     font-size: 12px;
-    font-family: 'Gotham Narrow';
-    font: 'Gotham Narrow Medium';
-    color: black;
+    font-family: 'Gotham Narrow Thin Italic';
+    color: #555555;
     text-align: left;
 }
 
@@ -99,6 +98,11 @@ p { /* information font */
     background-image: url('../images/archFrames/arch_tall.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 3%;
+}
+
+#ticket-window:hover {
+    background-color: #555555;
 }
 
 #ticket-info {
@@ -106,7 +110,9 @@ p { /* information font */
     width: calc(100vw / 4);
     height: inherit;
     float: left;
+    word-wrap: break-word;
     background-color: #EEEEEE;
+    padding: 3%;
 }
 
 #merch-info {
@@ -114,7 +120,9 @@ p { /* information font */
     width: calc(100vw / 4);
     height: inherit;
     float: left;
+    word-wrap: break-word;
     background-color: #EEEEEE;
+    padding: 3%;
 }
 
 #merch-window {
@@ -125,6 +133,7 @@ p { /* information font */
     background-image: url('../images/archFrames/arch_tall.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 3%;
 }
 
 .bottom div:after {
