@@ -302,7 +302,7 @@ p {
   height: 100%;
   width: 2px;
   background: #96969D;
-  right: -2px;
+  right: 0px;
   top: 0;
   z-index: 1000;
 }
@@ -318,6 +318,18 @@ p {
   z-index: 100;
 }
 
+
+#top:after, #bottom:after, #top-panel-right:after, #bottom-panel-right:after, 
+#cancel-1:after, #hours-title:after, #cancel-2:after, #hours:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0px;
+  background: #96969D;
+  right: 0px;
+  top: 0;
+  z-index: 1000;
+}
 
 
 
@@ -346,7 +358,7 @@ p {
 }
 
 .logo-star {
-  margin-top: 14vh;
+  margin-top: 13vh;
   margin-bottom: 0.6em;
    height: 15%;
   width: 25%;
