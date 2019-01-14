@@ -3,7 +3,7 @@ function dispBack() {
 }
 
 function hideBack() {
-    document.getElementById("nav-window").style = "<img id='star' src='images/archFrames/dark-star.svg'>";
+    document.getElementById("nav-window").innerHTML = "<img id='star' src='images/archFrames/dark-star.svg'>";
 }
 
 function goBack() {
