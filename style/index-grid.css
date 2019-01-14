@@ -176,6 +176,9 @@ p {
     background-size: cover;
     background-color: #1F1F22;
     background-position: bottom;
+    cursor: pointer;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 #portal-a:hover, #portal-b:hover, #portal-c:hover, #portal-d:hover {
