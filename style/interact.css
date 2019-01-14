@@ -60,6 +60,18 @@ body {
   top: 50%;
 }
 
+.page img {
+  margin-top: 0px !important;
+   height: calc(100% - 2px) !important;
+  margin-bottom: 2px;
+  position: absolute;
+/*display: inline-block;*/
+  /*top:0;*/
+  /*border: solid black;*/
+  /*padding-right: 6em;*/
+}
+
+
 .marquee img {
   margin-top: 2px;
    height: calc(100% - 4px);
@@ -69,9 +81,9 @@ body {
   /*top:0;*/
   /*border: solid black;*/
   /*padding-right: 6em;*/
-
-
 }
+
+
 
 #a {
   /*border: solid blue;*/

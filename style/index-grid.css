@@ -176,38 +176,18 @@ p {
     background-size: cover;
     background-color: #1F1F22;
     background-position: bottom;
-    opacity: 0.5;
+    cursor: pointer;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 #portal-a:hover, #portal-b:hover, #portal-c:hover, #portal-d:hover {
     background-color: transparent;
-    opacity: 1;
 }
+
 
 
 .link-name {
-<<<<<<< HEAD
-    outline: none !important;
-    height: 12%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1em;
- 
-}
-.portal-holder{
-    height:90%;
-}
-
-.portal-holder:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    right: 0;
-    top: -2px;
-}
-=======
   outline: none !important;
   background-color: #101011;
   height: 14%;
@@ -236,10 +216,7 @@ p {
   background: #101011;
   right: 0;
   top: -2px;
->>>>>>> upstream/master
 
-.portal-holder:hover {
-    background-color: transparent;
 }
 
 
@@ -262,7 +239,6 @@ p {
 }
 
 /*#bottom-panel-right {
-
   outline: solid #96969D;
   outline-offset: -3px;
     width: calc(100vw / 4);
@@ -325,7 +301,7 @@ p {
   height: 100%;
   width: 2px;
   background: #96969D;
-  right: -2px;
+  right: 0px;
   top: 0;
   z-index: 1000;
 }
@@ -340,6 +316,20 @@ p {
   top: -2px;
   z-index: 100;
 }
+
+
+#top:after, #bottom:after, #top-panel-right:after, #bottom-panel-right:after, 
+#cancel-1:after, #hours-title:after, #cancel-2:after, #hours:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0px;
+  background: #96969D;
+  right: 0px;
+  top: 0;
+  z-index: 1000;
+}
+
 
 
 .countdown{
@@ -367,7 +357,7 @@ p {
 }
 
 .logo-star {
-  margin-top: 14vh;
+  margin-top: 13vh;
   margin-bottom: 0.6em;
    height: 15%;
   width: 25%;

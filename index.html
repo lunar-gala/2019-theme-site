@@ -27,55 +27,57 @@
 <body>
   <div class="desktop">
     <div class="svg-top">
+      <div class="top-row" id ="top">
+        <div id="top-panel-left">
+          <div class="countdown">
+            
+            <div class="logo-star">
+              <img id="star" src="images/archFrames/dark-star.svg">
+            </div>
+             
+           
+          </div>
+          
+        </div>
 
-        <div class="top-row">
-
-            <div id="top-panel-left">
-                <div class="countdown">
-                    <div class="logo-star">
-                    <img id="star" src="images/archFrames/dark-star.svg">
-                    </div>
-                </div>
+        <div id="top-panel-center">
+          <div class="countdown">
+            <div class="countdown-type" id="hours-title">
+              <h1>HOURS</h1>
             </div>
 
-            <div id="top-panel-center">
-                <div class="countdown">
-                    <div class="countdown-type" id="hours-title">
-                        <h1>HOURS</h1>
-                    </div>
-                    <div class="countdown-type" id="minutes-title">
-                        <h1>MINUTES</h1>
-                    </div>
-                </div>
-
-                <div class="countdown">
-                <div class="countdown-time" id="hours">
-                    <h2>3</h2>
-                </div>
-                <div class="countdown-time" id="minutes">
-                    <h2>42</h2>
-                </div>
-                </div>
+            <div class="countdown-type" id="minutes-title">
+              <h1>MINUTES</h1>
             </div>
-
-            <div id="top-panel-right">
-                <div class="countdown">
-                    <div class="countdown-type" id="hours-title">
-                        <h1>MINUTES</h1>
-                    </div>
-                </div>
-                <div class="countdown">
-                    <div class="countdown-time" id="hours">
-                        <h2>30</h2>
-                    </div>
-                </div>
+          </div>
+          <div class="countdown">
+            <div class="countdown-time" id="hours">
+              <h2>3</h2>
             </div>
+            <div class="countdown-time" id="minutes">
+              <h2>42</h2>
+            </div>
+          </div>
+        </div>
+        <div id="top-panel-right" >
+           <div class="countdown" id="cancel-1">
+            <div class="countdown-type" id="hours-title">
+              <h1>MINUTES</h1>
+            </div>
+          </div>
+         <div class="countdown" id="cancel-2">
+            <div class="countdown-time" id="hours">
+              <h2>30</h2>
+            </div>
+          
+          </div>
+        </div>
       </div>
 
-
-      <div class="bottom-right">
+     <div class="bottom-right" id="bottom">
         <div id="bottom-panel-right"></div>
         <div id="bottom-panel-left"></div>
+        
       </div>
 
       <div class="bottom-left">
@@ -88,28 +90,28 @@
 
         <div class="portals">
 
-          <div id="portal-a" onclick="gotoAbout()" onmouseover="dispAbout()">
+          <div id="portal-a" onclick="gotoAbout()" onmouseover="interactAbout()">
             <div class="link-name">
               <p>ABOUT</p>
             </div>
             <div class="portal-holder" id="frame-a"></div>
 
           </div>
-          <div id="portal-b" onclick="gotoTickets()" onmouseover="dispTickets()">
+          <div id="portal-b" onclick="gotoTickets()" onmouseover="interactTickets()">
             <div class="link-name">
               <p>TICKETS</p>
             </div>
             <div class="portal-holder" id="frame-a"></div>
 
           </div>
-          <div id="portal-c" onclick="gotoPeople()" onmouseover="dispPeople()">
+          <div id="portal-c" onclick="gotoPeople()" onmouseover="interactPeople()">
             <div class="link-name">
               <p>PEOPLE</p>
             </div>
             <div class="portal-holder" id="frame-a"></div>
 
           </div>
-          <div id="portal-d" onclick="gotoLines()" onmouseover="dispLines()">
+          <div id="portal-d" onclick="gotoLines()" onmouseover="interactLines()">
             <div class="link-name">
               <p>LINES</p>
             </div>
@@ -146,7 +148,7 @@
     <div class="mobile-site">
 
       <div class="swiper-container images">
-        <div class="swiper-wrapper">
+        <div id="m-one" class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="arch">
               <div id="parallax">
@@ -165,7 +167,7 @@
               </div>
             </div>
           </div>
-          <div class="swiper-slide">
+         <div id="m-two" class="swiper-slide">
             <div class="arch">
               <div id="parallaxb">
                 <div class="layer" data-depth=".5">
@@ -183,7 +185,7 @@
               </div>
             </div>
           </div>
-          <div class="swiper-slide">
+          <div id="m-three" class="swiper-slide">
             <div class="arch">
               <div id="parallaxc">
                 <div class="layer" data-depth=".5">
@@ -201,7 +203,7 @@
               </div>
             </div>
           </div>
-          <div class="swiper-slide">
+          <div id="m-four" class="swiper-slide">
             <div class="arch">
               <div id="parallaxd">
                 <div class="layer" data-depth=".5">
@@ -248,5 +250,4 @@
 
 <script src="script/index-interact.js"></script>
 <script src="script/mobile.js"></script>
-
 </html>
