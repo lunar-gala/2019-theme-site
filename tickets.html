@@ -5,30 +5,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
         
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/3.0.1/pixi.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
-          <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fitty.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-          <script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/3.0.1/pixi.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fitty.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+        <script>
             fitty('h1');
-          </script>
-          <script src="script"></script>
+        </script>
+        <script src="../script/back.js"></script>
 
 
-         <link rel="stylesheet" type="text/css" href="style/reset.css">
-          <link rel="stylesheet" type="text/css" href="style/brand-font.css">
-         <!--  <link rel="stylesheet" type="text/css" href="style/index-grid.css"> -->
+       <link rel="stylesheet" type="text/css" href="style/reset.css">
+        <link rel="stylesheet" type="text/css" href="style/brand-font.css">
+       <!--  <link rel="stylesheet" type="text/css" href="style/index-grid.css"> -->
 
-          <link rel="stylesheet" type="text/css" href="style/interact.css">
-          <link rel="stylesheet" type="text/css" href="style/tickets-grid.css">
-          <link rel="stylesheet" type="text/css" href="style/mobile.css">
-          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
+        <link rel="stylesheet" type="text/css" href="style/interact.css">
+        <link rel="stylesheet" type="text/css" href="style/tickets-grid.css">
+        <link rel="stylesheet" type="text/css" href="style/mobile.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
+
     </head>
     <body>
         <div class="svg-top">
             <div class="top">
-                <div id="nav-window"></div>
+                <div id="nav-window" onmouseover="dispBack()" onmouseout="hideBack()" onclick="goBack()"></div>
                 <div id="ticket-marquee">
                     <div class="marquee page">
                         <img id="a" src ="images/TICKETS.svg"> <!-- images/TICKETS.svg-->
@@ -39,6 +40,7 @@
 
             <div class="bottom">
                 <div id="ticket-window" onmouseover="dispLink()" onmouseout="hideLink()"></div>
+
                 <div id="ticket-info">
                     <h4>2019—ANOMIE</h4>
                     <h1>LUNAR GALA</h1>
@@ -53,6 +55,7 @@
 
                     <h3><br>QUESTIONS</h3>
                     <p>LUNARAGALA@GMAIL.COM</p>
+                    <img src="../images/long-arrow.svg" width="100px" height="100px">
                 </div>
                 <div id="merch-info">
                     <h4>GENERAL & THEMED</h4>
