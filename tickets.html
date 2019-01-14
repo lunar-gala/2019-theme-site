@@ -7,19 +7,20 @@
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/3.0.1/pixi.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
-        <script src="script/tickets-interact.js"></script>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fitty.min.js"></script>
+
+        <script src="../script/ticket.js"></script>
+        <script src="../script/back.js"></script>
         <script>fitty('h1');</script>
-        <script src="script"></script>
 
         <link rel="stylesheet" type="text/css" href="style/brand-font.css">
         <link rel="stylesheet" type="text/css" href="style/tickets-grid.css">
-        <link rel="stylesheet" type="text/css" href="style/interact.css">
+        <link rel="stylesheet" typ=e"text/css" href="style/interact.css">
     </head>
     <body>
         <div class="svg-top">
             <div class="top">
-                <div id="nav-window"></div>
+                <div id="nav-window" onmouseover="dispBack()" onmouseout="hideBack()" onclick="goBack()"></div>
                 <div id="ticket-marquee">
                     <div class="marquee">
                         <img id="a" src ="images/ANOMIE.svg"> <!-- images/TICKETS.svg-->
@@ -30,7 +31,7 @@
 
             <div class="bottom">
                 <div id="ticket-window" onmouseover="dispLink()" onmouseout="hideLink()"></div>
-                <div id="ticket-info">
+                <div id="ticket-info">s
                     <h1>2019 ANOMIE SHOW TICKETS</h1>
 
                     <h3><br>INFORMATION</h3>
@@ -42,6 +43,7 @@
 
                     <h3><br>QUESTIONS</h3>
                     <p>LUNARAGALA@GMAIL.COM</p>
+                    <img src="../images/long-arrow.svg" width="100px" height="100px">
                 </div>
                 <div id="merch-info">
                     <h1>MERCHANDISE<br></h1>

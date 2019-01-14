@@ -27,88 +27,55 @@
 <body>
   <div class="desktop">
     <div class="svg-top">
-      <div class="top-row">
-        <div id="top-panel-left">
-          <div class="countdown">
-            
-            <div class="logo-star">
-              <img id="star" src="images/archFrames/dark-star.svg">
-            </div>
-             
-           
-          </div>
-          
-        </div>
 
-<<<<<<< HEAD
-            <div class="bottom-left">
-                <div id="anomie-marquee">
-                    <div class="marquee">
-                        <img id="a" src ="images/ANOMIE.svg">
-                        <img id= "b" src ="images/ANOMIE.svg">
+        <div class="top-row">
+
+            <div id="top-panel-left">
+                <div class="countdown">
+                    <div class="logo-star">
+                    <img id="star" src="images/archFrames/dark-star.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div id="top-panel-center">
+                <div class="countdown">
+                    <div class="countdown-type" id="hours-title">
+                        <h1>HOURS</h1>
+                    </div>
+                    <div class="countdown-type" id="minutes-title">
+                        <h1>MINUTES</h1>
                     </div>
                 </div>
 
-                <div class="portals">
+                <div class="countdown">
+                <div class="countdown-time" id="hours">
+                    <h2>3</h2>
+                </div>
+                <div class="countdown-time" id="minutes">
+                    <h2>42</h2>
+                </div>
+                </div>
+            </div>
 
-                    
-                    <div id="portal-a" onclick="gotoAbout()" onmouseover="interactAbout()">
-                        <div class="link-name"><p>ABOUT</p></div>
-                        <div class="portal-holder" id="frame-a"></div>
-                    </div>
-                    <div id="portal-b" onclick="gotoTickets()" onmouseover="interactTickets()">
-                        <div class="link-name"><p>TICKETS</p></div>
-                        <div class="portal-holder" id="frame-b"></div>
-                    </div>
-                    <div id="portal-c" onclick="gotoPeople()" onmouseover="interactPeople()">
-                        <div class="link-name"><p>PEOPLE</p></div>
-                        <div class="portal-holder" id="frame-c"></div>
-                    </div>
-                    <div id="portal-d" onclick="gotoLines()" onmouseover="interactLines()">
-                        <div class="link-name"><p>LINES</p></div>
-                        <div class="portal-holder" id="frame-d"></div>
+            <div id="top-panel-right">
+                <div class="countdown">
+                    <div class="countdown-type" id="hours-title">
+                        <h1>MINUTES</h1>
                     </div>
                 </div>
-=======
-        <div id="top-panel-center">
-          <div class="countdown">
-            <div class="countdown-type" id="hours-title">
-              <h1>HOURS</h1>
->>>>>>> upstream/master
+                <div class="countdown">
+                    <div class="countdown-time" id="hours">
+                        <h2>30</h2>
+                    </div>
+                </div>
             </div>
-
-            <div class="countdown-type" id="minutes-title">
-              <h1>MINUTES</h1>
-            </div>
-          </div>
-          <div class="countdown">
-            <div class="countdown-time" id="hours">
-              <h2>3</h2>
-            </div>
-            <div class="countdown-time" id="minutes">
-              <h2>42</h2>
-            </div>
-          </div>
-        </div>
-        <div id="top-panel-right">
-           <div class="countdown">
-            <div class="countdown-type" id="hours-title">
-              <h1>MINUTES</h1>
-            </div>
-          </div>
-          <div class="countdown">
-            <div class="countdown-time" id="hours">
-              <h2>30</h2>
-            </div>
-          
-          </div>
-        </div>
       </div>
+
 
       <div class="bottom-right">
         <div id="bottom-panel-right"></div>
         <div id="bottom-panel-left"></div>
-        
       </div>
 
       <div class="bottom-left">
@@ -121,28 +88,28 @@
 
         <div class="portals">
 
-          <div id="portal-a" onclick="gotoAbout()" onmouseover="interactAbout()">
+          <div id="portal-a" onclick="gotoAbout()" onmouseover="dispAbout()">
             <div class="link-name">
               <p>ABOUT</p>
             </div>
             <div class="portal-holder" id="frame-a"></div>
 
           </div>
-          <div id="portal-b" onclick="gotoTickets()" onmouseover="interactTickets()">
+          <div id="portal-b" onclick="gotoTickets()" onmouseover="dispTickets()">
             <div class="link-name">
               <p>TICKETS</p>
             </div>
             <div class="portal-holder" id="frame-a"></div>
 
           </div>
-          <div id="portal-c" onclick="gotoPeople()" onmouseover="interactPeople()">
+          <div id="portal-c" onclick="gotoPeople()" onmouseover="dispPeople()">
             <div class="link-name">
               <p>PEOPLE</p>
             </div>
             <div class="portal-holder" id="frame-a"></div>
 
           </div>
-          <div id="portal-d" onclick="gotoLines()" onmouseover="interactLines()">
+          <div id="portal-d" onclick="gotoLines()" onmouseover="dispLines()">
             <div class="link-name">
               <p>LINES</p>
             </div>

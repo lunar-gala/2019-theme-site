@@ -5,11 +5,3 @@ function dispLink() {
 function hideLink() {
     document.getElementById("ticket-window").innerHTML = "";
 }
-
-function dispBack() {
-    document.getElementById("nav-window").innerHTML = "<p>hello</p>";
-}
-
-function goBack() {
-    location.href = "index.html";
-}

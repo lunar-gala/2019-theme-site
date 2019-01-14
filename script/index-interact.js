@@ -1,24 +1,22 @@
-/* #################### INTERACTIVITY #################### */
+//Hover events for portal-a/b/c/d - displays information about respective pages
 
-//Hover events for portal-a/b/c/d
-/*
-function interactAbout() {
-    document.body.style.backgroundImage = "url('../images/backdrops/amallal.jpg')";
+function dispAbout() {
+    document.getElementById("bottom-panel-right").innerHTML = "<h1>ABOUT display</h1>";
 }
 
-function interactTickets() {
-    document.body.style.backgroundImage = "url('../images/backdrops/baratikva.jpg')";
+function dispTickets() {
+    document.getElementById("bottom-panel-right").innerHTML = "<h1>TICKETS display</h1>";
 }
 
-function interactPeople() {
-    document.body.style.backgroundImage = "url('../images/backdrops/mirador.jpg')";
+function dispPeople() {
+    document.getElementById("bottom-panel-right").innerHTML = "<h1>PEOPLE display</h1>";
 }
 
-function interactLines() {
-    document.body.style.backgroundImage = "url('../images/backdrops/north-tibet.jpg')";
+function dispLines() {
+    document.getElementById("bottom-panel-right").innerHTML = "<h1>LINES display</h1>";
 }
 
-*/
+
 //Onclick events to change between 4 pages
 function gotoAbout() {
     location.href = "about.html";

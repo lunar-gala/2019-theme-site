@@ -176,12 +176,13 @@ p {
     background-size: cover;
     background-color: #1F1F22;
     background-position: bottom;
+    opacity: 0.5;
 }
 
 #portal-a:hover, #portal-b:hover, #portal-c:hover, #portal-d:hover {
     background-color: transparent;
+    opacity: 1;
 }
-
 
 
 .link-name {
