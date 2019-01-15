@@ -15,9 +15,10 @@
         </script>
         <script> 
             function dispBack() {
-                    document.getElementById("star").innerHTML = "<img id='star' src='../images/archFrames/dark-star.svg' style='transform: rotateY(180deg);'>"; }
+                document.getElementById("logo-star").innerHTML = "<img src='../images/archFrames/dark-star.svg' style='transform: rotateY(45deg)'>"; }
 
-            function hideBack() {  document.getElementById("nav-window").innerHTML = "<img id='star' src='../images/archFrames/dark-star.svg'>"; }
+            function hideBack() {  
+                document.getElementById("logo-star").innerHTML = "<img src='../images/archFrames/dark-star.svg'>"; }
 
             function goBack() { location.href = "index.html"; }
         </script>
@@ -37,7 +38,7 @@
         <div class="svg-top">
             <div class="top">
                 <div id="nav-window" onmouseover="dispBack()" onmouseout="hideBack()" onclick="goBack()">
-                    <div class="logo-star">
+                    <div id="logo-star">
                         <img src="images/archFrames/dark-star.svg">
                     </div>
                 </div>

@@ -76,12 +76,12 @@ p { /* information font */
     z-index: 10;
 }
 
-.logo-star {
-  margin-top: 13vh;
-  margin-bottom: 0.6em;
-   height: 15%;
-  width: 25%;
-  position: relative;
+#logo-star {
+    margin-top: 13vh;
+    margin-bottom: 0.6em;
+    height: 15%;
+    width: 25%;
+    position: relative;
 }
 
 
