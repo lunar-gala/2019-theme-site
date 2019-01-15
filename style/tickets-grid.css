@@ -74,6 +74,9 @@ p { /* information font */
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 10;
+
+    display: flex;
+    justify-content: center;
 }
 
 #logo-star {
