@@ -10,11 +10,17 @@
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fitty.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-        <script src="../script/back.js"></script>
         <script>
             fitty('h1');
         </script>
-        <script> function goBack() { location.href = "index.html"; } </script>
+        <script> 
+            function dispBack() {
+                    document.getElementById("star").innerHTML = "<img id='star' src='../images/archFrames/dark-star.svg' style='transform: rotateY(180deg);'>"; }
+
+            function hideBack() {  document.getElementById("nav-window").innerHTML = "<img id='star' src='../images/archFrames/dark-star.svg'>"; }
+
+            function goBack() { location.href = "index.html"; }
+        </script>
         
 
        <link rel="stylesheet" type="text/css" href="style/reset.css">
@@ -32,7 +38,7 @@
             <div class="top">
                 <div id="nav-window" onmouseover="dispBack()" onmouseout="hideBack()" onclick="goBack()">
                     <div class="logo-star">
-                        <img id="star" src="images/archFrames/dark-star.svg">
+                        <img src="images/archFrames/dark-star.svg">
                     </div>
                 </div>
                 <div id="ticket-marquee">
@@ -49,7 +55,7 @@
                 <div id="ticket-info">
                     <h4>2019—ANOMIE</h4>
                     <h1>LUNAR GALA</h1>
-                    <img src="../images/long-arrow.png">
+                    <img src="images/long-arrow.png">
 
                     <h3>INFORMATION</h3>
                     <p>
@@ -64,7 +70,7 @@
                 <div id="merch-info">
                     <h4>GENERAL & THEMED</h4>
                     <h1>MERCHANDIS<br></h1>
-                    <img src="../images/long-arrow.png" style="transform: rotateY(180deg);">
+                    <img src="images/long-arrow.png" style="transform: rotateY(180deg);">
 
                     <h2><br>
                         General LG and ANOMIE merchandise will be sold at the show.<br><br>
