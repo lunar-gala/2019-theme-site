@@ -79,10 +79,6 @@ p { /* information font */
     justify-content: center;
 }
 
-#nav-window:after {
-    display: none !important
-}
-
 #logo-star:before {
     display: none !important
 }
