@@ -84,13 +84,7 @@ p { /* information font */
   position: relative;
 }
 
-#star {
-    transform: none;
-}
 
-#star:hover {
-    transform: rotateY(180deg);
-}
 
 #ticket-marquee {
     width: calc(100vw /4 * 3);
