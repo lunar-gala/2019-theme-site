@@ -8,19 +8,125 @@ body {
   color:#000;
   margin: 0;
   padding: 0;
-  background: #333;
+  background: #101110;
+  box-sizing: border-box;
 }
+
+h1 {
+  font-family: MAD Serif Fill;
+  font-size: 2.2em;
+  color: #96969D;
+      padding-top: 0.1em;
+}
+
+h3 {
+  font-family: Gotham Narrow Book;
+  font-size: 1em;
+  color: #96969D;
+}
+
 .mobile-site {
   position: absolute;
   overflow: hidden;
   width: 100%;
   height: 100vh;
 }
+
+
+
 .images {
   width: 100%;
   height: 100%;
-  background: #333;
+  background: #101110;
 }
+
+/*.swiper-container {
+  overflow: visible !important;
+}*/
+
+.mobile-container {
+  position: absolute;
+  width: 100%;
+  height: 82%;
+  bottom: 0;
+}
+
+.box1 {
+  width: 100%;
+  height: 3em;
+  display: flex;
+}
+
+.box2 {
+  width: 100%;
+  height: calc(100% - 6em);
+  display: flex;
+
+}
+
+.box3 {
+  width: 100%;
+  height: 3em;
+  display: flex;
+
+}
+
+.box1>div{
+  border-top: solid #96969D;
+  border-bottom: solid #96969D;
+  border-width: 2px;
+  height: 100%;
+}
+
+.box3>div {
+  border-top: solid #96969D;
+  
+  border-width: 2px;
+  height: 100%;
+}
+
+.box2>div {
+  height: 100%;
+  border-width: 2px;
+  align-content: center;
+}
+
+.box2 img {
+    display: block;
+    position: relative;
+    margin: auto auto;
+    width: 60%;
+    height: 100%;
+}
+
+#box1-1, #box2-1, #box3-1 {
+  border-right: solid #96969D;
+
+  width: 3em;
+  float: left;
+}
+
+#box1-3, #box2-3, #box3-3 {
+  width: 3em;
+   border-left: solid #96969D;
+  float: right;
+}
+
+#box1-2, #box2-2, #box3-2{
+  width: calc(100% - 6em);
+}
+
+
+#switch-text {
+      height: 3em;
+    line-height: 3em;
+    text-align: center;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -40,7 +146,7 @@ body {
   align-items: center;
 }
 
-.ANOMIE {
+/*.ANOMIE {
   position: absolute;
   user-select: none;
   pointer-events: none;
@@ -56,11 +162,22 @@ body {
   -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
   color: #fff;
+}*/
+
+.mobile-site #anomie-marquee {
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+  height: 18% !important;
+  margin: 0;
+  color: #fff;
+}
+.mobile-site #anomie-marquee img {
+  height: 100%;
+  margin: 0;
 }
 
-
 .text {
-  top: -90vh;
   width: 100%;
   position: absolute;
   z-index: 1000;
@@ -72,9 +189,6 @@ body {
 
 .nav-item {
   width: 50%;
-  font-size: 40px;
-  font-family: "Mad Serif Fill";
-  color: #999;
   opacity: .5;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
@@ -92,8 +206,8 @@ body {
 .arch {
   position: absolute;
   width: 80%;
-  left: 10%;
-  height: 80%;
+    left: 10%;
+    height: 90%;
   bottom: 0;
   background-position: center top;
   background-size: cover;
@@ -144,42 +258,202 @@ body {
   background-position: center top;
 }
 
-#m-one .parallax-img {
-  background-image: url("../images/archimg/Barreirinhas/1.png");
+#m-one .aaaa {
+  background-image: url("../images/archimg/Barreirinhas/2.png");
 }
 
-#m-two .parallax-img {
-  background-image: url("../images/archimg/Lago-azul/1.png");
+#m-one .bbbb {
+  background-image: url("../images/archimg/Barreirinhas/3.png");
 }
 
-#m-three .parallax-img {
-  background-image: url("../images/archimg/Sahara/1.png");
+#m-one .cccc {
+  background-image: url("../images/archimg/Barreirinhas/4.png");
 }
 
-#m-four .parallax-img {
-  background-image: url("../images/archimg/Tofino/1.png");
+#m-one .dddd {
+  background-image: url("../images/archimg/Barreirinhas/5.png");
 }
 
+#m-one .eeee {
+  background-image: url("../images/archimg/Barreirinhas/6.png");
+}
+
+#m-one .ffff {
+  background-image: url("../images/archimg/Barreirinhas/7.png");
+}
+
+#m-one .gggg {
+  background-image: url("../images/archimg/Barreirinhas/8.png");
+}
+
+
+#m-one .hhhh {
+  background-image: url("../images/archimg/Barreirinhas/9.png");
+}
+
+
+#m-one .iiii {
+  background-image: url("../images/archimg/Barreirinhas/10.png");
+}
+
+#m-two .aaaa {
+  background-image: url("../images/archimg/Lago-azul/2.png");
+}
+
+#m-two .bbbb {
+  background-image: url("../images/archimg/Lago-azul/3.png");
+}
+
+#m-two .cccc {
+  background-image: url("../images/archimg/Lago-azul/4.png");
+}
+
+#m-two .dddd {
+  background-image: url("../images/archimg/Lago-azul/5.png");
+}
+
+#m-two .eeee {
+  background-image: url("../images/archimg/Lago-azul/6.png");
+}
+
+#m-two .ffff {
+  background-image: url("../images/archimg/Lago-azul/7.png");
+}
+
+#m-two .gggg {
+  background-image: url("../images/archimg/Lago-azul/8.png");
+}
+
+
+#m-two .hhhh {
+  background-image: url("../images/archimg/Lago-azul/9.png");
+}
+
+
+#m-two .iiii {
+  background-image: url("../images/archimg/Lago-azul/10.png");
+}
+
+#m-three .aaaa {
+  background-image: url("../images/archimg/Sahara/2.png");
+}
+
+#m-three .bbbb {
+  background-image: url("../images/archimg/Sahara/3.png");
+}
+
+#m-three .cccc {
+  background-image: url("../images/archimg/Sahara/4.png");
+}
+
+#m-three .dddd {
+  background-image: url("../images/archimg/Sahara/5.png");
+}
+
+#m-three .eeee {
+  background-image: url("../images/archimg/Sahara/6.png");
+}
+
+#m-three .ffff {
+  background-image: url("../images/archimg/Sahara/7.png");
+}
+
+#m-three .gggg {
+  background-image: url("../images/archimg/Sahara/8.png");
+}
+
+
+#m-three .hhhh {
+  background-image: url("../images/archimg/Sahara/9.png");
+}
+
+
+#m-three .iiii {
+  background-image: url("../images/archimg/Sahara/10.png");
+}
+
+#m-four .aaaa {
+  background-image: url("../images/archimg/Tofino/2.png");
+}
+
+#m-four .bbbb {
+  background-image: url("../images/archimg/Tofino/3.png");
+}
+
+#m-four .cccc {
+  background-image: url("../images/archimg/Tofino/4.png");
+}
+
+#m-four .dddd {
+  background-image: url("../images/archimg/Tofino/5.png");
+}
+
+#m-four .eeee {
+  background-image: url("../images/archimg/Tofino/6.png");
+}
+
+#m-four .ffff {
+  background-image: url("../images/archimg/Tofino/7.png");
+}
+
+#m-four .gggg {
+  background-image: url("../images/archimg/Tofino/8.png");
+}
+
+
+#m-four .hhhh {
+  background-image: url("../images/archimg/Tofino/9.png");
+}
+
+
+#m-four .iiii {
+  background-image: url("../images/archimg/Tofino/10.png");
+}
 
 
 
 
 .aaaa {
-  width: calc(100% - 50px);
-  height: calc(100% - 50px);
+  width: calc(100% - 4%);
+  height: calc(100% - 4%);
 }
 
 .bbbb {
-  width: calc(100% - 100px);
-  height: calc(100% - 100px);
+  width: calc(100% - 8%);
+  height: calc(100% - 8%);
 }
 
 .cccc {
-  width: calc(100% - 150px);
-  height: calc(100% - 150px);
+  width: calc(100% - 12%);
+  height: calc(100% - 12%);
 }
 
 .dddd {
-  width: calc(100% - 200px);
-  height: calc(100% - 200px);
+  width: calc(100% - 16%);
+  height: calc(100% - 16%);
+}
+
+.eeee {
+  width: calc(100% - 20%);
+  height: calc(100% - 20%);
+}
+
+.ffff {
+  width: calc(100% - 24%);
+  height: calc(100% - 24%);
+}
+
+.gggg {
+  width: calc(100% - 28%);
+  height: calc(100% - 28%);
+}
+
+.hhhh {
+  width: calc(100% - 32%);
+  height: calc(100% - 32%);
+}
+
+.iiii {
+  width: calc(100% - 36%);
+  height: calc(100% - 36%);
 }
