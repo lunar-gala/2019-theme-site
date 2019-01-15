@@ -91,6 +91,10 @@ p { /* information font */
     position: relative;
 }
 
+#logo-star:after {
+    display: none !important
+}
+
 
 #ticket-marquee {
     width: calc(100vw /4 * 3);
