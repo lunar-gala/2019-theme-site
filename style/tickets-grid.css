@@ -133,10 +133,6 @@ p { /* information font */
     background-size: cover;
 }
 
-#ticket-window:hover {
-    background-color: #555555;
-}
-
 #ticket-info, #merch-info {
     /*outline: solid #96969D;
     outline-width: 2px;*/
