@@ -79,6 +79,10 @@ p { /* information font */
     justify-content: center;
 }
 
+#nav-window:after {
+    display: none !important
+}
+
 #logo-star {
     margin-top: 13vh;
     margin-bottom: 0.6em;
@@ -86,7 +90,6 @@ p { /* information font */
     width: 25%;
     position: relative;
 }
-
 
 
 #ticket-marquee {
