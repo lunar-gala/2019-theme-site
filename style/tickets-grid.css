@@ -83,6 +83,10 @@ p { /* information font */
     display: none !important
 }
 
+#logo-star:before {
+    display: none !important
+}
+
 #logo-star {
     margin-top: 13vh;
     margin-bottom: 0.6em;
