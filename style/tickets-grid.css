@@ -69,11 +69,32 @@ p { /* information font */
     width: calc(100vw / 4);
     height: inherit;
     float: left;
+    background-color: transparent;
     background-image: url('../images/archFrames/dark-arch_toprow_medium.svg');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 10;
+
+    display: flex;
+    justify-content: center;
 }
+
+#logo-star:before {
+    display: none !important
+}
+
+#logo-star {
+    margin-top: 13vh;
+    margin-bottom: 0.6em;
+    height: 15%;
+    width: 25%;
+    position: relative;
+}
+
+#logo-star:after {
+    display: none !important
+}
+
 
 #ticket-marquee {
     width: calc(100vw /4 * 3);
@@ -109,28 +130,14 @@ p { /* information font */
 }
 
 #ticket-window {
-    /*outline: solid white; 
-    width: calc(100vw / 4);
-    height: inherit;
-    float: left;
-    background-image: url('../images/archFrames/arch_tall.svg');
-    background-repeat: no-repeat;
-    background-size: cover;*/
-
-    /*padding: 3%;*/
-
-
     outline-offset: -3px;
     width: calc(100vw / 4);
     height: inherit;
     float: left;
+    background-color: transparent;
     background-image: url('../images/archFrames/dark-arch_tall.svg');
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#ticket-window:hover {
-    background-color: #555555;
 }
 
 #ticket-info, #merch-info {
@@ -165,6 +172,7 @@ p { /* information font */
     width: calc(100vw / 4);
     height: inherit;
     float: left;
+    background-color: transparent;
     background-image: url('../images/archFrames/dark-arch_tall.svg');
     background-repeat: no-repeat;
     background-size: cover;
