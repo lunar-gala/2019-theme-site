@@ -14,11 +14,11 @@
             fitty('h1');
         </script>
         <script> 
-            function dispBack() {
-                document.getElementById("logo-star").innerHTML = "<img src='images/archFrames/dark-star.svg' style='transform: rotate(45deg)'>"; }
-
-            function hideBack() {  
+            function dispBack() {  
                 document.getElementById("logo-star").innerHTML = "<img src='images/archFrames/dark-star.svg'>"; }
+
+            function hideBack() {
+                document.getElementById("logo-star").innerHTML = "<img src='images/archFrames/dark-star.svg' style='transform: rotate(45deg)'>"; }
 
             function goBack() { location.href = "index.html"; }
         </script>
@@ -39,7 +39,7 @@
             <div class="top">
                 <div id="nav-window" onmouseover="dispBack()" onmouseout="hideBack()" onclick="goBack()">
                     <div id="logo-star">
-                        <img src="images/archFrames/dark-star.svg">
+                        <img src="images/archFrames/dark-star.svg" style='transform: rotate(45deg)'>
                     </div>
                 </div>
                 <div id="ticket-marquee">
