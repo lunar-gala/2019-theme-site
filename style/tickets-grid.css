@@ -26,7 +26,7 @@ h1 { /* section title font */
 
 h2 { /* information subsection title font */
     font-size: 12px;
-    font-family: 'Gotham Narrow Thin Italic';
+    font-family: 'Gotham Narrow Thin';
     color: #96969D;
     text-align: left;
 }
@@ -44,6 +44,20 @@ h4 {
     font-family: 'Gotham Narrow Book';
     color: #96969D;
     text-align: left;
+}
+h5 {
+    font-size: 1em;
+    font-family: 'Mad Serif Fill';
+    color: #96969D;
+    text-align: center;
+  }
+
+h6{
+     font-size: 1.5em;
+    font-family: 'Gotham Narrow Book';
+    color: #96969D;
+    text-align: left;
+    /*text-decoration: underline;*/
 }
 
 p { /* information font */
@@ -70,7 +84,7 @@ p { /* information font */
     height: inherit;
     float: left;
     background-color: transparent;
-    background-image: url('../images/archFrames/dark-arch_toprow_medium.svg');
+    background-image: url('../images/archFrames/dark-nav_window.svg');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 10;
@@ -152,6 +166,7 @@ p { /* information font */
 }
 
 #ticket-info img, #merch-info img {
+  display: block;
   width: 100%;
 }
 
@@ -183,7 +198,7 @@ p { /* information font */
   position: absolute;
   height: 100%;
   width: 2px;
-  background: #1E1E25;
+  background: #96969D;
   right: 0px;
   top: 0;
   z-index: 1000;
@@ -198,7 +213,7 @@ p { /* information font */
   position: absolute;
   height: 100%;
   width: 2px;
-  background: #1E1E25;
+  background: #96969D;
   right: 0px;
   top: 0;
   z-index: 1000;
@@ -209,7 +224,7 @@ p { /* information font */
   position: absolute;
   height: 100%;
   width: 0px;
-  background: #1E1E25;
+  background: #96969D;
   right: 0px;
   top: 0;
   z-index: 1000;
@@ -220,8 +235,118 @@ p { /* information font */
   position: absolute;
   width: 100%;
   height: 2px;
-  background: #1E1E25;
+  background: #96969D;
   right: 0;
   top: -2px;
   z-index: 100;
+}
+
+h1 span {
+  display: none;
+}
+
+.mobile-footer {
+  display: none;
+}
+
+.mobile-only {
+  display: none;
+}
+
+
+@media(max-width: 1200px) {
+  #top-panel-right {
+    display: none;
+  }
+  #bottom-panel-right {
+    display: none;
+  }
+  #top-panel-left {
+      width: calc(100vw / 2);
+  }
+  #bottom-panel-left {
+      width: calc(100vw / 2);
+  }
+}
+
+@media(min-width: 801px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media(max-width: 800px) {
+  h1 {
+      font-size: 7.77em;
+
+  }
+
+  h1 span {
+    display: inline;
+  }
+  body {
+    overflow-y: visible !important;
+  }
+  .svg-top {
+    display: block;
+  }
+  #logo-star {
+    
+    margin-top: 21%;
+    margin-bottom: 0.6em;
+    height: 15%;
+    width: 35%;
+    position: relative;
+}
+  .top {
+      height: 10vh;
+  }
+  
+
+  .bottom {
+    display: block;
+    height: 320vh;
+    float: none;
+  }
+
+  .bottom > div {
+    width: 100vw !important;
+    word-wrap: normal !important;
+    height: 75vh !important;
+    float: none;
+  }
+
+
+
+  #ticket-info, #merch-info {
+    height: auto !important;
+    padding: 10% 3%;
+  }
+
+  .mobile-footer {
+    height: 7vh;
+    line-height: 7vh;
+    display: block;
+    border-top: solid #96969D 2px; 
+  }
+
+  .mobile-only {
+       display: block;
+    line-height: 8vh;
+    height: 8vh;
+    margin-left: 3em;
+  }
+
+  .desktop-only {
+    display: none !important;
+  }
+
+  .bottom div:after {
+  width: 0px !important; 
+}
+
+#nav-window:after {
+  width: 0px !important;
+}
+
 }
