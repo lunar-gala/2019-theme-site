@@ -4,47 +4,68 @@ html {
 
 * {
     box-sizing: border-box;
-    font-size: 0;
     margin: 0;
     padding: 0;
 
 }
 
-body {
-    background-image: url('../images/backdrops/amallal.jpg');
+/*body {
+    background-image: url('../images/backdrops/baratikva.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom right;
-}
+}*/
 
 h1 { /* section title font */
-    font-size: 36px;
-    font-family: 'Mad Serif';
-    color: black;
+    font-size: 5.47em;
+    font-family: 'Mad Serif Fill';
+    color: #96969D;
     text-align: left;
 }
 
-h2 { /* information section font */
+h2 { /* information subsection title font */
     font-size: 12px;
-    font-family: 'Gotham Narrow';
-    font: 'Gotham Narrow Medium';
-    color: black;
+    font-family: 'Gotham Narrow Thin';
+    color: #96969D;
     text-align: left;
 }
 
 h3 { /* information subsection title font */
-    font-size: 12px;
-    font-family: 'Gotham Narrow Medium';
-    color: #555555;
+    font-size: 1.2em;
+    font-family: 'Gotham Narrow Book';
+    color: #96969D;
     text-align: left;
 }
 
-p { /* information font */
-    font-size: 12px;
-    font-family: 'Gotham Narrow Thin';
-    color: #555555;
+h4 {
+    font-size: 1.2em;
+    line-height: 2em;
+    font-family: 'Gotham Narrow Book';
+    color: #96969D;
     text-align: left;
+}
+h5 {
+    font-size: 1em;
+    font-family: 'Mad Serif Fill';
+    color: #96969D;
+    text-align: center;
+  }
+
+h6{
+     font-size: 1.5em;
+    font-family: 'Gotham Narrow Book';
+    color: #96969D;
+    text-align: left;
+    /*text-decoration: underline;*/
+}
+
+p { /* information font */
+    font-size: 1.2em;
+    font-family: 'Gotham Narrow Thin';
+    color: #96969D;
+    text-align: left;
+    line-height: 1.2em;
 }
 
 .top div img, .bottom div img { 
@@ -57,29 +78,60 @@ p { /* information font */
 }
 
 #nav-window {
-    outline: solid white;
+   /*outline: solid #96969D;*/
+    /*outline-width: 2px;*/
     width: calc(100vw / 4);
     height: inherit;
     float: left;
-    background-image: url('../images/archFrames/nav_star_window.png');
+    background-color: transparent;
+    background-image: url('../images/archFrames/dark-nav_window.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
 }
 
-#about-marquee {
-    outline: solid white;
+#logo-star:before {
+    display: none !important
+}
+
+#logo-star {
+    margin-top: 13vh;
+    margin-bottom: 0.6em;
+    height: 15%;
+    width: 25%;
+    position: relative;
+}
+
+#logo-star:after {
+    display: none !important
+}
+
+
+#ticket-marquee {
     width: calc(100vw /4 * 3);
+    /*outline: solid #96969D;*/
+    /*outline-width: 2px;*/
+    /*width: calc(100vw / 2);*/
     height: inherit;
     float: left;
-    background-color: #EEEEEE;
+    /*background-image: url('../images/archFrames/dark-arch_toprow_long.svg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 10;
+    background-color: #101011;
 }
+
+
 
 .top div:after {
   content: "";
   position: absolute;
   height: 100%;
   width: 6px;
-  background: #EEEEEE;
+  background: #101011;
   right: -6px;
   top: 0;
   z-index: 1000;
@@ -91,38 +143,50 @@ p { /* information font */
     float: left;
 }
 
-#quad-a {
-    outline: solid white; 
+#about-main-info {
+    outline-offset: -3px;
+    width: calc(100vw / 2);
+    height: inherit;
+    float: left;
+    background-color: #101011;
+    padding: 2.3%;
+    word-wrap: break-word;
+}
+
+#ticket-info, #merch-info {
+    /*outline: solid #96969D;
+    outline-width: 2px;*/
+    width: calc(100vw / 4);
+    height: inherit;
+    float: left;
+    word-wrap: break-word;
+    background-color: #101011;
+    padding: 2.3%;
+}
+
+#merch-info img {
+  width: 25%;
+}
+
+
+#merch-window {
+/*    outline: solid white; 
     width: calc(100vw / 4);
     height: inherit;
     float: left;
     background-image: url('../images/archFrames/arch_tall.svg');
     background-repeat: no-repeat;
     background-size: cover;
-}
+    padding: 3%;*/
 
-#quad-b {
-    outline: solid white; 
+
+
+    outline-offset: -3px;
     width: calc(100vw / 4);
     height: inherit;
     float: left;
-    background-color: #EEEEEE;
-}
-
-#quad-c {
-    outline: solid white; 
-    width: calc(100vw / 4);
-    height: inherit;
-    float: left;
-    background-color: #EEEEEE;
-}
-
-#quad-d {
-    outline: solid white; 
-    width: calc(100vw / 4);
-    height: inherit;
-    float: left;
-    background-image: url('../images/archFrames/arch_tall.svg');
+    background-color: transparent;
+    background-image: url('../images/archFrames/dark-arch_tall.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -131,9 +195,9 @@ p { /* information font */
   content: "";
   position: absolute;
   height: 100%;
-  width: 6px;
-  background: #EEEEEE;
-  right: -6px;
+  width: 2px;
+  background: #96969D;
+  right: 0px;
   top: 0;
   z-index: 1000;
 }
@@ -142,22 +206,142 @@ p { /* information font */
   position: relative;
 }
 
-.svg-top div:after {
+#nav-window:after {
   content: "";
   position: absolute;
   height: 100%;
-  width: 6px;
-  background: white;
-  right: -3px;
+  width: 2px;
+  background: #96969D;
+  right: 0px;
   top: 0;
+  z-index: 1000;
+}
+
+#merch-window:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0px;
+  background: #96969D;
+  right: 0px;
+  top: 0;
+  z-index: 1000;
 }
 
 .svg-top div:before {
   content: "";
   position: absolute;
   width: 100%;
-  height: 6px;
-  background: white;
+  height: 2px;
+  background: #96969D;
   right: 0;
-  top: -3px;
+  top: -2px;
+  z-index: 100;
+}
+
+h1 span {
+  display: none;
+}
+
+.mobile-footer {
+  display: none;
+}
+
+.mobile-only {
+  display: none;
+}
+
+
+@media(max-width: 1200px) {
+  #top-panel-right {
+    display: none;
+  }
+  #bottom-panel-right {
+    display: none;
+  }
+  #top-panel-left {
+      width: calc(100vw / 2);
+  }
+  #bottom-panel-left {
+      width: calc(100vw / 2);
+  }
+}
+
+@media(min-width: 801px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media(max-width: 800px) {
+  h1 {
+      font-size: 7.77em;
+
+  }
+
+  h1 span {
+    display: inline;
+  }
+  body {
+    overflow-y: visible !important;
+  }
+  .svg-top {
+    display: block;
+  }
+  #logo-star {
+    
+    margin-top: 21%;
+    margin-bottom: 0.6em;
+    height: 15%;
+    width: 35%;
+    position: relative;
+}
+  .top {
+      height: 10vh;
+  }
+  
+
+  .bottom {
+    display: block;
+    height: 320vh;
+    float: none;
+  }
+
+  .bottom > div {
+    width: 100vw !important;
+    word-wrap: normal !important;
+    height: 75vh !important;
+    float: none;
+  }
+
+
+
+  #ticket-info, #merch-info {
+    height: auto !important;
+    padding: 10% 3%;
+  }
+
+  .mobile-footer {
+    height: 7vh;
+    line-height: 7vh;
+    display: block;
+    border-top: solid #96969D 2px; 
+  }
+
+  .mobile-only {
+       display: block;
+    line-height: 8vh;
+    height: 8vh;
+    margin-left: 3em;
+  }
+
+  .desktop-only {
+    display: none !important;
+  }
+
+  .bottom div:after {
+  width: 0px !important; 
+}
+
+
 }
