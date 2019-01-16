@@ -77,29 +77,20 @@
       </div>
 
      <div class="bottom-right" id="bottom">
-        <div id="bottom-panel-right">
-            <div id="long-window-text"> 
-                <h1>blah</h1>
-            </div>
-            
-            <!--<div class="long-window-text" id="people-long">
-                <h1>PEOPLE display</h1>
-            </div>
-            <div class="long-window-text" id="lines-long">
-                <h1>LINES display</h1>
-            </div>-->
-
-        </div>
         <div id="bottom-panel-left">
-            <div id="oct-window-text">
-                <h1>blah</h1>
-            </div>
-            <!--<div class="oct-window-text" id="people-oct">
-                <h1>PEOPLE display</h1>
-            </div>
-            <div class="oct-window-text" id="lines-oct">
-                <h1>LINES display</h1>-->
+            <div id="about-long"><h1>ABOUT display</h1></div>
+            <div id="tickets-long"><h1>TICKETS display</h1></div>
+            <div id="people-long"><h1>PEOPLE display</h1></div>
+            <div id="lines-long"><h1>LINES display</h1></div>
         </div>
+
+        <div id="bottom-panel-right">
+            <div id="about-oct"><h1>ABOUT display</h1></div>
+            <div id="tickets-oct"><h1>TICKETS display</h1></div>
+            <div id="people-oct"><h1>PEOPLE display</h1></div>
+            <div id="lines-oct"><h1>LINES display</h1></div>
+        </div>
+        
         
       </div>
 
@@ -117,28 +108,28 @@
             <div class="link-name">
               <p>ABOUT</p>
             </div>
-            <div class="portal-holder" id="frame-a" onmouseover="dispAbout()"></div>
+            <div class="portal-holder" id="frame-a" onmouseover="showAbout()" onmouseout="hideAbout()"></div>
 
           </div>
           <div id="portal-b" onclick="gotoTickets()">
             <div class="link-name">
               <p>TICKETS</p>
             </div>
-            <div class="portal-holder" id="frame-b" onmouseover="dispTickets()"></div>
+            <div class="portal-holder" id="frame-b" onmouseover="showTickets()" onmouseout="hideTickets()"></div>
 
           </div>
-          <div id="portal-c" onmouseover="dispPeople()"> <!-- onclick="gotoPeople()" -->
+          <div id="portal-c"> <!-- onclick="gotoPeople()" -->
             <div class="link-name">
               <p>PEOPLE</p>
             </div>
-            <div class="portal-holder" id="frame-c"></div>
+            <div class="portal-holder" id="frame-c" onmouseover="showPeople()" onmouseout="hidePeople()"></div>
 
           </div>
-          <div id="portal-d" onmouseover="dispLines()"> <!-- onclick="gotoLines()" -->
+          <div id="portal-d"> <!-- onclick="gotoLines()" -->
             <div class="link-name">
               <p>LINES</p>
             </div>
-            <div class="portal-holder" id="frame-d"></div>
+            <div class="portal-holder" id="frame-d" onmouseover="showLines()" onmouseout="hideLines()"></div>
 
           </div>
         </div>

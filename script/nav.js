@@ -2,26 +2,45 @@
 
 //Hover events for portal-a/b/c/d - displays information about respective pages
 
-function dispAbout() {
-    document.getElementById("long-window-text").innerHTML = "<h1>ABOUT display</h1>";
-    document.getElementById("oct-window-text").innerHTML = "<h1>ABOUT display</h1>";
+function showAbout() {
+    document.getElementById("about-long").style.opacity = "1.0";
+    document.getElementById("about-oct").style.opacity = "1.0";
 }
 
-function dispTickets() {
-    document.getElementById("long-window-text").innerHTML = "<h1>TICKETS display</h1>";
-    document.getElementById("oct-window-text").innerHTML = "<h1>TICKETS display</h1>";
+function hideAbout() {
+    document.getElementById("about-long").style.opacity = "0.0";
+    document.getElementById("about-oct").style.opacity = "0.0";
 }
 
-function dispPeople() {
-    document.getElementById("long-window-text").innerHTML = "<h1>PEOPLE display</h1>";
-    document.getElementById("oct-window-text").innerHTML = "<h1>PEOPLE display</h1>";
+function showTickets() {
+    document.getElementById("tickets-long").style.opacity = "1.0";
+    document.getElementById("tickets-oct").style.opacity = "1.0";
 }
 
-function dispLines() {
-    document.getElementById("long-window-text").innerHTML = "<h1>LINES display</h1>";
-    document.getElementById("oct-window-text").innerHTML = "<h1>LINES display</h1>";
+function hideTickets() {
+    document.getElementById("tickets-long").style.opacity = "0.0";
+    document.getElementById("tickets-oct").style.opacity = "0.0";
 }
 
+function showPeople() {
+    document.getElementById("people-long").style.opacity = "1.0";
+    document.getElementById("people-oct").style.opacity = "1.0";
+}
+
+function hidePeople() {
+    document.getElementById("people-long").style.opacity = "0.0";
+    document.getElementById("people-oct").style.opacity = "0.0";
+}
+
+function showLines() {
+    document.getElementById("lines-long").style.opacity = "1.0";
+    document.getElementById("lines-oct").style.opacity = "1.0";
+}
+
+function hideLines() {
+    document.getElementById("lines-long").style.opacity = "0.0";
+    document.getElementById("lines-oct").style.opacity = "0.0";
+}
 
 //Onclick events to change between 4 pages
 function gotoAbout() {
