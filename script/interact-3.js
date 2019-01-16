@@ -96,7 +96,7 @@ class Jello {
     this.bgArray.push(
       
       // "https://i.imgur.com/hb8v1Qd.jpg",
-      "https://i.imgur.com/gdw12p6.jpg",
+      "https://i.imgur.com/Z8LQt3Z.jpg",
       "https://i.imgur.com/UQkB2Lo.jpg",
       "https://i.imgur.com/3XyuoTy.jpg",
       "https://i.imgur.com/BDa5djf.jpg",
@@ -358,6 +358,11 @@ $("#bottom-panel-left").hover(function() {
 });
 
 $("#bottom-panel-right").hover(function() {
+  $(".js-toggle-distortion").trigger("click");
+});
+
+
+$("#ticket-window").hover(function() {
   $(".js-toggle-distortion").trigger("click");
 });
 

@@ -91,18 +91,25 @@ p { /* information font */
 
     display: flex;
     justify-content: center;
+    background-position: center;
 }
 
 #logo-star:before {
     display: none !important
 }
-
 #logo-star {
-    margin-top: 13vh;
-    margin-bottom: 0.6em;
-    height: 15%;
-    width: 25%;
+    margin: auto;
+    /* margin-bottom: 0.6em; */
+    height: 7em;
+    width: 7em;
     position: relative;
+}
+
+#logo-star img{
+   
+    max-width: 100%;
+    max-height: 100%;
+
 }
 
 #logo-star:after {
