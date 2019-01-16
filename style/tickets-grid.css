@@ -305,7 +305,7 @@ h1 span {
 
   .bottom {
     display: block;
-    height: 320vh;
+    height: auto;
     float: none;
   }
 
@@ -313,7 +313,11 @@ h1 span {
     width: 100vw !important;
     word-wrap: normal !important;
     height: 75vh !important;
-    float: none;
+  }
+
+  .bottom div {
+    float: none !important;
+
   }
 
 

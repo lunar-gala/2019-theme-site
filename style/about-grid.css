@@ -138,9 +138,9 @@ p { /* information font */
 }
 
 .bottom {
-    width: 100vw;
-    height: calc(100vh / 3 * 2);
-    float: left;
+    display: block;
+    height: 320vh;
+    float: none;
 }
 
 #about-main-info {
@@ -303,10 +303,20 @@ h1 span {
 
   .bottom {
     display: block;
-    height: 320vh;
+    height: auto;
     float: none;
   }
 
+  .bottom > div {
+    width: 100vw !important;
+    word-wrap: normal !important;
+    height: 75vh !important;
+  }
+
+  .bottom div {
+    float: none !important;
+
+  }
   .bottom > div {
     width: 100vw !important;
     word-wrap: normal !important;
