@@ -139,7 +139,7 @@ p { /* information font */
 
 .bottom {
     display: block;
-    height: 320vh;
+    height: calc(100vh - 33vh);
     float: none;
 }
 
