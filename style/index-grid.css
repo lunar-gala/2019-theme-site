@@ -258,63 +258,110 @@ p {
     background-size: cover;
 }
 
-#long-window-text {
-    width: inherit;
-    height: 50%;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-}
-
-#oct-window-text {
-    width: inherit;
-    height: 50%;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-}
-/*
-
 #about-long {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
     position: absolute;
-    opacity: 1;
+    top: -25%;
+    opacity: 0.0;
 }
 
 #about-oct {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
     position: absolute;
-    opacity: 1;
+    top: -30%;
+    opacity: 0.0;
 }
 
 #tickets-long {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
     position: absolute;
+    top: -25%;
     opacity: 0.0;
 }
 
 #tickets-oct {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
     position: absolute;
+    top: -30%;  
     opacity: 0.0;
 }
 
 
 #people-long {
-    display: none;
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
+    position: absolute;
+    top: -25%;
+    opacity: 0.0;
 }
 
 #people-oct {
-    display: none;
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
+    position: absolute;
+    top: -30%;
+    opacity: 0.0;
 }
 
 #lines-long {
-    display: none;
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
+    position: absolute;
+    top: -25%;
+    opacity: 0.0;
 }
 
 #lines-oct {
-    display: none;
-}*/
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
+    position: absolute;
+    top: -30%;
+    opacity: 0.0;
+}
 
 /*#bottom-star {
     width: inherit;
