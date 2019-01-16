@@ -94,7 +94,7 @@ class Jello {
     // An array of images for background (.jpg)
     // They'll transition in the order listed below
     this.bgArray.push(
-      "https://i.imgur.com/BDa5djf.jpg",
+      "https://i.imgur.com/gdw12p6.jpg",
       // "https://i.imgur.com/hb8v1Qd.jpg",
       "https://i.imgur.com/Z8LQt3Z.jpg",
       "https://i.imgur.com/UQkB2Lo.jpg",
