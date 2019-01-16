@@ -3,21 +3,23 @@
 //Hover events for portal-a/b/c/d - displays information about respective pages
 
 function dispAbout() {
-    document.getElementById("bottom-panel-left").innerHTML = "<h1>ABOUT display</h1>";
-    document.getElementById("bottom-panel-right").innerHTML = "<h1>ABOUT display</h1>";
+    document.getElementById("long-window-text").innerHTML = "<h1>ABOUT display</h1>";
+    document.getElementById("oct-window-text").innerHTML = "<h1>ABOUT display</h1>";
 }
 
 function dispTickets() {
-    document.getElementById("bottom-panel-left").innerHTML = "<h1>TICKETS display</h1>";
-    document.getElementById("bottom-panel-right").innerHTML = "<h1>TICKETS display</h1>";
+    document.getElementById("long-window-text").innerHTML = "<h1>TICKETS display</h1>";
+    document.getElementById("oct-window-text").innerHTML = "<h1>TICKETS display</h1>";
 }
 
 function dispPeople() {
-    document.getElementById("bottom-panel-right").innerHTML = "<h1>PEOPLE display</h1>";
+    document.getElementById("long-window-text").innerHTML = "<h1>PEOPLE display</h1>";
+    document.getElementById("oct-window-text").innerHTML = "<h1>PEOPLE display</h1>";
 }
 
 function dispLines() {
-    document.getElementById("bottom-panel-right").innerHTML = "<h1>LINES display</h1>";
+    document.getElementById("long-window-text").innerHTML = "<h1>LINES display</h1>";
+    document.getElementById("oct-window-text").innerHTML = "<h1>LINES display</h1>";
 }
 
 
