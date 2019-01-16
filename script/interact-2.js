@@ -360,3 +360,12 @@ $("#bottom-panel-left").hover(function() {
 $("#bottom-panel-right").hover(function() {
   $(".js-toggle-distortion").trigger("click");
 });
+
+$("#merch-window").hover(function() {
+  $(".js-toggle-distortion").trigger("click");
+});
+
+
+$("#nav-window").hover(function() {
+  $(".js-toggle-distortion").trigger("click");
+});
