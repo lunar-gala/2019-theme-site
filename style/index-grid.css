@@ -258,6 +258,64 @@ p {
     background-size: cover;
 }
 
+#long-window-text {
+    width: inherit;
+    height: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+#oct-window-text {
+    width: inherit;
+    height: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+/*
+
+#about-long {
+    position: absolute;
+    opacity: 1;
+}
+
+#about-oct {
+    position: absolute;
+    opacity: 1;
+}
+
+#tickets-long {
+    position: absolute;
+    opacity: 0.0;
+}
+
+#tickets-oct {
+    position: absolute;
+    opacity: 0.0;
+}
+
+
+#people-long {
+    display: none;
+}
+
+#people-oct {
+    display: none;
+}
+
+#lines-long {
+    display: none;
+}
+
+#lines-oct {
+    display: none;
+}*/
+
 /*#bottom-star {
     width: inherit;
     height: calc(100vh / 3);
@@ -352,8 +410,6 @@ p {
   height: 15%;
   width: 40%;
   position: relative;
-
-
 }
 
 .logo-star {
