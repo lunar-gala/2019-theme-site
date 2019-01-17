@@ -313,12 +313,11 @@ h1 span {
   .svg-top {
     display: block;
   }
-  #logo-star {
-    
-    margin-top: 21%;
-    margin-bottom: 0.6em;
-    height: 15%;
-    width: 35%;
+#logo-star {
+    margin: auto;
+    /* margin-bottom: 0.6em; */
+    height: 2.8em;
+    width: 2.8em;
     position: relative;
 }
   .top {

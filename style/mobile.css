@@ -502,16 +502,16 @@ body {
     cursor: pointer;
   }
 
-  #logo-star {
+  #star {
     pointer-events: none;
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
-    -webkit-transform: translate(25%, 25%) rotate(45deg);
-    transform: translate(25%, 25%) rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform:  rotate(45deg);
     transform-origin: center center;
   }
 
-  #nav-window.open #logo-star {
+  #nav-window.open #star {
     -webkit-transform: translate(0, 0) rotate(0deg);
     transform: translate(0, 0) rotate(0deg);
   }
