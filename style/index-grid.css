@@ -38,6 +38,25 @@ h2 {
 
 }
 
+h3 {
+  font-family: 'Mad Serif Fill';
+    text-align: center;
+    font-size: 2.8em;
+
+    color: #101011;
+    text-align: center;
+}
+
+
+h4 {
+  font-family: 'Gotham Narrow Book';
+    text-align: center;
+    font-size: 2.8em;
+
+    color: #101011;
+    text-align: center;
+}
+
 p {
     font-family: 'Gotham Narrow Medium';
     text-align: center;
@@ -236,6 +255,9 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     /*z-index: 10;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*#bottom-panel-right {
@@ -256,112 +278,45 @@ p {
     background-image: url('../images/archFrames/dark-oct_window.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    
 }
 
-#about-long {
-    width: 100%;
+#about-long, #tickets-long, #people-long, #lines-long {
+    width: 80%;
     height: inherit;
-    display: flex;
+    
     align-items: center;
     justify-content: center;
     background-color: transparent;
-
-    position: absolute;
-    top: -25%;
+    
+    margin-top: 32%;
     opacity: 0.0;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#about-oct {
-    width: 100%;
-    height: inherit;
-    display: flex;
+#about-long:after, #about-oct:after, #tickets-long:after, #tickets-oct:after, #people-long:after, #people-oct:after, #lines-long:after, #lines-oct:after{
+  width: 0;
+}
+
+#about-oct, #tickets-oct, #people-oct, #lines-oct {
+    width: 80%;
+    height: 25%;
     align-items: center;
     justify-content: center;
     background-color: transparent;
-
-    position: absolute;
-    top: -30%;
+    margin-top: 32%;
     opacity: 0.0;
-}
-
-#tickets-long {
-    width: 100%;
-    height: inherit;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-
     position: absolute;
-    top: -25%;
-    opacity: 0.0;
-}
-
-#tickets-oct {
-    width: 100%;
-    height: inherit;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-
-    position: absolute;
-    top: -30%;  
-    opacity: 0.0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-#people-long {
-    width: 100%;
-    height: inherit;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
 
-    position: absolute;
-    top: -25%;
-    opacity: 0.0;
-}
-
-#people-oct {
-    width: 100%;
-    height: inherit;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-
-    position: absolute;
-    top: -30%;
-    opacity: 0.0;
-}
-
-#lines-long {
-    width: 100%;
-    height: inherit;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-
-    position: absolute;
-    top: -25%;
-    opacity: 0.0;
-}
-
-#lines-oct {
-    width: 100%;
-    height: inherit;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-
-    position: absolute;
-    top: -30%;
-    opacity: 0.0;
-}
 
 /*#bottom-star {
     width: inherit;
