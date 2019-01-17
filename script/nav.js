@@ -69,6 +69,6 @@ function hideBack() {
     document.getElementById("logo-star").innerHTML = "<img src='images/archFrames/dark-star.svg' style='transform: rotate(45deg)'>"; 
 }
 
-function goBack() {
-    location.href = "index.html";
+if (window.innerWidth > 800) {
+    function goBack() { location.href = "index.html"; }
 }
