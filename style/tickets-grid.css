@@ -88,11 +88,11 @@ p { /* information font */
 #nav-window {
   cursor: pointer;
 }
-/*#nav-window:hover > #logo-star {
+#nav-window:hover > #logo-star {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
-*/
+
 #nav-window {
    /*outline: solid #96969D;*/
     /*outline-width: 2px;*/
@@ -319,6 +319,11 @@ h1 span {
     height: 2.8em;
     width: 2.8em;
 }
+
+#nav-window:hover > #logo-star {
+  transform: none;
+  -webkit-transform: none);
+}
   .top {
       height: 10vh;
   }
@@ -369,6 +374,8 @@ h1 span {
   .bottom div:after {
   width: 0px !important; 
 }
+
+
 
 
 }
