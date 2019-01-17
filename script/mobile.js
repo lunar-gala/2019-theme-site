@@ -1,4 +1,7 @@
-
+$("#nav-window").click(function() {
+  $(".mobile-menu").toggleClass("open");
+  $("#nav-window").toggleClass("open");
+});
 
 var text = new Swiper(".text", {
   slidesPerView: "auto",
