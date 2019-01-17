@@ -124,6 +124,17 @@ a {
     width: 7em;
     position: relative;
 }
+#title-1:hover {
+  /*border-bottom: solid  #96969D 2px;*/
+  /*text-decoration: underline;*/
+  letter-spacing: 0.03em;
+}
+
+#title-1 {
+  letter-spacing: 0;
+  transition:1s ease;
+  text-align: left;
+}
 
 #logo-star img{
    
