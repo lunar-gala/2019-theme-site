@@ -323,6 +323,7 @@ p {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
+        transition: all 0.5s ease;
 }
 
 #about-long:after, #about-oct:after, #tickets-long:after, #tickets-oct:after, #people-long:after, #people-oct:after, #lines-long:after, #lines-oct:after{
@@ -339,6 +340,7 @@ p {
     opacity: 0.0;
     position: absolute;
     margin-left: auto;
+        transition: all 0.5s ease;
     margin-right: auto;
 }
 
