@@ -68,6 +68,10 @@ p { /* information font */
     line-height: 1.2em;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .top div img, .bottom div img { 
     z-index: -5;
     object-fit: cover;
