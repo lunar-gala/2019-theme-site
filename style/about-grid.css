@@ -32,10 +32,17 @@ h2 { /* information subsection title font */
 }
 
 h3 { /* information subsection title font */
-    font-size: 1.2em;
-    font-family: 'Gotham Narrow Book';
+    font-size: 2.3em;
+    line-height: 1.2em;
+    font-family: 'Gotham Narrow Thin';
     color: #96969D;
     text-align: left;
+
+    /*font-size: 1.2em;
+    font-family: 'Gotham Narrow Thin';
+    color: #96969D;
+    text-align: left;
+    line-height: 1.2em;*/
 }
 
 h4 {
@@ -44,12 +51,22 @@ h4 {
     font-family: 'Gotham Narrow Book';
     color: #96969D;
     text-align: left;
+
+   /* font-size: 1.2em;
+    font-family: 'Gotham Narrow Book';
+    color: #96969D;
+    text-align: left;*/
 }
 h5 {
-    font-size: 1em;
+    /*font-size: 1em;
     font-family: 'Mad Serif Fill';
     color: #96969D;
-    text-align: center;
+    text-align: center;*/
+
+    font-size: 1.2em;
+    font-family: 'Gotham Narrow Book';
+    color: #96969D;
+    text-align: left;
   }
 
 h6{
