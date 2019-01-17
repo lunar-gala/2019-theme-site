@@ -494,12 +494,21 @@ body {
     width: 100%;
   }
 
-  .mobile-menu ul li {
-    color: #999;
+  .mobile-menu ul li{
+    color: #96969D;
     font-size: 40px;
+    text-decoration: none;
     font-family: "Mad Serif Fill";
     margin-bottom: 50px;
     cursor: pointer;
+  }
+  .mobile-menu ul li a {
+    text-decoration: none !important;
+  }
+
+  .mobile-menu ul li a:visited {
+    /*text-decoration: none !important;*/
+    color: #96969D;
   }
 
   #star {
