@@ -132,6 +132,7 @@ p { /* information font */
     background-color: #101011;
 }
 
+@media(min-width: 801px) {
 #logo-star {
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
@@ -146,6 +147,7 @@ p { /* information font */
 #nav-window:hover > #logo-star {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+}
 }
 
 
