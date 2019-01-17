@@ -51,6 +51,11 @@ class Jello {
       this.imgHeight = window.innerHeight*2;
     }
 
+    if (window.innerHeight < 1000) {
+      this.imgWidth = window.innerWidth*1.25;
+      this.imgHeight = window.innerHeight*2;
+    }
+
     this.imgRatio = this.imgHeight / this.imgWidth;
     this.winWidth = window.innerWidth;
     this.bgArray = [];
