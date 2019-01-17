@@ -1,6 +1,11 @@
 $("#nav-window").click(function() {
-  $(".mobile-menu").toggleClass("open");
-  $("#nav-window").toggleClass("open");
+  
+  if (window.innerWidth > 801) {
+    location.href = "index.html"; 
+  } else {
+    $(".mobile-menu").toggleClass("open");
+    $("#nav-window").toggleClass("open");
+  }
 });
 
 var text = new Swiper(".text", {
