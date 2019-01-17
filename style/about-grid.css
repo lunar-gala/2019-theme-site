@@ -62,7 +62,7 @@ h6{
 
 p { /* information font */
     font-size: 1.2em;
-    font-family: 'Gotham Narrow Thin';
+    font-family: 'Gotham Narrow Book';
     color: #96969D;
     text-align: left;
     line-height: 1.2em;
@@ -168,9 +168,7 @@ p { /* information font */
     float: none;
 }
 
-#wrapper {
-  overflow: scroll;
-}
+
 
 #about-main-info {
     outline-offset: -3px;
@@ -180,7 +178,7 @@ p { /* information font */
     background-color: #101011;
     padding: 2.3%;
     word-wrap: break-word;
-    /*overflow: scroll;*/
+    overflow: scroll;
 }
 
 #about-main-info div:before{
@@ -235,7 +233,7 @@ p { /* information font */
 .bottom div:after {
   content: "";
   position: absolute;
-  height: 180%;
+  height: 195%;
   width: 2px;
   background: #96969D;
   right: 0px;
