@@ -82,7 +82,8 @@ p { /* information font */
     font-family: 'Gotham Narrow Book';
     color: #96969D;
     text-align: left;
-    line-height: 1.2em;
+    line-height: 1.3em;
+    width: 85%;
 }
 
 .top div img, .bottom div img { 
@@ -250,7 +251,7 @@ p { /* information font */
 .bottom div:after {
   content: "";
   position: absolute;
-  height: 195%;
+  height: 255%;
   width: 2px;
   background: #96969D;
   right: 0px;
@@ -338,12 +339,21 @@ h1 span {
   h1 span {
     display: inline;
   }
+
+  p { /* information font */
+    
+    width: 100%
+}
+
   body {
     overflow-y: visible !important;
   }
   .svg-top {
     display: block;
   }
+
+
+
 #logo-star {
     margin: auto;
     /* margin-bottom: 0.6em; */
