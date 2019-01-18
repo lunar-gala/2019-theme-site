@@ -43,7 +43,7 @@ class Jello {
     this.options = options;
     this.canvasHolder = document.getElementById("jello-container");
     this.imgWidth = 10000;
-    this.imgHeight =  10;
+    this.imgHeight =  100;
     this.imgRatio = this.imgHeight / this.imgWidth;
     this.winWidth = window.innerWidth;
     this.bgArray = [];
