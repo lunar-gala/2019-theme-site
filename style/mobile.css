@@ -465,6 +465,12 @@ body {
   }
 }
 
+.jello-container {
+ position: fixed;
+ -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
 @media(max-width: 800px) {
   .mobile-background {
     position: fixed;
@@ -473,6 +479,7 @@ body {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     z-index: -10;
+    opacity: 1 !important;
   }
   .jello-container {
     display: none; 
@@ -540,10 +547,6 @@ body {
   }
 }
 
-.jello-container {
- position: fixed;
- -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
+
 
 
