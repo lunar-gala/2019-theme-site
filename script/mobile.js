@@ -1,16 +1,16 @@
 $("#nav-window").click(function() {
   
-  if (window.innerWidth > 801) {
+ /* if (window.innerWidth > 801) {
     location.href = "index.html"; 
-  } else {
+  } else {*/
     $(".mobile-menu").toggleClass("open");
     $("#nav-window").toggleClass("open");
     if ($(".mobile-menu").hasClass("open")) {
       $(".svg-top").css({position: 'fixed'});
-       $(".mobile-footer").css({display: 'none'});
+      $(".mobile-footer").css({display: 'none'});
     }
 
-  }
+  /*}*/
 });
 
 if (window.innerWidth < 800) {
