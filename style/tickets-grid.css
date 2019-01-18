@@ -22,6 +22,8 @@ h1 { /* section title font */
     font-family: 'Mad Serif Fill';
     color: #96969D;
     text-align: left;
+    letter-spacing: -0.02em;
+
 }
 
 h2 { /* information subsection title font */
@@ -373,6 +375,7 @@ h1 span {
     line-height: 7vh;
     display: block;
     border-top: solid #96969D 2px; 
+    background-color: #101110;
   }
 
   .mobile-only {
