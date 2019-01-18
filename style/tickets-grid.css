@@ -375,6 +375,7 @@ h1 span {
     line-height: 7vh;
     display: block;
     border-top: solid #96969D 2px; 
+    background-color: #101110;
   }
 
   .mobile-only {
