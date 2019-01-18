@@ -8,7 +8,11 @@ $("#nav-window").click(function() {
     if ($(".mobile-menu").hasClass("open")) {
       $(".svg-top").css({position: 'fixed'});
       $(".mobile-footer").css({display: 'none'});
-    } 
+    } else {
+      $(".mobile-menu").addEventListener('touchstart', function(e){
+        e.preventDefault();
+      }); 
+    }
 
   }
 });
