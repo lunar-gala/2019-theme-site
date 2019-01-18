@@ -421,3 +421,9 @@ h1 span {
 
 
 }
+
+
+.mobile-background {
+   background-size: cover;
+   background-image: url("../images/backdrops/1.jpg);       
+}
