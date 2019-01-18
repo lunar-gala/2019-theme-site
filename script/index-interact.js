@@ -44,11 +44,12 @@ class Jello {
     this.canvasHolder = document.getElementById("jello-container");
     this.imgWidth = 2000;
     this.imgHeight =  1000;
-      /*
+  
     if (window.innerWidth < 800) {
       this.imgWidth = 500;
       this.imgHeight =  500;
-    }*/
+    }
+      
     this.imgRatio = this.imgHeight / this.imgWidth;
     this.winWidth = window.innerWidth;
     this.bgArray = [];
@@ -92,10 +93,10 @@ class Jello {
     // An array of images for background (.jpg)
     // They'll transition in the order listed below
     this.bgArray.push(
-      "https://i.imgur.com/gdw12p6.jpg",
+      "../images/backdrops/1.jpg",
       // "https://i.imgur.com/hb8v1Qd.jpg",
-      "https://i.imgur.com/Z8LQt3Z.jpg",
-      "https://i.imgur.com/UQkB2Lo.jpg",
+      "../images/backdrops/2.jpg",
+      "../images/backdrops/3.jpg",
       "../images/backdrops/4.jpg",
     );
 
