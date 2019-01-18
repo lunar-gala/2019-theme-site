@@ -253,7 +253,7 @@ p {
   background-image: url('../images/archFrames/dark-arch_short2.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    /*background-position: center;*/
     /*background-color: #555555;*/
    outline:#eee;
 }
