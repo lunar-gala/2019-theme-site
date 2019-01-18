@@ -9,6 +9,7 @@ $("#nav-window").click(function() {
       $(".svg-top").css({position: 'fixed'});
       $(".mobile-footer").css({display: 'none'});
     } else {
+      $(".svg-top").css({position: 'relative'});
       $(".mobile-menu").addEventListener('touchstart', function(e){
         e.preventDefault();
       }); 
