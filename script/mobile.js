@@ -5,6 +5,7 @@ $("#nav-window").click(function() {
   } else {
     $(".mobile-menu").toggleClass("open");
     $("#nav-window").toggleClass("open");
+    $(".svg-top").css({position: 'fixed'});
   }
 });
 

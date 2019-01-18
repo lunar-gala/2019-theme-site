@@ -374,3 +374,7 @@ $("#merch-window").hover(function() {
 $("#nav-window").hover(function() {
   $(".js-toggle-distortion").trigger("click");
 });
+
+
+
+
