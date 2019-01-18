@@ -1,6 +1,6 @@
 $("#nav-window").click(function() {
   
- /* if (window.innerWidth > 801) {
+  if (window.innerWidth > 801) {
     location.href = "index.html"; 
   } else {*/
     $(".mobile-menu").toggleClass("open");
@@ -9,9 +9,8 @@ $("#nav-window").click(function() {
       $(".svg-top").css({position: 'fixed'});
       $(".mobile-footer").css({display: 'none'});
     } 
-  alert("test");
 
-  /*}*/
+  }
 });
 
 if (window.innerWidth < 800) {
