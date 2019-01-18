@@ -203,6 +203,7 @@ a {
     word-wrap: break-word;
     background-color: #101011;
     padding: 2.3%;
+    overflow: scroll;
 }
 
 #ticket-info img, #merch-info img {

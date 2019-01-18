@@ -311,7 +311,7 @@ p {
 }
 
 #about-long, #tickets-long, #people-long, #lines-long {
-    width: 53%;
+    width: 80%;
     height: inherit;
     
     align-items: center;
