@@ -2,7 +2,7 @@ $("#nav-window").click(function() {
   
   if (window.innerWidth > 801) {
     location.href = "index.html"; 
-  } else {*/
+  } else {
     $(".mobile-menu").toggleClass("open");
     $("#nav-window").toggleClass("open");
     if ($(".mobile-menu").hasClass("open")) {
