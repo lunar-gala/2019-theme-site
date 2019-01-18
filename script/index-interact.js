@@ -45,10 +45,10 @@ class Jello {
     this.imgWidth = 3000;
     this.imgHeight =  1500;
   
-    if (window.innerWidth < 800) {
+    /*if (window.innerWidth < 800) {
       this.imgWidth = 500;
       this.imgHeight =  500;
-    }
+    }*/
       
     this.imgRatio = this.imgHeight / this.imgWidth;
     this.winWidth = window.innerWidth;
