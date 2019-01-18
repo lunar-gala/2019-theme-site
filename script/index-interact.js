@@ -42,8 +42,16 @@ class Jello {
     this.defaults = {};
     this.options = options;
     this.canvasHolder = document.getElementById("jello-container");
-    this.imgWidth = 3000;
-    this.imgHeight =  2100;
+    
+     if (window.innerWidth > 1400) {
+      this.imgWidth = window.innerWidth*2;
+
+      this.imgHeight = window.innerHeight*2;
+    } else {
+      this.imgWidth = window.innerWidth*2;
+      this.imgHeight = window.innerHeight*2;
+    }
+  
   
     if (window.innerWidth < 800) {
       this.imgWidth = 500;
@@ -93,11 +101,11 @@ class Jello {
     // An array of images for background (.jpg)
     // They'll transition in the order listed below
     this.bgArray.push(
-      "../images/backdrops/1.jpg",
+      "images/backdrops/1.jpg",
       // "https://i.imgur.com/hb8v1Qd.jpg",
-      "../images/backdrops/2.jpg",
-      "../images/backdrops/3.jpg",
-      "../images/backdrops/4.jpg",
+      "images/backdrops/2.jpg",
+      "images/backdrops/3.jpg",
+      "images/backdrops/4.jpg",
     );
 
     // An array of displacement maps
