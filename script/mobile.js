@@ -9,12 +9,14 @@ $("#nav-window").click(function() {
       $(".svg-top").css({position: 'fixed'});
        $(".mobile-footer").css({display: 'none'});
     }
-    else {
-      $(".mobile-footer").css({position: 'block'});
-    }
-    
+
   }
 });
+
+if (window.innerWidth < 800) {
+  $(".mobile-footer").css({position: 'block'});
+}
+    
 
 var text = new Swiper(".text", {
   slidesPerView: "auto",
