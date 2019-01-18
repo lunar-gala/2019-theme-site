@@ -42,7 +42,7 @@ class Jello {
     this.defaults = {};
     this.options = options;
     this.canvasHolder = document.getElementById("jello-container");
-    if (window.innerWidth > 1400) {
+    if (window.innerWidth > 1000) {
     this.imgWidth = 1000;
     this.imgHeight =  500;
     } else {
