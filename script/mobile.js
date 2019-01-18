@@ -5,7 +5,14 @@ $("#nav-window").click(function() {
   } else {
     $(".mobile-menu").toggleClass("open");
     $("#nav-window").toggleClass("open");
-    $(".svg-top").css({position: 'fixed'});
+    if ($(".mobile-menu").hasClass("open")) {
+      $(".svg-top").css({position: 'fixed'});
+       $(".mobile-footer").css({display: 'none'});
+    }
+    else {
+      $(".mobile-footer").css({position: 'block'});
+    }
+    
   }
 });
 
