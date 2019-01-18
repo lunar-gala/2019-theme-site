@@ -58,15 +58,15 @@ h4 {
     text-align: left;*/
 }
 h5 {
-    /*font-size: 1em;
+    font-size: 1em;
     font-family: 'Mad Serif Fill';
     color: #96969D;
-    text-align: center;*/
+    text-align: center;
 
-    font-size: 1.2em;
+   /* font-size: 1.2em;
     font-family: 'Gotham Narrow Book';
     color: #96969D;
-    text-align: left;
+    text-align: left;*/
   }
 
 h6{
@@ -365,7 +365,7 @@ h1 span {
   .bottom > div {
     width: 100vw !important;
     word-wrap: normal !important;
-    height: 75vh !important;
+    /*height: 75vh !important;*/
   }
 
   .bottom div {
@@ -375,7 +375,7 @@ h1 span {
   .bottom > div {
     width: 100vw !important;
     word-wrap: normal !important;
-    height: 75vh !important;
+    /*height: 75vh !important;*/
     float: none;
   }
 
@@ -390,7 +390,7 @@ h1 span {
     height: 7vh;
     line-height: 7vh;
     display: block;
-    border-top: solid #96969D 2px; 
+    /*border-top: solid #96969D 2px; */
   }
 
   .mobile-only {
