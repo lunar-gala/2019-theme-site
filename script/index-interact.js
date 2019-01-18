@@ -44,10 +44,11 @@ class Jello {
     this.canvasHolder = document.getElementById("jello-container");
     this.imgWidth = 2000;
     this.imgHeight =  1000;
+      /*
     if (window.innerWidth < 800) {
       this.imgWidth = 500;
       this.imgHeight =  500;
-    }
+    }*/
     this.imgRatio = this.imgHeight / this.imgWidth;
     this.winWidth = window.innerWidth;
     this.bgArray = [];
