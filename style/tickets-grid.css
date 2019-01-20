@@ -317,6 +317,9 @@ h1 span {
 }
 
 @media(max-width: 800px) {
+  a {
+     padding: 3px; 
+    }
   h1 {
       font-size: 7.77em;
 
@@ -404,3 +407,5 @@ h1 span {
    background-size: cover;
    background-image: url("../images/backdrops/2.jpg");       
 }
+
+
