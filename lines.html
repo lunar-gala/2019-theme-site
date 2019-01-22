@@ -8,34 +8,100 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/3.0.1/pixi.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fitty.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+        <script>
+            fitty('h1');
+        </script>
+        <script src="script/nav.js"></script>
+        
 
-        <script src="../script/back.js"></script>
-        <script>fitty('h1');</script>
-
+        <link rel="stylesheet" type="text/css" href="style/reset.css">
         <link rel="stylesheet" type="text/css" href="style/brand-font.css">
-        <link rel="stylesheet" type="text/css" href="style/lines-grid.css">
+       <!--  <link rel="stylesheet" type="text/css" href="style/index-grid.css"> -->
+
         <link rel="stylesheet" type="text/css" href="style/interact.css">
+        <link rel="stylesheet" type="text/css" href="style/lines-grid.css">
+
+        <link rel="stylesheet" type="text/css" href="style/mobile.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
     </head>
     <body>
+      <div class="mobile-background"></div>
+      <div class="mobile-menu">
+        <ul>
+            <li><a href="index.html">INDEX</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="tickets.html">TICKETS</a></li>
+            <li style="text-decoration: line-through;">PEOPLE</li>
+            <li style="text-decoration: line-through;">LINES</li>
+        </ul>
+      </div>
         <div class="svg-top">
-            <div class="top">
-                <div id="nav-window"></div>
-                <div id="lines-marquee">
-                    <div class="marquee">
-                        <img id="a" src ="images/ANOMIE.svg"> <!-- images/LINES.svg-->
-                        <img id= "b" src ="images/ANOMIE.svg">
+           <div class="top">
+                <div id="nav-window">
+                    <div id="logo-star">
+                        <img id="star" src="images/archFrames/dark-star.svg" >
+                    </div>
+                </div>
+                <div id="ticket-marquee">
+                    <div class="marquee page">
+                        <img id="a" src ="images/LINES.svg">
+                        <img id= "b" src ="images/LINES.svg">
                     </div>
                 </div>
             </div>
-            
+
             <div class="bottom">
-                <div id="quad-a"></div>
-                <div id="quad-b"></div>
-                <div id="quad-c"></div>
-                <div id="quad-d"></div>
+                <div id="about-main-info">
+                    
+                   <ul class="lines-list">
+                        <li>Lucid</li>
+                        <li>Lautus</li>
+                        <li>Nautico</li>
+                        <li>Grip</li>
+                        <li>Re;born</li>
+                        <li>Fete</li>
+                        <li>Eden</li>
+                        <li>Synergy:Coexist</li>
+                        <li>Found</li>
+                        <li>Opaque</li>
+                        <li>Alluminarie</li>
+                        <li>Broque</li>
+                        <li>Beaux</li>
+                        <li>Shibui</li>
+                        <li>Phantasus</li>
+                        <li>Alumni Line</li>
+                        <li>Unpoetic Beauty</li>
+                        <li>Lachesism</li>
+                        <li>Slog</li>
+                        <li>Urban Nomads</li>
+                    </ul>
+                </div>
+            
+                 <div id="merch-info" >
+<!--                     <h4>SHOW INFORMATION</h4>
+                    <h1>03 / 02</h1>
+                    <br>
+
+
+                    <h3>20:00-22:00</h3>
+                    
+                    <h3>WIEGAND GYM •<br>COHEN UNIVERSITY CENTER</h3>
+
+                    <h4><BR>SPONSORS</h4>
+                    <img src="images/sponsors/wvu.png">
+                    <img src="images/sponsors/Style412.png">
+                    <img src="images/sponsors/cmoa.png"> -->
+
+                </div>
+                <div id="merch-window"></div>
+                
             </div>
         </div>
-
+            <div class="mobile-footer">
+                <h5>LUNAR GALA • 2019 • ANOMIE</h5>
+            </div>
       <div id="jello-container" class="jello-container">
         <div class="jello-controls ghost">
           <div class="jello-controls__wrap ghost__child">
@@ -53,6 +119,10 @@
         </div>
       <canvas class="jello-canvas"></canvas>
     </div>
+            
 
     </body>
+    
+    <script src="script/interact-5.js"></script>
+    <script src="script/mobile.js"></script>
 </html>
