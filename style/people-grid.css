@@ -374,7 +374,9 @@ h1 span {
 
 @media(max-width: 800px) {
   h1 {
-          font-size: 6.37em;
+          font-size: 4.5em;
+          text-align: center;
+          margin: 0 !important;
 
   }
 
@@ -431,6 +433,12 @@ h1 span {
     float: none;
   }
 
+  #about-main-info {
+    padding: 0;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5% !important;
+  }
 
 
   #ticket-info, #merch-info {
@@ -460,9 +468,48 @@ h1 span {
   .bottom div:after {
   width: 0px !important; 
 }
-
-
+  
+#short-nav-wrapper {
+  display: none;
 }
+
+#short-nav-wrapper-mobile {
+      height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+        /*border: solid red;*/
+    background-color: black;
+  }
+
+  #people-short-nav-mobile {
+    /*border: solid green;*/
+    /*position: fixed;*/
+    height: 8vh;
+    width: 88%;
+    z-index: 100;
+    /* left: -1.2em; */
+    display: flex;
+        left: 5%;
+}
+ #ul-mobile {
+    list-style: none;
+    display: inherit;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: inherit;
+
+  }
+  #people-short-nav-mobile ul li {
+    transform: none;
+        font-size: 1em;
+  }
+}
+
+
+
+
 
 
 .mobile-background {
