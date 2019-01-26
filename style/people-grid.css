@@ -91,7 +91,7 @@ li {
    font-size:1.9em;
     font-family: 'Gotham Narrow Book';
     color: #96969D;
-    text-align: left;
+    /*text-align: left;*/
     line-height: 1.4em;
     width: 85%;
     text-transform: uppercase;
@@ -368,7 +368,7 @@ h1 span {
   }
 }
 
-@media(min-width: 801px) {
+@media(min-width: 801px)  {
   .mobile {
     display: none;
   }
@@ -511,6 +511,40 @@ h1 span {
         font-size: 1em;
             text-align: center;
 
+  }
+  #people-magnify {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #101110;
+    left: 0;
+    z-index: 1000;
+        display: block;
+    justify-content: center;
+    align-items: center;
+    border: solid blue;
+    overflow: hidden;
+    /*scroll-behavior: n*/
+  }
+  #person-container img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+  }
+
+  #person-window img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+  }
+  #person{
+    border: solid red;
+    height: 50%;
+  }
+  #close-button {
+    outline: solid #96969D 2px;
+    text-align: center;
   }
 }
 
