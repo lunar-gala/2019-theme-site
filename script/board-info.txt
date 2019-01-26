@@ -1,153 +1,773 @@
 ### BOARD ###
 
 Jumana Akoad
+    NA
+    Producer
+    Psychology
+    Junior
+    yes
+
 Juan Aranda
+    Creative (Print)
+    Print Designer
+    Design
+    Senior
+    *no
+
 Léann Bahi
+    Entertainment
+    Head Entertainment Coordinator
+    Computer Science and Arts
+    Senior
+    *no
+
 Sebastian Carpenter
+    Design
+    Design Coordinator
+    Computer Science and Arts
+    Sophomore
+    *no
+
 Maddy Cha
+    Creative (Print)
+    Print Designer
+    Design, Human-Computer Interaction
+    Junior
+    *no
+
 Sophie Chen
+    Creative (Motion)
+    Motion Coordinator
+    Drama
+    Senior
+    yes
+
 Helen Cheng
-Hee Seo Chung
+    PR
+    Press/Sponsor Liaison
+    Business Administration
+    Sophomore
+    yes
+
+Ikjong Choi
+    *
+    *
+    *
+    *
+    yes
+
+Hee Seo Chun
+    Creative (Print)
+    Print Designer
+    Design
+    Senior
+    yes
+
 Kenny Cohen
+    NA
+    Producer
+    Information Systems
+    Senior
+    yes
+
 Alice Fang
+    PR
+    PR Team
+    Design
+    Sophomore
+    yes
+
 Bill Gao
+    Modeling
+    Modeling Coordinator
+    Economics
+    Sophomore
+    *no
+
 Lindsay Glick
+    Creative (Photography)
+    Photographer
+    English
+    Sophomore
+    yes
+
 Anna Gusman
+    Creative
+    Creative Coordinator
+    Design
+    Senior
+    yes
+
 Matthew Henderson
+    Creative (Web)
+    Web Designer
+    Computer Science
+    Sophomore
+    yes
+
 Zain Islam-Hashmi
+    Design
+    Head Design Coordinator
+    Architecture
+    5th Year Senior
+    *no
+
 Elisabeth Iszauk
+    Entertainment
+    Entertainment Coordinator
+    Biological Sciences
+    Junior
+    *no
+
 Christina Jin
+    Creative (Photography)
+    Head Photography Coordinator
+    Business Administration, Human-Computer Interaction
+    Senior
+    yes
+
 Faith Kim
+    Creative (Print)
+    Print Coordinator
+    Design
+    Senior
+    yes
+
 Lily Kincannon
+    Production
+    Assistant Production Designer
+    Drama
+    Sophomore
+    *no
+
 Rachel Kolb
+    Production
+    Sound Designer
+    Drama
+    Sophomore
+    *no
+
+John Lee
+    Creative (Motion)
+    *
+    Design
+    Senior
+    *no
+
 Katherine Li
+    PR
+    Press/Sponser Liaison
+    Mathematical Sciences, Institute for Politics and Strategy
+    Junior
+    *no
+
 Shannon Lin
+    Creative (Web)
+    Web Designer
+    Design, Human-Computer Interaction
+    Senior
+    yes
+
 Emma Liu
+    Creative (Web)
+    Web Developer
+    Computer Science
+    Sophomore
+    yes
+
 Sam Molitoriss
+    Production
+    Production Designer
+    Drama
+    Senior
+    *no
+
 Ruhani Mumick
+    NA
+    Producer
+    Biological Sciences
+    Senior
+    yes
+
+Jonathan Perez
+    PR, Creative (Photography)
+    *
+    Creative Writing
+    Junior
+    *no
+
 Michael Powell
+    Design
+    Design Coordinator
+    Architecture
+    Senior
+    *no
+
 Emma Reichard
+    Production
+    Production Manager
+    Drama
+    Senior
+    *no
+
 Erin Ryan
+    Creative (Motion)
+    Motion Designer
+    Design
+    Junior
+    yes
+
 Andre Segar
+    Production
+    Assistant Production Designer
+    Drama
+    Sophomore
+    *no
+
 Lily Shan
+    PR
+    Social Media Chair
+    Business Administration
+    Sophomore
+    *no
+
 Margaret Shumate
+    Production
+    Assistant Sound Designer
+    Drama
+    Freshman
+    *no
+
 Jessica Timczyk
+    Modeling
+    Modeling Coordinator
+    General (Dietrich)
+    Sophomore
+    *no
+
 Alexandra Van Praag
+    Modeling
+    Modeling Coordinator
+    Mathematical Sciences
+    Sophomore
+    *no
+
 Charles Wang
+    Creative (Photography)
+    Photographer
+    Business Administration
+    Junior
+    *no
+
+Sherry Wu
+    Creative (Web)
+    Web Designer
+    Design
+    Junior
+    yes
+
 Vicky Zhou
+    Creative (Print)
+    Printer Designer
+    Design
+    Sophomore
+    *no
+
 Ugne Ziausyte
+    Modeling
+    Head Modeling Coordinator
+    Biological Sciences
+    Junior
+    *no
 
 
 
+### DESIGNERS ###
 
-### BOARD ###
 
 Mariana Alberola Rezza
+    Architecture
+    Masters
+    *no
+
 Katie Boyle
+    Economics
+    Senior
+    *no
+
 Ashley Burbano
+    Design
+    Freshman
+    *no
+
 Lily Cunicelli
+    Drama
+    Sophomore
+    *no
+
 Charlotte Deiss
+    Electrical & Computer Engineering
+    Senior
+    *no
+
 Daniela Delgado
+    Design
+    Sophomore
+    *no
+
 Vincent DeRienzo
+    Architecture
+    Junior
+    *no
+
 Alice Fang
+    Design
+    Sophomore
+    yes
+
 Yang Gao
+    Architecture
+    5th Year Senior
+    *no
+
 Zain Islam-Hashmi
+    Architecture
+    5th Year Senior
+    *no
+
 Min Young Jeong
+    Architecture
+    Senior
+    *no
+
 Mimi Jiao
-Rishi Karthikeyan 
+    Design
+    Sophomore
+    *no
+
+Rishi Karthikeyan
+    Business Administration
+    Sophomore
+    *no
+
 Leah Kendrick
+    Architecture
+    Junior
+    *no
+
 Rebecca Kim
+    General (Dietrich)
+    Freshman
+    *no
+
 Yoon Young Kim
+    Design, Human-Computer Interaction
+    Junior
+    *no
+
 Sophia Kim
+    Design
+    Sophomore
+    *no
+
 HaeWann (Christine) Kim
+    Architecture
+    Senior
+    *no
+
 Chaeyun (Sophie) Lee
+    Architecture
+    5th Year Senior
+    *no
+
 Nicole Lee-Park
+    Modern Languages, Architecture
+    5th Year Senior
+    *no
+
 Xiaoying Meng
+    Architecture
+    Junior
+    *no
+
 Tyng Peck
+    Architecture
+    Junior
+    *no
+
 David Perry
+    General (MCS)
+    Junior
+    *no
+
 Laura Riviere
+    General (Dietrich)
+    Sophomore
+    *no
+
 Jaclyn Saik
+    Design
+    Sophomore
+    *no
+
 Somin Shim
+    Architecture
+    Senior
+    *no
+
 Stephanie Smid
+    Architecture
+    Masters
+    *no
+
 D.K. Wang
+    Architecture
+    5th Year Senior
+    *no
+
 Veronica Wang
+    Architecture
+    5th Year Senior
+    *no
+
 Jessa Westheimer
+    Science and Arts
+    Sophomore
+    *no
+
 Arden Wolf
+    Art
+    Sophomore
+    *no
+
 Nina Yoo
+    Design
+    Sophomore
+    *no
+
 Clara Zhao
+    Architecture
+    Sophomore
+    *no
+
 Ellen Zhu
-
-
+    Architecture
+    Sophomore
+    *no
 
 
 
 ###MODELS###
 
 Xavier Apostol
+    Art
+    Senior
+    *no
+
 Graham Arthur
+    Statistics and Data Science
+    Masters
+    *no
+
 Marvin Bennett Jr.
+    Mechanical Engineering
+    Sophomore
+    *no
+
 Christopher Bright
+    Mechanical Engineering
+    Senior
+    *no
+
 Alex Brooks
+    General (Dietrich)
+    Sophomore
+    *no
+
 Monica Chang
-Tinah Chen
+    Interdisciplinary (Dietrich), Human-Computer Interaction
+    Junior
+    *no
+
+Tina Chen
+    Business Administration, Human-Computer Interaction
+    Junior
+    *no
+
 Helen Cheng
+    Business Adminsitration
+    Sophomore
+    yes
+
 Junwoo Cheong
+    Design
+    Sophomore
+    *no
+
 Julie Choi
+    Design
+    Sophomore
+    *no
+
 Hannah Cornish
+    General (Dietrich)
+    Sophomore
+    *no
+
 Baris Denizli
+    General (Dietrich)
+    Freshman
+    *no
+
 Mike Dong
+    Chemistry
+    Senior
+    *no
+
 Fiona Dubrosa
+    Social & Decision Sciences
+    Sophomore
+    *no
+
 Leah Ettensohn
+    Psychology
+    Junior
+    *no
+
 Olivia Fernau
+    General (CIT)
+    Freshman
+    *no
+
 Ashwini Ganpule
+    Mechanical Engineering, Engineering & Public Policy
+    Senior
+    *no
+
 Patrick Gao
+    Electrical & Computer Engineering
+    Sophomore
+    *no
+
 Danova Gardilcic
+    Art
+    Sophomore
+    *no
+
 Franklin Guttman
+    Design
+    Freshman
+    *no
+
 Korey Henderson
+    Biological Sciences
+    Junior
+    *no
+
 Universal Hunte
+    Art
+    Freshman
+    *no
+
 Sung Ho Hwang
+    Statistics and Data Science
+    Junior
+    *no
+
 Phil Johnson
+    General (Dietrich)
+    Sophomore
+    *no
+
 Simone Jones
+    Drama
+    Sophomore
+    *no
+
 Zoeanne Juang
+    Stastics and Data Science
+    Senior
+    *no
+
 Esther Kim
+    Biological Sciences
+    Junior
+    *no
+
 Irina Kramkova
+    General (Dietrich)
+    Freshman
+    *no
+
 Angela Lee
+    Design
+    Freshman
+    *no
+
 Julia Lee
+    Computer Science
+    Junior
+    *no
+
 Katherine Li
+    Mathematical Sciences, Institute for Politics and Strategy
+    Junior
+    *no
+
 Connor Maggio
+    Electrical & Computer Engineering
+    Senior
+    *no
+
 Terrence Mims
+    *
+    *
+    *no
+
 Catherine Mondoa
+    Materials Science & Engineering
+    Senior
+    *no
+
 Ruhani Mumick
+    Biological Sciences
+    Senior
+    yes
+
 Lera Neviadomska
+    Interdisciplinary (Dietrich)
+    Junior
+    *no
+
 Gloria Oh
+    Biological Sciences
+    Sophomore
+    *no
+
 Sammie Paul
+    Drama
+    Freshman
+    *no
+
 Jonathan Perez
+    Creative Writing, Fine Art, Computer Science
+    Junior
+    *no
+
 Martin Pillich
+    Chemical Engineering
+    Junior
+    *no
+
 Pauline Qin
+    Music
+    Freshman
+    *no
+
 Zee Salman
+    Design
+    Freshman
+    *no
+
 Julianne Sanscartier
+    Mechanical Engineering
+    Junior
+    *no
+
 Christina Sellountos
+    Art
+    Sophomore
+    *no
+
 Sachi Shah
+    Art
+    Sopmore
+    *no
+
 Francesca Starvaggi
+    Chemistry
+    Junior
+    *no
+
 Mia Venezia
-janice wan
+    Music
+    Senior
+    *no
+
+Janice Wan
+    Business Administration
+    Sophomore
+    *no
+
 Olivia Werner
+    Architecture
+    Sophomore
+    *no
+
 Mia Zurovac
-
-
+    Drama
+    Freshman
+    *no
 
 
 ###DANCERS###
 
 Alec Albright
+    Humanities and Arts
+    Junior
+    *no
+
 Amelia Chan
+    General (CIT)
+    Freshman
+    *no
+
 Amy Chen
+    Psychology
+    Senior
+    *no
+
 Sabrina Clarke
+    Philosophy
+    Senior
+    *no
+
 Albert Du
+    *
+    *
+    *no
+
 Yu Xi Lee
+    General (SCS)
+    Freshman
+    *no
+
 Miranda Lin
+    Computer Science
+    Sophomore
+    *no
+
 Julia Luo
+    Interdisciplinary (Dietrich), Human-Computer Interaction
+    Senior
+    *no
+
 Beata Purvina
+    Business Administration
+    Junior
+    *no
+
 Victoria Vanbenschoten
+    Science and Humanities Scholars
+    Senior
+    *no
+
 Sarah Wang
+    Biological Sciences
+    Junior
+    *no
+
 Chaya Wurman
+    Computational Biology
+    Senior
+    *no
