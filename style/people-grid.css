@@ -95,6 +95,7 @@ li {
     line-height: 1.4em;
     width: 85%;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .top div img, .bottom div img { 
@@ -185,6 +186,7 @@ li {
   font-family: 'Gotham Narrow Thin';
   color: #96969D;
   /*text-align: left;*/
+   cursor: pointer;
 }
 
 @media(min-width: 801px) {
