@@ -441,16 +441,17 @@ h1 span {
   }
 
 
-  #ticket-info, #merch-info {
-    height: auto !important;
-    padding: 10% 3%;
+  #merch-window, #merch-info {
+/*    height: auto !important;
+    padding: 10% 3%;*/
+    display: none;
   }
 
   .mobile-footer {
     height: 7vh;
     line-height: 7vh;
     display: block;
-    /*border-top: solid #96969D 2px; */
+    border-top: solid #96969D 2px; 
     background-color: #101110;
   }
 
@@ -475,22 +476,24 @@ h1 span {
 
 #short-nav-wrapper-mobile {
       height: 10vh;
+          border-bottom: solid #96969D 2px;
     position: sticky;
     top: 0;
     z-index: 100;
         /*border: solid red;*/
-    background-color: black;
+    background-color: #101110;
   }
 
   #people-short-nav-mobile {
     /*border: solid green;*/
     /*position: fixed;*/
-    height: 8vh;
+
     width: 88%;
     z-index: 100;
     /* left: -1.2em; */
     display: flex;
         left: 5%;
+        height: 10vh;
 }
  #ul-mobile {
     list-style: none;
@@ -504,6 +507,8 @@ h1 span {
   #people-short-nav-mobile ul li {
     transform: none;
         font-size: 1em;
+            text-align: center;
+
   }
 }
 
