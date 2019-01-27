@@ -407,11 +407,32 @@ h1 span {
     display: inline;
   }
 
+  h2 {
+     font-family: 'Mad Serif Fill';
+    color: #96969D;
+    text-align: center;
+    /*margin-left: 10%;*/
+     font-size: 4.5em;
+          text-align: center;
+          margin: 0 !important;
+  }
+
   p { /* information font */
-    
-    width: 100%
+    text-align: center;
+    width: 100%;
+        line-height: 1.5em;
+
 }
 
+  h3 {
+     font-family: 'Gotham Narrow Book';
+    color: #96969D;
+    text-align: center;
+    /*margin-left: 10%;*/
+     font-size: 1.5em;
+          text-align: center;
+          margin: 0 !important;
+  }
   body {
     overflow-y: visible !important;
   }
@@ -538,20 +559,33 @@ h1 span {
     height: 100%;
     position: fixed;
     top: 0;
-    background-color: #101110;
+    background-color:rgba(16, 17, 16, 0.95);
     left: 0;
     z-index: 1000;
         display: block;
     justify-content: center;
     align-items: center;
-    border: solid blue;
+    /*border: solid blue;*/
     overflow: hidden;
     /*scroll-behavior: n*/
   }
+
+  #person-container {
+    display: flex;
+    justify-content: center;
+  }
+
   #person-container img {
-    width: 100%;
+        left: -24%;
+    width: 160%;
     height: auto;
     position: absolute;
+    top: -3%;
+
+  }
+  #person-info {
+    margin-top: 5%;
+    /*border: solid orange;*/
   }
 
   #person-window img {
@@ -566,6 +600,13 @@ h1 span {
   #close-button {
     outline: solid #96969D 2px;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
