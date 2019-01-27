@@ -167,26 +167,36 @@ li {
 
 }
 
+#lil-ul {
+  display: inherit
+}
+
 #people-short-nav {
-  /*border: solid green;*/
-  position: fixed;
-  height: 60vh;
-  width: 8%;
-  z-index: 100;
-  left: -1.2em;
+    transform: rotate(-90deg);
+    /*border: solid green;*/
+    position: fixed;
+    height: 10vh;
+    width: 36.5%;
+    z-index: 100;
+    left: -15.6em;
+    top: 33.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #people-short-nav ul li{
-  transform: rotate(-90deg);
-  line-height: 15vh;
-  /*border: solid red;*/
-
-  font-size: 1.2em;
-  text-align: center;
-  font-family: 'Gotham Narrow Thin';
-  color: #96969D;
-  /*text-align: left;*/
-   cursor: pointer;
+      /* transform: rotate(-90deg); */
+    line-height: 1em;
+    /*border: solid red;*/
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Gotham Narrow Thin';
+    color: #96969D;
+    /* text-align: left; */
+    cursor: pointer;
+    width: 100%;
+    padding: 0 1.6em;
 }
 
 @media(min-width: 801px) {
@@ -250,7 +260,8 @@ li {
 
 #about-main-info img{
   max-width: 100%;
-  margin: auto;
+  /*margin: auto;*/
+      margin-left: 20.2em;
   display: block;
 }
 
@@ -259,13 +270,23 @@ outline-offset: -3px;
     width: calc(100vw / 4);
     height: inherit;
     float: left;
-    background-color: transparent;
+    
+}
+
+#merch-info-window {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
     background-image: url('../images/archFrames/dark-arch_tall.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
+#merch-info img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
 
 
 
@@ -608,13 +629,19 @@ h1 span {
   background: #000;
 }
 
-#about-main-info ul li.active {
-  font-size: 42px;
-  font-family: 'Mad Serif Fill';
-  padding-bottom: 50px;
+.people-list li.active {
+    font-size: 3.2em !important;
+    font-family: Mad Serif Fill !important;
+    
+
 }
 
-#about-main-info ul li span {
+.switch {
+    font-size: 1.2em !important;
+    font-family: Gotham Narrow Medium !important;
+}
+
+.people-list li span {
   font-family: 'Gotham Narrow Book';
   position: absolute;
   left: 0;
@@ -623,7 +650,7 @@ h1 span {
   font-size: 20px !important;
 }
 
-#about-main-info ul li.active span {
+.people-list li.active span {
   -webkit-transform: translate(0, 50px);
   transition: translate(0, 50px);
   z-index: 1;
