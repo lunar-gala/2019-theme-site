@@ -32,7 +32,6 @@ window.onload = function() {
     $(this).addClass("switch");
     });
 
-
- 
-
 }
+
+
