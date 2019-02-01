@@ -19,7 +19,7 @@ Léann Bahi
     Head Entertainment Coordinator
     Computer Science and Arts
     Senior
-    *no
+    yes
 
 Sebastian Carpenter
     Design
@@ -117,7 +117,7 @@ Elisabeth Iszauk
     Entertainment Coordinator
     Biological Sciences
     Junior
-    *no
+    yes
 
 Christina Jin
     Creative (Photography)
@@ -138,7 +138,7 @@ Lily Kincannon
     Assistant Production Designer
     Drama
     Sophomore
-    *no
+    yes
 
 Rachel Kolb
     Production
@@ -201,7 +201,7 @@ Michael Powell
     Design Coordinator
     Architecture
     Senior
-    *no
+    yes
 
 Emma Reichard
     Production
@@ -250,7 +250,7 @@ Alexandra Van Praag
     Modeling Coordinator
     Mathematical Sciences
     Sophomore
-    *no
+    yes
 
 Charles Wang
     Creative (Photography)
@@ -420,7 +420,7 @@ Stephanie Smid
     Masters
     *no
 
-D.K. Wang
+DK Wang
     Architecture
     5th Year Senior
     *no
@@ -659,6 +659,11 @@ Martin Pillich
     Junior
     *no
 
+Michael Powell
+    Architecture
+    Senior
+    yes
+
 Pauline Qin
     Music
     Freshman
@@ -689,6 +694,11 @@ Francesca Starvaggi
     Junior
     *no
 
+Alexandra Van Praag
+    Mathematical Sciences
+    Sophomore
+    yes
+
 Mia Venezia
     Music
     Senior
@@ -704,10 +714,17 @@ Olivia Werner
     Sophomore
     *no
 
+Ugne Ziausyte
+    Biological Sciences
+    Junior
+    yes
+
 Mia Zurovac
     Drama
     Freshman
     *no
+
+
 
 
 ###DANCERS###
