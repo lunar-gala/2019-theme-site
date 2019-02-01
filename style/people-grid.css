@@ -683,7 +683,7 @@ h6.in {
   position: relative;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
-  background: #000;
+
 }
 
 #people-container ul li.active {
@@ -708,7 +708,7 @@ h6.in {
 }
 
 #people-container {
-  background: #000;
+  /*background: #000;*/
 }
 
 
