@@ -18,11 +18,11 @@ html {
 }*/
 
 h1 { /* section title font */
-    font-size: 5.47em;
+    font-size: 5em;
     font-family: 'Mad Serif Fill';
     color: #96969D;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 
 h2 { /* information subsection title font */
@@ -70,7 +70,7 @@ h5 {
     text-align: left;*/
   }
 
-h6{
+h6 {
      font-size: 1.5em;
     font-family: 'Gotham Narrow Book';
     color: #96969D;
@@ -93,7 +93,7 @@ li {
     color: #96969D;
     /*text-align: left;*/
     line-height: 1.4em;
-    width: 85%;
+    width:100%;
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -168,27 +168,27 @@ li {
 }
 
 #lil-ul {
-  display: inherit
+  display: block
 }
 
 #people-short-nav {
-    transform: rotate(-90deg);
+       /* transform: rotate(-90deg); */
     /*border: solid green;*/
     position: fixed;
-    height: 10vh;
-    width: 36.5%;
+    /* height: 10vh; */
+    width: 5%;
     z-index: 100;
-    left: -15.6em;
-    top: 33.5em;
+    left: 0;
+    /* top: 33.5em; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #people-short-nav ul li{
-      /* transform: rotate(-90deg); */
-    line-height: 1em;
-    /*border: solid red;*/
+    transform: rotate(-90deg);
+    line-height: 15vh;
+    /* border: solid red; */
     font-size: 1.2em;
     text-align: center;
     font-family: 'Gotham Narrow Thin';
@@ -196,7 +196,8 @@ li {
     /* text-align: left; */
     cursor: pointer;
     width: 100%;
-    padding: 0 1.6em;
+
+
 }
 
 @media(min-width: 801px) {
@@ -244,7 +245,7 @@ li {
     float: left;
     background-color: #101011;
     padding: 2.3%;
-    padding-left: 5%;
+    /*padding-left: 5%;*/
     word-wrap: break-word;
     overflow: scroll;
 }
@@ -260,8 +261,8 @@ li {
 
 #about-main-info img{
   max-width: 100%;
-  /*margin: auto;*/
-      margin-left: 20.2em;
+  margin: auto;
+      /*margin-left: 20.2em;*/
   display: block;
 }
 
@@ -273,7 +274,7 @@ outline-offset: -3px;
     
 }
 
-#merch-info-window {
+.merch-info-window {
   width: 100%;
   height: 100%;
   background-color: transparent;
@@ -282,7 +283,7 @@ outline-offset: -3px;
     background-size: cover;
 }
 
-#merch-info img {
+#merch-info img, #merch-window img {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -400,6 +401,7 @@ h1 span {
           font-size: 4.5em;
           text-align: center;
           margin: 0 !important;
+
 
   }
 
@@ -576,7 +578,7 @@ h1 span {
   }
 
   #person-container img {
-        left: -24%;
+        /*left: -24%;*/
     width: 160%;
     height: auto;
     position: absolute;
@@ -584,7 +586,7 @@ h1 span {
 
   }
   #person-info {
-    margin-top: 5%;
+    margin-top: 16%;
     /*border: solid orange;*/
   }
 
@@ -626,13 +628,17 @@ h1 span {
   position: relative;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
-  background: #000;
+}
+
+.people-list {
+  margin-left: 7%;
 }
 
 .people-list li.active {
     font-size: 3.2em !important;
     font-family: Mad Serif Fill !important;
-    
+       
+
 
 }
 
@@ -641,21 +647,29 @@ h1 span {
     font-family: Gotham Narrow Medium !important;
 }
 
-.people-list li span {
-  font-family: 'Gotham Narrow Book';
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -100;
-  font-size: 20px !important;
-}
 
-.people-list li.active span {
-  -webkit-transform: translate(0, 50px);
-  transition: translate(0, 50px);
+.people-list li.active h6 {
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px,0px);
+  -webkit-transition: all .5s ease;
+  transition: all 0.75s ease;
+  transition-delay: 0.25s;
   z-index: 1;
+  line-height: 1.2em;
+   padding-bottom: 0.5em;
+  opacity: 0;
+
+
+  font-family: 'Gotham Narrow Book';
+  font-size: 20px !important;
+  height: 100%;
+
 }
 
-#about-main-info {
-  background: #000;
+h6.in {
+  opacity: 1 !important;
+  -webkit-transform: translate(50px, 0px) !important;
+  transform: translate(50px,0px) !important;
 }
+
+
