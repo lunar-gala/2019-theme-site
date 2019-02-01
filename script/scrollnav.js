@@ -37,6 +37,7 @@ window.onload = function() {
       $(this).children().remove()
       $(this).removeClass("active");
       $("#picture").attr("src","");
+      $("#side-pic").attr("src","");
     }
 
     //open name
@@ -75,6 +76,7 @@ window.onload = function() {
       node.className += 'in';
 
      $("#picture").attr("src","images/Headshots/"+name+".jpg");
+     $("#side-pic").attr("src","images/Headshots/"+name+"-side.jpg");
     }
     
   })
