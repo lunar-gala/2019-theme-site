@@ -18,11 +18,11 @@ html {
 }*/
 
 h1 { /* section title font */
-    font-size: 5.47em;
+    font-size: 5em;
     font-family: 'Mad Serif Fill';
     color: #96969D;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 
 h2 { /* information subsection title font */
@@ -168,27 +168,27 @@ li {
 }
 
 #lil-ul {
-  display: inherit
+  display: block
 }
 
 #people-short-nav {
-    transform: rotate(-90deg);
+       /* transform: rotate(-90deg); */
     /*border: solid green;*/
     position: fixed;
-    height: 10vh;
-    width: 36.5%;
+    /* height: 10vh; */
+    width: 5%;
     z-index: 100;
-    left: -15.6em;
-    top: 33.5em;
+    left: 0;
+    /* top: 33.5em; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #people-short-nav ul li{
-      /* transform: rotate(-90deg); */
-    line-height: 1em;
-    /*border: solid red;*/
+    transform: rotate(-90deg);
+    line-height: 15.5vh;
+    /* border: solid red; */
     font-size: 1.2em;
     text-align: center;
     font-family: 'Gotham Narrow Thin';
@@ -196,6 +196,7 @@ li {
     /* text-align: left; */
     cursor: pointer;
     width: 100%;
+    text-orientation: sideways-right;
     padding: 0 1.6em;
 }
 
@@ -244,7 +245,7 @@ li {
     float: left;
     background-color: #101011;
     padding: 2.3%;
-    padding-left: 5%;
+    /*padding-left: 5%;*/
     word-wrap: break-word;
     overflow: scroll;
 }
@@ -260,8 +261,8 @@ li {
 
 #about-main-info img{
   max-width: 100%;
-  /*margin: auto;*/
-      margin-left: 20.2em;
+  margin: auto;
+      /*margin-left: 20.2em;*/
   display: block;
 }
 
@@ -400,6 +401,7 @@ h1 span {
           font-size: 4.5em;
           text-align: center;
           margin: 0 !important;
+
 
   }
 
@@ -626,6 +628,10 @@ h1 span {
   position: relative;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
+}
+
+.people-list {
+  margin-left: 7%;
 }
 
 .people-list li.active {
