@@ -49,7 +49,7 @@ var execBoard =
 
         {
             "group": "BOARD",
-            "first": "Juan Aranda",
+            "name": "Juan Aranda",
             "team": "Creative (Print)",
             "position": "Print Designer",
             "major": "Design",

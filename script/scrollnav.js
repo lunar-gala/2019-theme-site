@@ -1,7 +1,4 @@
 var info=[]
-function getKeyByValue(object, value) {
-  return Object.keys(object).find(key => object[key] === value);
-}
 
 window.onload = function() {
 
@@ -29,8 +26,7 @@ window.onload = function() {
 
 
   $(".people-list li").click(function(){
-    
-
+   
     var this_li= $(this)
     var name = this_li[0].innerHTML
 
@@ -52,12 +48,14 @@ window.onload = function() {
       //bring up text info
       // console.log(this_li, name)
       for (person in execBoard) {
-
-        if (getKeyByValue(execBoard[person], name)) {
+        console.log(person, execBoard[person], name)
+        if (execBoard[person].name === name) {
           console.log("in exec")
           info.push(execBoard[person].position)
           info.push(execBoard[person].major)
           info.push(execBoard[person].year)
+          console.log(info)
+
         }
       }
       var node = document.createElement("SPAN");
@@ -68,8 +66,16 @@ window.onload = function() {
       node.appendChild(br);
       node.appendChild(textnode2);
 
+
+      
+      
+
       $(this).children().remove()
-      $(this).append(node)
+      $(this).append(node) 
+
+      window.getComputedStyle(node).opacity;
+      node.className += 'in';
+
      
     }
     

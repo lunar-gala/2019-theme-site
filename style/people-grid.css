@@ -642,23 +642,32 @@ h1 span {
     font-family: Gotham Narrow Medium !important;
 }
 
-.people-list li span {
+
+.people-list li.active span {
+  -webkit-transform: translate(0px, 50px);
+  transform: translate(0px,50px);
+  -webkit-transition: all .5s ease;
+  transition: all 0.75s ease;
+  transition-delay: 0.25s;
+  z-index: 1;
+  line-height: 1.2em;
+  padding: 0.5em 0;
+  opacity: 0;
+
+
   font-family: 'Gotham Narrow Book';
   position: absolute;
   left: 0;
   top: 0;
-  z-index: -100;
   font-size: 20px !important;
   height: 100%;
+
 }
 
-.people-list li.active span {
-  -webkit-transform: translate(0, 50px);
-  transition: translate(0, 50px);
-  z-index: 1;
-      line-height: 1.2em;
-    padding: 0.5em 0;
-
+span.in {
+  opacity: 1 !important;
+  -webkit-transform: translate(50px, 50px) !important;
+  transform: translate(50px,50px) !important;
 }
 
 #about-main-info {
