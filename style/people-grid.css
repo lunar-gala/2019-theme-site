@@ -187,7 +187,7 @@ li {
 
 #people-short-nav ul li{
     transform: rotate(-90deg);
-    line-height: 15.5vh;
+    line-height: 15vh;
     /* border: solid red; */
     font-size: 1.2em;
     text-align: center;
@@ -196,8 +196,8 @@ li {
     /* text-align: left; */
     cursor: pointer;
     width: 100%;
-    text-orientation: sideways-right;
-    padding: 0 1.6em;
+
+
 }
 
 @media(min-width: 801px) {
@@ -578,7 +578,7 @@ h1 span {
   }
 
   #person-container img {
-        left: -24%;
+        /*left: -24%;*/
     width: 160%;
     height: auto;
     position: absolute;
@@ -586,7 +586,7 @@ h1 span {
 
   }
   #person-info {
-    margin-top: 5%;
+    margin-top: 16%;
     /*border: solid orange;*/
   }
 
