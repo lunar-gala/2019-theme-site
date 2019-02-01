@@ -44,6 +44,7 @@ window.onload = function() {
       console.log("open")
 
       $(".people-list li").removeClass("active");
+      $(".people-list li").children().remove();
       $(this).addClass("active");
       //bring up text info
       // console.log(this_li, name)
@@ -66,17 +67,13 @@ window.onload = function() {
       node.appendChild(br);
       node.appendChild(textnode2);
 
-
-      
-      
-
       $(this).children().remove()
       $(this).append(node) 
 
       window.getComputedStyle(node).opacity;
       node.className += 'in';
 
-     
+     $("#picture").attr("src","images/Headshots/"+name+".jpg");
     }
     
   })
