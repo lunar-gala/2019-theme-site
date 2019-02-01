@@ -98,7 +98,7 @@ li {
     cursor: pointer;
 }
 
-.top div img, .bottom div img { 
+.top div img, .bottom div img {
     z-index: -5;
     object-fit: cover;
  }
@@ -137,7 +137,7 @@ li {
 }
 
 #logo-star img{
-   
+
     max-width: 100%;
     max-height: 100%;
 
@@ -271,7 +271,7 @@ outline-offset: -3px;
     width: calc(100vw / 4);
     height: inherit;
     float: left;
-    
+
 }
 
 .merch-info-window {
@@ -293,7 +293,7 @@ outline-offset: -3px;
 
 
 #merch-window {
-/*    outline: solid white; 
+/*    outline: solid white;
     width: calc(100vw / 4);
     height: inherit;
     float: left;
@@ -398,19 +398,15 @@ h1 span {
 
 @media(max-width: 800px) {
   h1 {
-          font-size: 3em;
+          font-size: 4.5em;
           text-align: center;
           margin: 0 !important;
+
+
   }
 
   h1 span {
     display: inline;
-  }
-
-
-  li {
-        font-size: 1.6em;
-        line-height: 1.7em;
   }
 
   h2 {
@@ -458,7 +454,7 @@ h1 span {
   .top {
       height: 10vh;
   }
-  
+
 
   .bottom {
     display: block;
@@ -501,7 +497,7 @@ h1 span {
     height: 7vh;
     line-height: 7vh;
     display: block;
-    border-top: solid #96969D 2px; 
+    border-top: solid #96969D 2px;
     background-color: #101110;
   }
 
@@ -517,9 +513,9 @@ h1 span {
   }
 
   .bottom div:after {
-  width: 0px !important; 
+  width: 0px !important;
 }
-  
+
 #short-nav-wrapper {
   display: none;
 }
@@ -623,7 +619,7 @@ h1 span {
 
 .mobile-background {
    background-size: cover;
-   background-image: url("../images/backdrops/1.jpg");       
+   background-image: url("../images/backdrops/1.jpg");
 }
 
 
@@ -638,13 +634,8 @@ h1 span {
   margin-left: 7%;
 }
 
-.people-list li.active {
-    font-size: 3.2em !important;
-    font-family: Mad Serif Fill !important;
-       
 
 
-}
 
 .switch {
     font-size: 1.2em !important;
@@ -652,23 +643,7 @@ h1 span {
 }
 
 
-.people-list li.active h6 {
-  -webkit-transform: translate(0px, 0px);
-  transform: translate(0px,0px);
-  -webkit-transition: all .5s ease;
-  transition: all 0.75s ease;
-  transition-delay: 0.25s;
-  z-index: 1;
-  line-height: 1.2em;
-   padding-bottom: 0.5em;
-  opacity: 0;
 
-
-  font-family: 'Gotham Narrow Book';
-  font-size: 20px !important;
-  height: 100%;
-
-}
 
 h6.in {
   opacity: 1 !important;
@@ -683,15 +658,38 @@ h6.in {
   position: relative;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
-
+  background: #000;
 }
 
-#people-container ul li.active {
-  font-size: 42px;
-  font-family: 'Mad Serif Fill';
-  padding-bottom: 50px;
-}
+@media(min-width: 801px) {
+  .people-list li.active {
+      font-size: 3.2em !important;
+      font-family: Mad Serif Fill !important;
+  }
 
+  #people-container ul li.active {
+    font-size: 42px;
+    font-family: 'Mad Serif Fill';
+    padding-bottom: 50px;
+  }
+  .people-list li.active h6 {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px,0px);
+    -webkit-transition: all .5s ease;
+    transition: all 0.75s ease;
+    transition-delay: 0.25s;
+    z-index: 1;
+    line-height: 1.2em;
+     padding-bottom: 0.5em;
+    opacity: 0;
+
+
+    font-family: 'Gotham Narrow Book';
+    font-size: 20px !important;
+    height: 100%;
+
+  }
+}
 #people-container ul li span {
   font-family: 'Gotham Narrow Book';
   position: absolute;
@@ -701,14 +699,26 @@ h6.in {
   font-size: 20px !important;
 }
 
-#people-container ul li.active span {
-  -webkit-transform: translate(0, 50px);
-  transition: translate(0, 50px);
-  z-index: 1;
+
+@media(min-width: 801px) {
+   #people-container ul li.active span {
+     -webkit-transform: translate(0, 50px);
+     transition: translate(0, 50px);
+     z-index: 1;
+   }
+}
+
+@media(max-width: 800px) {
+   #people-container ul li span {
+     display: none;
+   }
+  .people-list li h6 {
+    display: none;
+   }
 }
 
 #people-container {
-  /*background: #000;*/
+  background: #000;
 }
 
 
@@ -723,3 +733,13 @@ h6.in {
   color: #fff;
 }
 
+
+#people-magnify {
+  -webkit-transition: all .7s ease;
+  transition: .7s ease;
+  transform: translate3d(0, 100%, 0);
+}
+
+#people-magnify.open {
+  transform: translate3d(0, 0, 0);
+}
