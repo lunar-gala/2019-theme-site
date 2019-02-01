@@ -36,6 +36,7 @@ window.onload = function() {
       console.log("close")
       $(this).children().remove()
       $(this).removeClass("active");
+      $("#picture").attr("src","");
     }
 
     //open name
