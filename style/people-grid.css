@@ -631,7 +631,7 @@ h1 span {
 .people-list li.active {
     font-size: 3.2em !important;
     font-family: Mad Serif Fill !important;
-        padding-bottom: 1.2em;
+       
 
 
 }
@@ -643,21 +643,18 @@ h1 span {
 
 
 .people-list li.active h6 {
-  -webkit-transform: translate(0px, 50px);
-  transform: translate(0px,50px);
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px,0px);
   -webkit-transition: all .5s ease;
   transition: all 0.75s ease;
   transition-delay: 0.25s;
   z-index: 1;
   line-height: 1.2em;
-  padding: 0.5em 0;
+   padding-bottom: 0.5em;
   opacity: 0;
 
 
   font-family: 'Gotham Narrow Book';
-  position: absolute;
-  left: 0;
-  top: 0;
   font-size: 20px !important;
   height: 100%;
 
@@ -665,8 +662,8 @@ h1 span {
 
 h6.in {
   opacity: 1 !important;
-  -webkit-transform: translate(50px, 50px) !important;
-  transform: translate(50px,50px) !important;
+  -webkit-transform: translate(50px, 0px) !important;
+  transform: translate(50px,0px) !important;
 }
 
 

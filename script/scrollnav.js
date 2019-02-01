@@ -73,12 +73,13 @@ window.onload = function() {
       $(this).append(node) 
 
       window.getComputedStyle(node).opacity;
+      console.log($(this).css("height"));
       node.className += 'in';
 
      $("#picture").attr("src","images/Headshots/"+name+".jpg");
      $("#side-pic").attr("src","images/Headshots/"+name+"-side.jpg");
     }
-    
+    console.log($(this).css("height"));
   })
 
   $("#lil-ul li").click(function(){
