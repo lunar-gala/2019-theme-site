@@ -70,7 +70,7 @@ h5 {
     text-align: left;*/
   }
 
-h6{
+h6 {
      font-size: 1.5em;
     font-family: 'Gotham Narrow Book';
     color: #96969D;
@@ -93,7 +93,7 @@ li {
     color: #96969D;
     /*text-align: left;*/
     line-height: 1.4em;
-    width: 85%;
+    width:100%;
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -626,7 +626,6 @@ h1 span {
   position: relative;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
-  background: #000;
 }
 
 .people-list li.active {
@@ -643,7 +642,7 @@ h1 span {
 }
 
 
-.people-list li.active span {
+.people-list li.active h6 {
   -webkit-transform: translate(0px, 50px);
   transform: translate(0px,50px);
   -webkit-transition: all .5s ease;
@@ -664,12 +663,10 @@ h1 span {
 
 }
 
-span.in {
+h6.in {
   opacity: 1 !important;
   -webkit-transform: translate(50px, 50px) !important;
   transform: translate(50px,50px) !important;
 }
 
-#about-main-info {
-  background: #000;
-}
+

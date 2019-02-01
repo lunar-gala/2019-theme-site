@@ -58,10 +58,10 @@ window.onload = function() {
 
         }
       }
-      var node = document.createElement("SPAN");
+      var node = document.createElement("h6");
       var br = document.createElement("BR");
-      var textnode = document.createTextNode(info[0]+" "+info[1]);
-      var textnode2 = document.createTextNode(info[2]);
+      var textnode = document.createTextNode(info[0]);
+      var textnode2 = document.createTextNode(info[1]+" "+info[2]);
       node.appendChild(textnode);
       node.appendChild(br);
       node.appendChild(textnode2);
