@@ -10,23 +10,32 @@ window.onload = function() {
   var cTop = ($(".people-c").offset().top - $("#about-main-info").offset().top);
   var dTop = ($(".people-d").offset().top - $("#about-main-info").offset().top);
 
+  console.log(aTop, bTop, cTop, dTop)
+
   $(".scroll-link-a").click(function(){
     $("#people-short-nav ul li").removeClass("active");
+    $("#people-short-nav-mobile ul li").removeClass("active");
     $(".scroll-link-a").addClass("active");
     $("#about-main-info").animate({ scrollTop: aTop + "px" });
+
   });
   $(".scroll-link-b").click(function(){
     $("#people-short-nav ul li").removeClass("active");
+    $("#people-short-nav-mobile ul li").removeClass("active");
     $(".scroll-link-b").addClass("active");
     $("#about-main-info").animate({ scrollTop: bTop + "px" });
+    
+
   });
   $(".scroll-link-c").click(function(){
     $("#people-short-nav ul li").removeClass("active");
+    $("#people-short-nav-mobile ul li").removeClass("active");
     $(".scroll-link-c").addClass("active");
     $("#about-main-info").animate({ scrollTop: cTop + "px" });
   });
   $(".scroll-link-d").click(function(){
     $("#people-short-nav ul li").removeClass("active");
+    $("#people-short-nav-mobile ul li").removeClass("active");
     $(".scroll-link-d").addClass("active");
     $("#about-main-info").animate({ scrollTop: dTop + "px" });
   });
@@ -42,18 +51,23 @@ window.onload = function() {
 
     if ($(this).scrollTop() >= (aTop - 100) && $(this).scrollTop() < bTop) {
       $("#people-short-nav ul li").removeClass("active");
+      $("#people-short-nav-mobile ul li").removeClass("active");
       $(".scroll-link-a").addClass("active");
     }
     if ($(this).scrollTop() >= (bTop - 100) && $(this).scrollTop() < cTop) {
+      alert("true")
       $("#people-short-nav ul li").removeClass("active");
+      $("#people-short-nav-mobile ul li").removeClass("active");
       $(".scroll-link-b").addClass("active");
     }
     if ($(this).scrollTop() >= (cTop - 100) && $(this).scrollTop() < dTop) {
       $("#people-short-nav ul li").removeClass("active");
+      $("#people-short-nav-mobile ul li").removeClass("active");
       $(".scroll-link-c").addClass("active");
     }
     if ($(this).scrollTop() >= (dTop -100)) {
       $("#people-short-nav ul li").removeClass("active");
+      $("#people-short-nav-mobile ul li").removeClass("active");
       $(".scroll-link-d").addClass("active");
     }
   });

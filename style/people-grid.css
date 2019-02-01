@@ -568,7 +568,7 @@ h1 span {
     background-color:rgba(16, 17, 16, 0.95);
     left: 0;
     z-index: 1000;
-        display: block;
+        display: none;
     justify-content: center;
     align-items: center;
     /*border: solid blue;*/
