@@ -4,6 +4,8 @@ var info=[]
 
 
 window.onload = function() {
+  
+  console.log("uiop")
 
   var aTop = ($(".people-a").offset().top - $("#about-main-info").offset().top);
   var bTop = ($(".people-b").offset().top - $("#about-main-info").offset().top);
@@ -11,6 +13,37 @@ window.onload = function() {
   var dTop = ($(".people-d").offset().top - $("#about-main-info").offset().top);
 
   console.log(aTop, bTop, cTop, dTop)
+
+  $(".scroll-link-a").addClass("active");
+
+  $("#about-main-info").scroll(function() {
+      alert("hei")
+    if ($(this).scrollTop() >= (aTop - 100) && $(this).scrollTop() < bTop) {
+
+      $("#people-short-nav ul li").removeClass("active");
+      $("#people-short-nav-mobile ul li").removeClass("active");
+      $(".scroll-link-a").addClass("active");
+    }
+    if ($(this).scrollTop() >= (bTop - 100) && $(this).scrollTop() < cTop) {
+      console.log("hi")
+      $("#people-short-nav ul li").removeClass("active");
+      $("#people-short-nav-mobile ul li").removeClass("active");
+      $(".scroll-link-b").addClass("active");
+    }
+    if ($(this).scrollTop() >= (cTop - 100) && $(this).scrollTop() < dTop) {
+      $("#people-short-nav ul li").removeClass("active");
+      $("#people-short-nav-mobile ul li").removeClass("active");
+      $(".scroll-link-c").addClass("active");
+    }
+    if ($(this).scrollTop() >= (dTop -100)) {
+      $("#people-short-nav ul li").removeClass("active");
+      $("#people-short-nav-mobile ul li").removeClass("active");
+      $(".scroll-link-d").addClass("active");
+    }
+  });
+
+
+
 
   $(".scroll-link-a").click(function(){
     $("#people-short-nav ul li").removeClass("active");
@@ -45,32 +78,7 @@ window.onload = function() {
     $(this).addClass("active");
   });
 
-  $(".scroll-link-a").addClass("active");
 
-  $("#about-main-info").scroll(function() {
-
-    if ($(this).scrollTop() >= (aTop - 100) && $(this).scrollTop() < bTop) {
-      $("#people-short-nav ul li").removeClass("active");
-      $("#people-short-nav-mobile ul li").removeClass("active");
-      $(".scroll-link-a").addClass("active");
-    }
-    if ($(this).scrollTop() >= (bTop - 100) && $(this).scrollTop() < cTop) {
-
-      $("#people-short-nav ul li").removeClass("active");
-      $("#people-short-nav-mobile ul li").removeClass("active");
-      $(".scroll-link-b").addClass("active");
-    }
-    if ($(this).scrollTop() >= (cTop - 100) && $(this).scrollTop() < dTop) {
-      $("#people-short-nav ul li").removeClass("active");
-      $("#people-short-nav-mobile ul li").removeClass("active");
-      $(".scroll-link-c").addClass("active");
-    }
-    if ($(this).scrollTop() >= (dTop -100)) {
-      $("#people-short-nav ul li").removeClass("active");
-      $("#people-short-nav-mobile ul li").removeClass("active");
-      $(".scroll-link-d").addClass("active");
-    }
-  });
 
 }
 
@@ -100,13 +108,13 @@ window.onload = function() {
       $(this).addClass("active");
       //bring up text info
       // console.log(this_li, name)
-      for (person in execBoard) {
-        console.log(person, execBoard[person], name)
-        if (execBoard[person].name === name) {
+      for (person in boardInfo) {
+        console.log(person, boardInfo[person], name)
+        if (boardInfo[person].name === name) {
           console.log("in exec")
-          info.push(execBoard[person].position)
-          info.push(execBoard[person].major)
-          info.push(execBoard[person].year)
+          info.push(boardInfo[person].position)
+          info.push(boardInfo[person].major)
+          info.push(boardInfo[person].year)
           console.log(info)
 
         }
