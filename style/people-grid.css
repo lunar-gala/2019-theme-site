@@ -658,7 +658,6 @@ h6.in {
   position: relative;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
-  background: #000;
 }
 
 @media(min-width: 801px) {
@@ -670,7 +669,7 @@ h6.in {
   #people-container ul li.active {
     font-size: 42px;
     font-family: 'Mad Serif Fill';
-    padding-bottom: 50px;
+
   }
   .people-list li.active h6 {
     -webkit-transform: translate(0px, 0px);
@@ -717,10 +716,9 @@ h6.in {
    }
 }
 
-#people-container {
-  background: #000;
+#people-magnify {
+  display: block;
 }
-
 
 
 

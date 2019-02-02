@@ -55,7 +55,7 @@ window.onload = function() {
       $(".scroll-link-a").addClass("active");
     }
     if ($(this).scrollTop() >= (bTop - 100) && $(this).scrollTop() < cTop) {
-      alert("true")
+
       $("#people-short-nav ul li").removeClass("active");
       $("#people-short-nav-mobile ul li").removeClass("active");
       $(".scroll-link-b").addClass("active");
@@ -126,7 +126,26 @@ window.onload = function() {
       console.log($(this).css("height"));
       node.className += 'in';
 
+      //mobile
+      var mobileName = document.getElementById("mobile-name")
+      var mobilePosition = document.getElementById("mobile-position")
+      var mobileMajor = document.getElementById("mobile-majoryear")
+
+      
+      mobileName.innerHTML=name
+      
+
+      mobilePosition.innerHTML = info[0]
+      mobileMajor.innerHTML = info[1]+" "+info[2]
+
+      mobileName.style.textTransform = "uppercase"
+      mobilePosition.style.textTransform = "uppercase"
+      mobileMajor.style.textTransform = "uppercase"
+      // document.getElementbyId("mobile-position").innerHTML=info[0]
+      // document.getElementbyId("mobile-name").innerHTML=info[1]
+
      $("#picture").attr("src","images/Headshots/"+name+".jpg");
+     $("#mobile-picture").attr("src","images/Headshots/"+name+".jpg");
      $("#side-pic").attr("src","images/Headshots/"+name+"-side.jpg");
     }
     console.log($(this).css("height"));
