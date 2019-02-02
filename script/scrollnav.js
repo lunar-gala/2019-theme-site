@@ -1,11 +1,20 @@
 var info=[]
 
 
+// console.log("sup")
 
-
+ $("#people-container ul li").click(function(){
+    $("#people-magnify").addClass("open");
+  });
+  $("#close-button").click(function() {
+    $("#people-magnify").removeClass("open");
+  });
 window.onload = function() {
-  
-  console.log("uiop")
+
+
+
+  // alert("Start")
+  // console.log("uiop")
 
   var aTop = ($(".people-a").offset().top - $("#about-main-info").offset().top);
   var bTop = ($(".people-b").offset().top - $("#about-main-info").offset().top);
@@ -17,7 +26,7 @@ window.onload = function() {
   $(".scroll-link-a").addClass("active");
 
   $("#about-main-info").scroll(function() {
-      alert("hei")
+      // alert("hei")
     if ($(this).scrollTop() >= (aTop - 100) && $(this).scrollTop() < bTop) {
 
       $("#people-short-nav ul li").removeClass("active");
@@ -25,7 +34,7 @@ window.onload = function() {
       $(".scroll-link-a").addClass("active");
     }
     if ($(this).scrollTop() >= (bTop - 100) && $(this).scrollTop() < cTop) {
-      console.log("hi")
+      // console.log("hi")
       $("#people-short-nav ul li").removeClass("active");
       $("#people-short-nav-mobile ul li").removeClass("active");
       $(".scroll-link-b").addClass("active");
@@ -73,10 +82,10 @@ window.onload = function() {
     $("#about-main-info").animate({ scrollTop: dTop + "px" });
   });
 
-  $("#people-container ul li").click(function(){
-    $("#people-container ul li").removeClass("active");
-    $(this).addClass("active");
-  });
+  // $("#people-container ul li").click(function(){
+  //   $("#people-container ul li").removeClass("active");
+  //   $(this).addClass("active");
+  // });
 
 
 
@@ -101,7 +110,7 @@ window.onload = function() {
     //open name
     else {  
       info=[]
-      console.log("open")
+      // console.log("open")
 
       $(".people-list li").removeClass("active");
       $(".people-list li").children().remove();
@@ -109,13 +118,13 @@ window.onload = function() {
       //bring up text info
       // console.log(this_li, name)
       for (person in boardInfo) {
-        console.log(person, boardInfo[person], name)
+        // console.log(person, boardInfo[person], name)
         if (boardInfo[person].name === name) {
-          console.log("in exec")
+          // console.log("in exec")
           info.push(boardInfo[person].position)
           info.push(boardInfo[person].major)
           info.push(boardInfo[person].year)
-          console.log(info)
+          // console.log(info)
 
         }
       }
@@ -131,7 +140,7 @@ window.onload = function() {
       $(this).append(node) 
 
       window.getComputedStyle(node).opacity;
-      console.log($(this).css("height"));
+      // console.log($(this).css("height"));
       node.className += 'in';
 
       //mobile
@@ -156,7 +165,7 @@ window.onload = function() {
      $("#mobile-picture").attr("src","images/Headshots/"+name+".jpg");
      $("#side-pic").attr("src","images/Headshots/"+name+"-side.jpg");
     }
-    console.log($(this).css("height"));
+    // console.log($(this).css("height"));
   })
 
   $("#lil-ul li").click(function(){

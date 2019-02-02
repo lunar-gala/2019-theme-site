@@ -196,6 +196,7 @@ li {
     /* text-align: left; */
     cursor: pointer;
     width: 100%;
+    /*font-weight: normal;*/
 
 
 }
@@ -636,10 +637,10 @@ h1 span {
 
 
 
-.switch {
+/*.switch {
     font-size: 1.2em !important;
     font-family: Gotham Narrow Medium !important;
-}
+}*/
 
 
 
@@ -722,12 +723,14 @@ h6.in {
 
 
 #people-short-nav li {
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+  -webkit-transition: all 1s ease !important; 
+  transition: all 1s ease !important;
 }
 
 #people-short-nav li.active {
-  color: #fff;
+  font-size: 1.2em !important;
+  font-family: Gotham Narrow Book ;
+  /*font-weight: 1000;*/
 }
 
 
