@@ -315,7 +315,7 @@ outline-offset: -3px;
     background-size: cover;
 }
 
-.bottom div:after {
+.bottom div:not(:last-child):after {
   content: "";
   position: absolute;
   height: 850%;
@@ -574,21 +574,30 @@ h1 span {
   }
 
   #person-container {
-    display: flex;
-    justify-content: center;
+    height: 100%;
+    text-align: center;
   }
 
   #person-container img {
-        /*left: -24%;*/
-    width: 160%;
-    height: auto;
-    position: absolute;
-    top: -3%;
+    left: -24%; */
+    width: auto;
+    max-height: 100%;
+    overflow: hidden;
+    margin-right: auto;
 
   }
   #person-info {
-    margin-top: 16%;
-    /*border: solid orange;*/
+    margin: 5% 0;
+    z-index: 100;
+    position: absolute;
+    padding: 0 5%;
+    width: 100%;
+  }
+
+  #person-window {
+        position: absolute;
+    height: inherit;
+    width: 100%;
   }
 
   #person-window img {
@@ -597,7 +606,12 @@ h1 span {
     position: absolute;
   }
   #person{
-    height: 50%;
+        height: 50%;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   #close-button {
     outline: solid #96969D 2px;

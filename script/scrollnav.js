@@ -147,7 +147,7 @@ window.onload = function() {
       var mobileName = document.getElementById("mobile-name")
       var mobilePosition = document.getElementById("mobile-position")
       var mobileMajor = document.getElementById("mobile-majoryear")
-
+      var textsize= "4.5em"
       
       mobileName.innerHTML=name
       
@@ -158,12 +158,26 @@ window.onload = function() {
       mobileName.style.textTransform = "uppercase"
       mobilePosition.style.textTransform = "uppercase"
       mobileMajor.style.textTransform = "uppercase"
+
+      if (window.innerWidth < 800) {
+        console.log(name.length)
+        let words = name.split(' ');
+        for (let i = 0; i < words.length; i++){
+                if (words[i].length > 8) {
+                  textsize="3.5em"
+                }
+              }
+        console.log(textsize)
+        mobileName.style.fontSize = textsize
+      
+
+      }
       // document.getElementbyId("mobile-position").innerHTML=info[0]
       // document.getElementbyId("mobile-name").innerHTML=info[1]
 
      $("#picture").attr("src","images/Headshots/"+name+".jpg");
      $("#mobile-picture").attr("src","images/Headshots/"+name+".jpg");
-     $("#side-pic").attr("src","images/Headshots/"+name+"-side.jpg");
+     // $("#side-pic").attr("src","images/Headshots/"+name+"-side.jpg");
     }
     // console.log($(this).css("height"));
   })
