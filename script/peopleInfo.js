@@ -569,7 +569,7 @@ var people =
         
         {
             "group": "DESIGNER",
-            "name": "DK Wang",
+            "name": "D.K. Wang",
             "line": "",
             "major": "Architecture",
             "year": "2019",

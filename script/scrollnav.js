@@ -111,19 +111,22 @@ window.onload = function() {
     else {  
       info=[]
       // console.log("open")
-
+      var board = false
       $(".people-list li").removeClass("active");
       $(".people-list li").children().remove();
       $(this).addClass("active");
       //bring up text info
       // console.log(this_li, name)
-      for (person in boardInfo) {
-        // console.log(person, boardInfo[person], name)
-        if (boardInfo[person].name === name) {
+      for (person in people) {
+        // console.log(person, people[person], name)
+        if (people[person].name === name) {
           // console.log("in exec")
-          info.push(boardInfo[person].position)
-          info.push(boardInfo[person].major)
-          info.push(boardInfo[person].year)
+          if (people[person].group=="BOARD") {
+            board = true;
+          }
+          info.push(people[person].position)
+          info.push(people[person].major)
+          info.push(people[person].year)
           // console.log(info)
 
         }
@@ -132,9 +135,12 @@ window.onload = function() {
       var br = document.createElement("BR");
       var textnode = document.createTextNode(info[0]);
       var textnode2 = document.createTextNode(info[1]+" "+info[2]);
+      if (board) {
       node.appendChild(textnode);
       node.appendChild(br);
-      node.appendChild(textnode2);
+      }
+      node.appendChild(textnode2)
+      
 
       $(this).children().remove()
       $(this).append(node) 

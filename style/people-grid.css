@@ -98,6 +98,11 @@ li {
     cursor: pointer;
 }
 
+.not-pictured li {
+  font-family: 'Gotham Narrow Thin';
+  pointer-events: none;
+}
+
 .top div img, .bottom div img {
     z-index: -5;
     object-fit: cover;
@@ -318,7 +323,7 @@ outline-offset: -3px;
 .bottom div:not(:last-child):after {
   content: "";
   position: absolute;
-  height: 850%;
+  height: 1180%;
   width: 2px;
   background: #96969D;
   right: 0px;
