@@ -59,27 +59,52 @@ window.onload = function() {
     $("#people-short-nav-mobile ul li").removeClass("active");
     $(".scroll-link-a").addClass("active");
     $("#about-main-info").animate({ scrollTop: aTop + "px" });
-
+    if (window.innerWidth < 800) {
+                $('html,body').animate({
+                    scrollTop: aTop
+                }, 500, function(){
+                    $('html,body').clearQueue();
+                });
+    }
   });
   $(".scroll-link-b").click(function(){
     $("#people-short-nav ul li").removeClass("active");
     $("#people-short-nav-mobile ul li").removeClass("active");
     $(".scroll-link-b").addClass("active");
     $("#about-main-info").animate({ scrollTop: bTop + "px" });
-    
-
+    if (window.innerWidth < 800) {
+                $('html,body').animate({
+                    scrollTop: bTop
+                }, 500, function(){
+                    $('html,body').clearQueue();
+                });
+    }
   });
   $(".scroll-link-c").click(function(){
     $("#people-short-nav ul li").removeClass("active");
     $("#people-short-nav-mobile ul li").removeClass("active");
     $(".scroll-link-c").addClass("active");
     $("#about-main-info").animate({ scrollTop: cTop + "px" });
+    if (window.innerWidth < 800) {
+                $('html,body').animate({
+                    scrollTop: cTop
+                }, 500, function(){
+                    $('html,body').clearQueue();
+                });
+    }
   });
   $(".scroll-link-d").click(function(){
     $("#people-short-nav ul li").removeClass("active");
     $("#people-short-nav-mobile ul li").removeClass("active");
     $(".scroll-link-d").addClass("active");
     $("#about-main-info").animate({ scrollTop: dTop + "px" });
+    if (window.innerWidth < 800) {
+                $('html,body').animate({
+                    scrollTop: dTop
+                }, 500, function(){
+                    $('html,body').clearQueue();
+                });
+    }
   });
 
   // $("#people-container ul li").click(function(){
@@ -93,7 +118,7 @@ window.onload = function() {
 
 
   $(".people-list li").click(function(){
-   
+
     var this_li= $(this)
     var name = this_li[0].innerHTML
 
@@ -108,7 +133,7 @@ window.onload = function() {
     }
 
     //open name
-    else {  
+    else {
       info=[]
       // console.log("open")
 
@@ -137,7 +162,7 @@ window.onload = function() {
       node.appendChild(textnode2);
 
       $(this).children().remove()
-      $(this).append(node) 
+      $(this).append(node)
 
       window.getComputedStyle(node).opacity;
       // console.log($(this).css("height"));
@@ -148,9 +173,9 @@ window.onload = function() {
       var mobilePosition = document.getElementById("mobile-position")
       var mobileMajor = document.getElementById("mobile-majoryear")
       var textsize= "4.5em"
-      
+
       mobileName.innerHTML=name
-      
+
 
       mobilePosition.innerHTML = info[0]
       mobileMajor.innerHTML = info[1]+" "+info[2]
@@ -169,7 +194,7 @@ window.onload = function() {
               }
         console.log(textsize)
         mobileName.style.fontSize = textsize
-      
+
 
       }
       // document.getElementbyId("mobile-position").innerHTML=info[0]
