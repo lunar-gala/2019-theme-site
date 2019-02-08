@@ -308,6 +308,15 @@ var people =
 
         {
             "group": "BOARD",
+            "name": "Liam van Oort",
+            "team": "Creative (Photography)",
+            "position": "Photographer",
+            "major": "Design",
+            "year": "2020",
+        },
+
+        {
+            "group": "BOARD",
             "name": "Alexandra Van Praag",
             "team": "Modeling",
             "position": "Modeling Coordinator",
