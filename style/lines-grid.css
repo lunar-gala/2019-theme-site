@@ -38,40 +38,25 @@ h3 { /* information subsection title font */
     font-family: 'Gotham Narrow Thin';
     color: #96969D;
     text-align: left;
-
-    /*font-size: 1.2em;
-    font-family: 'Gotham Narrow Thin';
-    color: #96969D;
-    text-align: left;
-    line-height: 1.2em;*/
 }
 
 h4 {
-    font-size: 1.2em;
-    line-height: 2em;
+    font-size: 0.28em;
+    line-height: 1.2em;
     font-family: 'Gotham Narrow Book';
     color: #96969D;
     text-align: left;
-
-   /* font-size: 1.2em;
-    font-family: 'Gotham Narrow Book';
-    color: #96969D;
-    text-align: left;*/
 }
 h5 {
     font-size: 1em;
     font-family: 'Mad Serif Fill';
     color: #96969D;
     text-align: center;
-
-   /* font-size: 1.2em;
-    font-family: 'Gotham Narrow Book';
-    color: #96969D;
-    text-align: left;*/
   }
 
 h6{
-     font-size: 1.5em;
+    font-size: 0.2em;
+    line-height: 1.2em;
     font-family: 'Gotham Narrow Book';
     color: #96969D;
     text-align: left;
@@ -225,30 +210,73 @@ li {
 
 }
 
+
+
 #about-main-info img{
   max-width: 100%;
   margin: auto;
   display: block;
 }
 
+#about-main-info ul li{
+  position: relative;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+  .people-list li.active h4,   .people-list li.active h6 {
+    -webkit-transform: translate(0px, -5px);
+    transform: translate(0px,-5px);
+    -webkit-transition: all .5s ease;
+    transition: all 0.5s ease;
+    /*transition-delay: 0.25s;*/
+    z-index: 1;
+    line-height: 1.2em;
+     padding-bottom: 0.5em;
+    opacity: 0;
+
+
+    font-family: 'Gotham Narrow Book';
+    font-size: 20px !important;
+    height: 100%;
+
+  }
+
+  h4.in, h6.in {
+  opacity: 1 !important;
+  -webkit-transform: translate(0px, 0px) !important;
+  transform: translate(0px,0px) !important;
+}
+
+
 #merch-info {
 outline-offset: -3px;
     width: calc(100vw / 4);
     height: inherit;
     float: left;
-    background-color: transparent;
+
+}
+
+.merch-info-window {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
     background-image: url('../images/archFrames/dark-arch_tall.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
+#merch-info img, #merch-window img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
 
 
 
 
 #merch-window {
-/*    outline: solid white; 
+/*    outline: solid white;
     width: calc(100vw / 4);
     height: inherit;
     float: left;
@@ -267,6 +295,17 @@ outline-offset: -3px;
     background-image: url('../images/archFrames/dark-arch_tall.svg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.bottom div:not(:last-child):after {
+  content: "";
+  position: absolute;
+  height: 1180%;
+  width: 2px;
+  background: #96969D;
+  right: 0px;
+  top: 0;
+  z-index: 1000;
 }
 
 .bottom div:after {
