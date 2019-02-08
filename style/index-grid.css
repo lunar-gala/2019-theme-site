@@ -1,5 +1,14 @@
 html {
-    box-sizing: border-box;
+    box-sizing: border-box;    
+    scrollbar-width: none; 
+    -ms-overflow-style: none;  
+}
+::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent;  
+}
+::-webkit-scrollbar-thumb {
+    background: #96969D;
 }
 
 * {

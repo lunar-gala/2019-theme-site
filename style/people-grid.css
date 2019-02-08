@@ -1,7 +1,15 @@
 html {
     box-sizing: border-box;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;  
 }
-
+::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent;  
+}
+::-webkit-scrollbar-thumb {
+    background: #96969D;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -253,7 +261,7 @@ li {
     padding: 2.3%;
     /*padding-left: 5%;*/
     word-wrap: break-word;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 #about-main-info div:before{
