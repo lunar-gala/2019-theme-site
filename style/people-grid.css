@@ -331,7 +331,7 @@ outline-offset: -3px;
 .bottom div:not(:last-child):after {
   content: "";
   position: absolute;
-  height: 1180%;
+  height: 1230%;
   width: 2px;
   background: #96969D;
   right: 0px;
