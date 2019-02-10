@@ -255,7 +255,7 @@ li {
 #about-main-info {
     outline-offset: -3px;
     width: calc(100vw / 2);
-    height: inherit;
+    /*height: inherit;*/
     float: left;
     background-color: #101011;
     padding: 2.3%;
@@ -331,7 +331,7 @@ outline-offset: -3px;
 .bottom div:not(:last-child):after {
   content: "";
   position: absolute;
-  height: 1230%;
+  height: 192%;
   width: 2px;
   background: #96969D;
   right: 0px;
