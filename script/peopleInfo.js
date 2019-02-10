@@ -237,8 +237,8 @@ var people =
         {
             "group": "BOARD",
             "name": "Jonathan Perez",
-            "team": "PR, Creative (Photography)",
-            "position": "___",
+
+            "position": "PR, Creative (Photography)",
             "major": "Creative Writing",
             "year": "2020",
         },
@@ -498,7 +498,7 @@ var people =
 
         {
             "group": "DESIGNER",
-            "name": "HaeWann (Christine) Kim",
+            "name": "Christine Kim",
             "line": "",
             "major": "Architecture",
             "year": "2019",
@@ -506,7 +506,7 @@ var people =
 
         {
             "group": "DESIGNER",
-            "name": "Chaeyun (Sophie) Lee",
+            "name": "Sophie Lee",
             "line": "",
             "major": "Architecture",
             "year": "2019",
@@ -670,13 +670,13 @@ var people =
         {
             "group": "MODEL",
             "name": "Monica Chang",
-            "major": "Interdisciplinary (Dietrich), Human-Computer Interaction",
+            "major": "Dietrich,\n Human-Computer Interaction",
             "year": "2020",
         },
 
         {
             "group": "MODEL",
-            "name": "Tina Chen",
+            "name": "Tinah Chen",
             "major": "Business Administration, Human-Computer Interaction",
             "year": "2020",
         },
@@ -901,7 +901,8 @@ var people =
         {
             "group": "MODEL",
             "name": "Jonathan Perez",
-            "major": "Creative Writing, Fine Art, Computer Science",
+            "team": "PR, Creative (Photography)",
+            "major": "Creative Writing",
             "year": "2020",
         },
 
