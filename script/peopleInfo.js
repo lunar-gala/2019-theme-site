@@ -1056,7 +1056,7 @@ var people =
         {
             "group": "DANCER",
             "name": "Julia Luo",
-            "major": "Interdisciplinary (Dietrich), Human-Computer Interaction",
+            "major": "Dietrich, Human-Computer Interaction",
             "year": "2019",
         },
 
