@@ -202,7 +202,7 @@ var people =
             "group": "BOARD",
             "name": "Shannon Lin",
             "team": "Creative (Web)",
-            "position": "Head Web Designer",
+            "position": "Head Coordinator",
             "major": "Design, Human-Computer Interaction",
             "year": "2019",
         },
