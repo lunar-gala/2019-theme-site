@@ -121,7 +121,7 @@ var people =
             "group": "BOARD",
             "name": "Matthew Henderson",
             "team": "Creative (Web)",
-            "position": "Web Designer",
+            "position": "Web Designer + Developer",
             "major": "Computer Science",
             "year": "2021",
         },
