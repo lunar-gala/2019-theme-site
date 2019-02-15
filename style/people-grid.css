@@ -743,11 +743,6 @@ h6.in {
    }
 }
 
-#people-magnify {
-  display: block;
-}
-
-
 
 #people-short-nav li {
   -webkit-transition: all 1s ease !important; 
@@ -764,6 +759,7 @@ h6.in {
 #people-magnify {
   -webkit-transition: all .7s ease;
   transition: .7s ease;
+  display: block;
   transform: translate3d(0, 100%, 0);
 }
 

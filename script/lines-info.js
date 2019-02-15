@@ -17,7 +17,7 @@ var lines =
         }, 
         {
             "line": "Grip",
-            "description": "I knew if I was going to create a successful, cohesive line, it would have to mean something to me. One of the first things that comes to my mind when every someone asks, “what’s unique about you?” is that I was a competitive tennis player for more than half my life. Thus, the inspiration for my line. \n\n  The goal of this line was to take common western, female, clothing items (black jumpsuit, flowy sheer skirt, crop top, etc.) and recreate them both with a combination of traditional clothing materials (fabric, buttons, zippers, thread) as well as tennis-related items (tennis balls, tennis ball fuzz, and purple Tourna grip tape). Some of the pieces in this line are close to outfits you would wear in day-to-day life, while others are less practical to wear outside of a fashion runway, but are equally as intriguing to look at. I chose to name this line “Grip” because many of the pieces incorporate tennis grip tape. To be more specific they use the purple Tourna Grip that is commonly known to tennis players.",
+            "description": "The goal of this line was to take common western, female, clothing items (black jumpsuit, flowy sheer skirt, crop top, etc.) and recreate them both with a combination of traditional clothing materials (fabric, buttons, zippers, thread) as well as tennis-related items (tennis balls, tennis ball fuzz, and purple Tourna grip tape). Some of the pieces in this line are close to outfits you would wear in day-to-day life, while others are less practical to wear outside of a fashion runway, but are equally as intriguing to look at. I chose to name this line “Grip” because many of the pieces incorporate tennis grip tape.",
             "team": "Charlotte Deiss"
         }, 
         {
@@ -31,12 +31,12 @@ var lines =
             "team": "Laura Reviere, Lily Cunicelli"
         }, 
         {
-            "line": "eden",
+            "line": "Eden",
             "description": "The causes of environmental degradation stem from those who are ignorant and naive, but also from those who want to live an apathetic, comfortable life. We see natural wonders in parts of our world but with generations passing and habitats ceasing to exist we are losing what is left of this Eden. Our line represents the degradation of Earth’s natural environment thanks to man’s menacing takeover. After delving into the realms of coral bleaching, deforestation, glacial melting and oil spills, we compiled our research into nine design experimental garments.",
             "team": "Vincent Derienzo / Leah Kendrick / Tyng Peck"
         }, 
         {
-            "line": "Synergy : Coexist",
+            "line": "Synergy:Coexist",
             "description": "SYNERGY : COEXIST explores the juxtaposition between rigidity and flexibility to demonstrate the synergy created between the basic structure in human nature. This line examines the different degrees of how humans can be related to different organisms in nature and how each characteristics strive for survival in society. SYNERGY : COEXIST is inspired by the use of wood and the relationship between the skeletal framework and interweaving of skin.",
             "team": "Min Young Jeong / Christine Kim"
         }, 
@@ -46,13 +46,13 @@ var lines =
             "team": "Ashley Burbano  / Jessa Westheimer"
         }, 
         {
-            "line": "opaque",
+            "line": "Opaque",
             "description": "Opaque is an exploration into the experience of living with a mental disorder. All three of us share personal experiences with the multiplex nature of these illnesses, and were inspired by society’s treatment of affected individuals. There is a constant and relentless social stigma around diagnosing and treating mental disorders that pushes individuals to hide these parts of themselves from the opinion and judgment of others. With this line, we draw a connection between this defensive behavior and the basic function of clothing (as protection from the elements and outside world).",
             "team": "Sophia Kim / Jaclyn Saik / Alice Fang"
         }, 
         {
             "line": "Alluminare",
-            "description": "v. al.luː.miˈnaː.re (transitive) to add gold or silver to pigments in order to make the painting (usually a miniature) shine \n\n Alluminare seeks to explore how fashion can exist outside the spotlight through the incorporation of resin with textiles to create wearables that reflect a hard softness and transform in emphasis. During the day, initial thoughts are formed about a garment- its form, the fabrics, and how it fits to the human body. It is only when darkness falls that the true nature of a piece is revealed. Different areas  are colored and covered, and the transition from light to dark highlights distinct geometries that may not initially be apparent. Through the generous support of Art N’ Glow, Alluminare is an inquiry into materiality, hybrid textiles and viewer experience. \n\n This project was funded [in part] by Carnegie Mellon’s Undergraduate Research Office.",
+            "description": "v. al.luː.miˈnaː.re (transitive) to add gold or silver to pigments in order to make the painting (usually a miniature) shine\n\nAlluminare seeks to explore how fashion can exist outside the spotlight through the incorporation of resin with textiles to create wearables that reflect a hard softness and transform in emphasis. During the day, initial thoughts are formed about a garment- its form, the fabrics, and how it fits to the human body. It is only when darkness falls that the true nature of a piece is revealed. Different areas  are colored and covered, and the transition from light to dark highlights distinct geometries that may not initially be apparent. Through the generous support of Art N’ Glow, Alluminare is an inquiry into materiality, hybrid textiles and viewer experience. \n\n This project was funded [in part] by Carnegie Mellon’s Undergraduate Research Office.",
             "team": "Mariana Alberola / Zain Islam-Hashmi / Stephanie Smid"
         }, 
         {

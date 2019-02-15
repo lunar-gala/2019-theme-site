@@ -3,7 +3,8 @@ var info=[]
 
 // console.log("sup")
 
- $("#people-container ul li").click(function(){
+ $("#about-main-info ul li").click(function(){
+    console.log("hi")
     $("#people-magnify").addClass("open");
   });
   $("#close-button").click(function() {
@@ -42,6 +43,7 @@ var info=[]
         if (lines[line].line == name) {
 
           // console.log("in lines")
+
           console.log(lines[line].team)
           info.push(lines[line].description)
           info.push(lines[line].team)
@@ -61,8 +63,9 @@ var info=[]
 
       node.appendChild(textnode);
       node.appendChild(br);
-      node2.appendChild(br2);
+      
       node2.appendChild(textnode2)
+      node2.appendChild(br2);
       
 
       $(this).children().remove()
@@ -81,7 +84,7 @@ var info=[]
       var textsize= "4.5em"
 
       mobileName.innerHTML=name
-
+      console.log(info[0])
 
       mobileTeam.innerHTML = info[0]
       mobileDes.innerHTML = info[1]
@@ -105,10 +108,16 @@ var info=[]
       }
       // document.getElementbyId("mobile-position").innerHTML=info[0]
       // document.getElementbyId("mobile-name").innerHTML=info[1]
-
-     $("#picture").attr("src","images/Lines/"+name+".jpg");
-     $("#mobile-picture").attr("src","images/Lines/"+name+".jpg");
-     $("#side-pic").attr("src","images/Lines/"+name+"2.png");
+     if (name=="Re:born"){
+        name = "reborn"
+     }
+     else if (name=="Synergy:Coexist") {
+        name = "synergy"
+     }
+     $("#picture").attr("src","images/Lines/raw/"+name+".jpg");
+     $("#mobile-picture").attr("src","images/Lines/raw/"+name+".jpg");
+     $("#mobile-picture2").attr("src","images/Lines/raw/"+name+"2.jpg");
+     $("#side-pic").attr("src","images/Lines/raw/"+name+"2.jpg");
     }
     // console.log($(this).css("height"));
   })
