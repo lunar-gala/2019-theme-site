@@ -52,7 +52,7 @@ var lines =
         }, 
         {
             "line": "Alluminare",
-            "description": "v. al.luː.miˈnaː.re (transitive) to add gold or silver to pigments in order to make the painting (usually a miniature) shine\n\nAlluminare seeks to explore how fashion can exist outside the spotlight through the incorporation of resin with textiles to create wearables that reflect a hard softness and transform in emphasis. During the day, initial thoughts are formed about a garment- its form, the fabrics, and how it fits to the human body. It is only when darkness falls that the true nature of a piece is revealed. Different areas  are colored and covered, and the transition from light to dark highlights distinct geometries that may not initially be apparent. Through the generous support of Art N’ Glow, Alluminare is an inquiry into materiality, hybrid textiles and viewer experience. \n\n This project was funded [in part] by Carnegie Mellon’s Undergraduate Research Office.",
+            "description": "Alluminare seeks to explore how fashion can exist outside the spotlight through the incorporation of resin with textiles to create wearables that reflect a hard softness and transform in emphasis. During the day, initial thoughts are formed about a garment- its form, the fabrics, and how it fits to the human body. It is only when darkness falls that the true nature of a piece is revealed. Different areas  are colored and covered, and the transition from light to dark highlights distinct geometries that may not initially be apparent. Through the generous support of Art N’ Glow, Alluminare is an inquiry into materiality, hybrid textiles and viewer experience. \n\n This project was funded [in part] by Carnegie Mellon’s Undergraduate Research Office.",
             "team": "Mariana Alberola / Zain Islam-Hashmi / Stephanie Smid"
         }, 
         {
@@ -73,7 +73,7 @@ var lines =
         }, 
         {
             "line": "Phantasus",
-            "description": " “They are not long, the weeping and the laughter, \n\n  Love and desire and hate: \n\n I think they have no portion in us after \n\n We pass the gate. \n\n  They are not long, the days of wine and roses: \n\n Out of a misty dream \n\n  Our path emerges for awhile, then closes \n\n Within a dream.”  \n\n Inspired by the poem “They are not long” by Ernest Dowson, Phantasus aims to capture the fluidity and strength of dreams and phantasy with the poetic expression of form making. Transform and combine various materials to fully express the movement and curvature of the female body.",
+            "description": " “They are not long, the weeping and the laughter, // Love and desire and hate: // I think they have no portion in us after // We pass the gate. // They are not long, the days of wine and roses: // Out of a misty dream // Our path emerges for awhile, then closes // Within a dream.” Inspired by the poem “They are not long” by Ernest Dowson, Phantasus aims to capture the fluidity and strength of dreams and phantasy with the poetic expression of form making. Transform and combine various materials to fully express the movement and curvature of the female body.",
             "team": "Clara Zhao"
         }, 
         {

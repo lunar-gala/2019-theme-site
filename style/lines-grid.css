@@ -65,11 +65,7 @@ h5 {
   }
 
 h6{
-    font-size: 0.2em;
-    line-height: 1.2em;
-    font-family: 'Gotham Narrow Book';
-    color: #96969D;
-    text-align: left;
+    letter-spacing: -0.06em;
 
     /*text-transform: none !important;*/
     /*text-decoration: underline;*/
@@ -208,9 +204,10 @@ li {
     /*height: inherit;*/
     float: left;
     background-color: #101011;
-    padding: 2.3%;
+    padding: 2.3% 9% 2.3% 2.3%;
     /*word-wrap: break-word;*/
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 #classy {
@@ -263,6 +260,7 @@ li {
   .people-list li.active h6 {
     padding-bottom: 0.7em;
     font-family: 'Gotham Narrow thin';
+    letter-spacing: 0em;
   }
 
   h4.in, h6.in {
@@ -290,6 +288,7 @@ outline-offset: -3px;
 }
 
 #merch-info img, #merch-window img {
+      top: 0.1em;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -323,7 +322,7 @@ outline-offset: -3px;
 .bottom div:not(:last-child):after {
   content: "";
   position: absolute;
-      height: 175%;
+     height: 179%;
   width: 2px;
   background: #96969D;
   right: 0px;
@@ -601,6 +600,7 @@ h1 span {
     justify-content: center;
     overflow: hidden;
     width: 50%;
+        margin-top: 0.1em;
   }
 
   #person-container div img {
@@ -609,10 +609,10 @@ h1 span {
 
   }
   #person-info {
-    margin: 5% 0;
+        margin: 9% 0;
     z-index: 100;
     position: absolute;
-    padding: 0 5%;
+    padding: 0 7%;
     width: 100%;
     text-transform: uppercase;
 
@@ -660,8 +660,8 @@ h1 span {
 
 }
 #line-name {
-  height: 12%;
-  padding: 5% 0;
+      height: 28%;
+    padding: 25% 0 15% 0;
 }
 #kawaii-line {
       margin: 0 auto;
@@ -678,9 +678,11 @@ h1 span {
 }
 
 #mobile-description { 
- font-size: 1.6em;
-  text-align: left;
- font-family: "Gotham Narrow Thin"
+     font-size: 0.9em;
+  text-align: center;
+  text-transform: uppercase;
+ font-family: "Gotham Narrow Book";
+     padding-top: 1%;
  }
 
 #mobile-team {
