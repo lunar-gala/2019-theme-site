@@ -84,6 +84,7 @@ var info=[]
       var textsize= "4.5em"
 
       mobileName.innerHTML=name
+      console.log(info)
       console.log(info[0])
 
       mobileTeam.innerHTML = info[0]
