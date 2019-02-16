@@ -74,7 +74,7 @@ var people =
 
         {
             "group": "BOARD",
-            "name": "Kenny Cohen",
+            "name": "Kenneth Cohen",
             "team": "___",
             "position": "Producer",
             "major": "Information Systems",
