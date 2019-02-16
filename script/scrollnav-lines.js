@@ -48,7 +48,7 @@ var info=[]
           info.push(lines[line].description)
           info.push(lines[line].team)
           // info.push(lines[person].year)
-          // console.log(info)
+          console.log(info)
 
         }
       }
@@ -84,7 +84,6 @@ var info=[]
       var textsize= "4.5em"
 
       mobileName.innerHTML=name
-      console.log(info)
       console.log(info[0])
 
       mobileTeam.innerHTML = info[0]
@@ -115,10 +114,10 @@ var info=[]
      else if (name=="Synergy:Coexist") {
         name = "synergy"
      }
-     $("#picture").attr("src","/images/Lines/raw/"+name+".jpg");
-     $("#mobile-picture").attr("src","/images/Lines/raw/"+name+".jpg");
-     $("#mobile-picture2").attr("src","/images/Lines/raw/"+name+"2.jpg");
-     $("#side-pic").attr("src","/images/Lines/raw/"+name+"2.jpg");
+     // $("#picture").attr("src","/images/Lines/raw/"+name+".jpg");
+     // $("#mobile-picture").attr("src","/images/Lines/raw/"+name+".jpg");
+     // $("#mobile-picture2").attr("src","/images/Lines/raw/"+name+"2.jpg");
+     // $("#side-pic").attr("src","/images/Lines/raw/"+name+"2.jpg");
     }
     // console.log($(this).css("height"));
   })
