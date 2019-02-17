@@ -35,7 +35,9 @@ var info=[]
       // var board = false
       $(".people-list li").removeClass("active");
       $(".people-list li").children().remove();
+      if (window.innerWidth >800){
       $(this).addClass("active");
+    }
       //bring up text info
       // console.log(this_li, name)
       for (line in lines) {
@@ -60,6 +62,7 @@ var info=[]
       
       var textnode = document.createTextNode(info[0]);
       var textnode2 = document.createTextNode(info[1]);
+      if (window.innerWidth >800) {
 
       node.appendChild(textnode);
       node.appendChild(br);
@@ -71,6 +74,7 @@ var info=[]
       $(this).children().remove()
       $(this).append(node)
       $(this).append(node2)
+    }
 
       window.getComputedStyle(node).opacity;
       // console.log($(this).css("height"));
@@ -94,6 +98,8 @@ var info=[]
       mobileDes.style.textTransform = "uppercase"
 
       if (window.innerWidth < 800) {
+
+
         console.log(name.length)
         let words = name.split(' ');
         for (let i = 0; i < words.length; i++){
@@ -111,7 +117,7 @@ var info=[]
      if (name=="Re:born"){
         name = "Reborn"
      }
-     else if (name=="Synergy:Coexist") {
+     else if (name=="Synergy : Coexist") {
         name = "Synergy"
      }
     $("#picture").attr("src","images/Lines/"+name+".jpg");

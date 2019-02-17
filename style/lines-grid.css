@@ -204,7 +204,7 @@ li {
     /*height: inherit;*/
     float: left;
     background-color: #101011;
-    padding: 2.3% 9% 2.3% 2.3%;
+    padding: 2.3%;
     /*word-wrap: break-word;*/
     overflow-y: scroll;
     overflow-x: hidden;
@@ -237,25 +237,29 @@ li {
   transition: all .5s ease;
 }
 
+.people-list li.active {
+  margin-left: 40px;
+}
+
   .people-list li.active h4,   .people-list li.active h6 {
+    margin-left: -40px;
     -webkit-transform: translate(0px, -5px);
     transform: translate(0px,-5px);
     -webkit-transition: all .5s ease;
     transition: all 0.5s ease;
-    /*transition-delay: 0.25s;*/
+    transition-delay: 0.35s;
     z-index: 1;
-    line-height: 1.2em;
+    line-height: 1.4em;
      padding-bottom: 0.5em;
     opacity: 0;
 
-
     font-family: 'Gotham Narrow Book';
-    font-size: 20px !important;
+    font-size: .25em !important;
     height: 100%;
 
   }
   .people-list li.active h4 {
-    margin-top: -0.5em;
+        margin-top: -0.1em;
   }
   .people-list li.active h6 {
     padding-bottom: 0.7em;
@@ -656,12 +660,14 @@ h1 span {
     display: flex;
     justify-content: center;
     align-items: center;
+        background-color: rgb(16, 17, 16);
+    z-index: 1000;
   }
 
 }
 #line-name {
-      height: 28%;
-    padding: 25% 0 15% 0;
+      height: fit-content;
+       padding: 25% 0 5% 0;
 }
 #kawaii-line {
       margin: 0 auto;

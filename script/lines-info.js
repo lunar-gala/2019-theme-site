@@ -36,7 +36,7 @@ var lines =
             "team": "Vincent Derienzo / Leah Kendrick / Tyng Peck"
         }, 
         {
-            "line": "Synergy:Coexist",
+            "line": "Synergy : Coexist",
             "description": "SYNERGY : COEXIST explores the juxtaposition between rigidity and flexibility to demonstrate the synergy created between the basic structure in human nature. This line examines the different degrees of how humans can be related to different organisms in nature and how each characteristics strive for survival in society. SYNERGY : COEXIST is inspired by the use of wood and the relationship between the skeletal framework and interweaving of skin.",
             "team": "Min Young Jeong / Christine Kim"
         }, 
