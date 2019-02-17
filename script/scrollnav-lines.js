@@ -117,7 +117,7 @@ var info=[]
     $("#picture").attr("src","images/Lines/"+name+".jpg");
      $("#mobile-picture").attr("src","images/Lines/"+name+".jpg");
      $("#mobile-picture2").attr("src","images/Lines/"+name+"2.jpg");
-     $("side-pic").attr("src","images/Lines/"+name+"2.jpg");
+     $("#side-pic").attr("src","images/Lines/"+name+"2.jpg");
     }
     // console.log($(this).css("height"));
   })
