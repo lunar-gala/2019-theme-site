@@ -109,10 +109,10 @@ var info=[]
       // document.getElementbyId("mobile-position").innerHTML=info[0]
       // document.getElementbyId("mobile-name").innerHTML=info[1]
      if (name=="Re:born"){
-        name = "reborn"
+        name = "Reborn"
      }
      else if (name=="Synergy:Coexist") {
-        name = "synergy"
+        name = "Synergy"
      }
     $("#picture").attr("src","images/Lines/"+name+".jpg");
      $("#mobile-picture").attr("src","images/Lines/"+name+".jpg");
