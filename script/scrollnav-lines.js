@@ -114,10 +114,10 @@ var info=[]
      else if (name=="Synergy:Coexist") {
         name = "synergy"
      }
-    $("#picture").attr("src","images/Lines/raw/"+name+".jpg");
-     $("#mobile-picture").attr("src","images/Lines/raw/"+name+".jpg");
-     $("#mobile-picture2").attr("src","images/Lines/raw/"+name+"2.jpg");
-     $("side-pic").attr("src","images/Lines/raw/"+name+"2.jpg");
+    $("#picture").attr("src","images/Lines/"+name+".jpg");
+     $("#mobile-picture").attr("src","images/Lines/"+name+".jpg");
+     $("#mobile-picture2").attr("src","images/Lines/"+name+"2.jpg");
+     $("side-pic").attr("src","images/Lines/"+name+"2.jpg");
     }
     // console.log($(this).css("height"));
   })
