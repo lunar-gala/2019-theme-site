@@ -90,9 +90,10 @@ p { /* information font */
     font-size: 1.2em;
     font-family: 'Gotham Narrow Book';
     color: #96969D;
+    font-weight: 100;
     text-align: left;
     line-height: 1.3em;
-    width: 85%;
+    width: 100%;
 }
 
 .top div img, .bottom div img { 
@@ -260,7 +261,7 @@ p { /* information font */
 .bottom div:after {
   content: "";
   position: absolute;
-  height: 255%;
+      height: 295%;
   width: 2px;
   background: #96969D;
   right: 0px;
